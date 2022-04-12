@@ -1,0 +1,101 @@
+Gblocks 0.91b Results
+
+
+Processed file: busco.31316at7399_hmm.ali.faa
+Number of sequences: 34
+Alignment assumed to be: Protein
+New number of positions: 57 (selected positions are underlined in blue)
+
+
+                         10        20        30        40        50        60
+                 =========+=========+=========+=========+=========+=========+
+Allox_ar         ---------------------------HKNSLRFADNQASRTQPPPDIPGGPYHRTTKIY
+Andr_cur         -------------------------RNHKNALRYSDLVSSRVQPPPDVPGGPYHRTTKIY
+Andr_gro         -------------------------RDHKNALRYSDLVSSRVQPPPDVPGGPYHRTTKIY
+Andr_qln         -------------------------RNHKNALRYSDLVSSRVQPPPDVPGGPYHRTTKIY
+Andr_qrm         ---------------------------HKDALRYSDLVSSRVQPPPDVPGGPYHRTTKIY
+Aula_tav         -MPGGVEHRTVSPAIELIRTL-LRGRKHKSALRFADELASRVQPPPCLPGGPYHRTTKIY
+Aylax_hy         -------HRTVSPAIELLRTI-LRGRKHKTALRYADELASRVQPPPCLPGGPYHRITKIY
+Beloc_tr         -MPRGVEHRTVSPIIETFRAV-LRGRNHKNALRYSDLVSRRVQPPPDVPGGPYHRTTKIY
+Callas_no        -M-------------------------------YADDQASRTQPPPDVPGGPYHKTTKIY
+Calli_sp         -MPRGVEHRTVSPIIGTIRAA-LRGRIHKNALRYADLVASRVQPPPDVPGGPYHRTTKIY
+Cecin_ib         ---------------------------HTNSLRFADKLASRDQPPPNVPGGPYHKTTNIY
+Cerop_ma         -MPRGVEHRNVSPIIDTFRAL-LRGRKHTNALRYADLVASRVQPPPDVPGGPYHRTTKIY
+Diast_ki         -------------------------RKNTNSLRFADEVASRDQPPPNVPGGPYHRTSKIY
+Dipl_spi         -MPRGVQHRDITPFVHAIRVA-LRGRKHTTALRFADLLASRTQPPPDIPGGPYHRTTKMY
+Escha_ac         -MPRTIEHRTVSPIIEKLRSF-LRGRKDLEKLRFPDQLASRTQPPPDIPGGPYHRTTNMY
+Gana_sp1         -MPRGVEHRTVTPVIDAVRTI-LRGRQHKNALRYADDQACRTQPPPNVPGGPYHKTSKIY
+Hedic_le         -MPGAVEHRTVTPLIELLRTI-LRGRKHKNALRYADELASRVQPPPCLPGGPYHRTSKIY
+Irae_his         -M-----------------------RNHKNSLRYTDLLASRVQPPPNIPGGPYHRISKIY
+Isoc_cen         MSCNYREHRSVSPAIELIRTM-LRGKKDTSALRFADELASRVQPPPCLPGGPYHRTTKMY
+Lepto_bo         -MGRVVEHRTVTPIIDGIRVI-LRGRQHRNALRYADDQAARTQPPPDLPGGPFHKTSKIY
+Lepto_cl         -MGRVVEHRSVTPIIDIFRKL-LRGRQHRNALRYADDQACRTQPPPDLPGGPFHKTSKIY
+Lepto_he         -MGRGVEHRSVTPVIDAFRKF-LRGRQHRNALRYADDQACRTQPPPDLPGGPFHKTSKIY
+Parn_nig         -------------------------RKHKNALRYADELASRTQPPPNVPGGPYHRISKIN
+Pedia_ac         -MPGGVEHRSATPIIRAWRIF-LRGRDHVNGLRFADQLASRVQPPPNLPGGPYHRTTKIY
+Peric_JH         ----------VTPLLEAFRAA-LRGRKHTNSLRYADEIASHNQPPPDLPGGPYHRTSKIY
+Prot_spe         ---MGV---------------------HKNALRYADLVASRVQPPPDVPGGPYHSTTKIY
+Qwaq_sco         -------------------------RNHKNASRYADLVASRVQPPPDVPGGPYHRTTKIY
+Syne_gif         -MPRGIEHRTVTPAIEIFRSI-LRGRKHKNALRFADLLARRDQPPPDIPGGPYHRLTKIY
+Syne_ito         -MPRGIEHRTVTPAIETFRAF-LRGRKHKNALRFADLVARRDQPPPDVPGGPYHRLTKIY
+Syne_jap         -MPRGIEHRTVTPAIETFRAL-LRGRKHKNALRFADIIARRDQPPPDVPGGPYHRLTKVY
+Syne_umb         -MPRGIEHRTVTPAIEIFRSI-LRGRKHKNALRFADIVARRDQPPPDVPGGPYHRLTKVY
+Nasoniav         --------------------FDLQKALKANSLRFANQIAARTQLQPDLPGGPYKKSTGIY
+Orussusa         -MATSTKHRSVTPFLAAIRKF-LRGKGHTNSLRFADLIAARDQPPPDVPGGPYHKTTDIY
+Micropld         -MSGKVPHRDVGPAIQLLRRI-IRGRKFFPHLRFADELASRTQPPPNIPGGPFHKTSKVY
+Gblocks          ...........................#################################
+
+
+                         70        80        90       100
+                 =========+=========+=========+=========+=========
+Allox_ar         YLTRDARREVNMPLVIASASTKQI-------------------------
+Andr_cur         YYTRDARREVEPPLVIASASTKQIAAG----------------------
+Andr_gro         YYTRDARREVEPPLVIASASTKQIAAG----------------------
+Andr_qln         YYTRDARREVDRPLVIASASTKQIAAG----------------------
+Andr_qrm         YYTRDARREVEPPLVIASAFTKQIDAG----------------------
+Aula_tav         YFTRDARREVEPPLLIASASTKQITGGKEDTD-RP--KALTPGKKYKWD
+Aylax_hy         YFTRDARREVEPPLLIASASTKQIAAGKEDTD-KP--KALTPGKPYRWD
+Beloc_tr         YCTRDARREVQPPLVIASASTKQIATGKEKTV-KAK--ALTPGKPHRWD
+Callas_no        YFTRDARREVEPPFLIATASTKRI-------------------------
+Calli_sp         YYTRDARREVQPPLVIDSPPTKQIA------------------------
+Cecin_ib         YFSRDARREVQPPVIITA-ATKHIESGKEPVQ----PKALTPGKIHKCD
+Cerop_ma         YYTRDARREVQPPLVIASGSTKQIATG----------------------
+Diast_ki         YYTRDARREVQPPFVIVSASTKQISAG----------------------
+Dipl_spi         YFTRDARREVQPPLVIASASSKQIAAANEDSA-KP--KALTPGKTYIWD
+Escha_ac         YYTRDARREVEPPLVIATGSSKQITAKSEEAS-HP--KSLTPGKHYNFD
+Gana_sp1         YLNRDARREVEPPIVIASAHQKLIADGKDEKAK---PKSLLPGKAYTPI
+Hedic_le         YFTRDARREVEPPLLIASASTKQITTGKEDTD-KP--KALTPGKTYRWD
+Irae_his         YYTRDARREVQPPLVVASASTKQIAEG----------------------
+Isoc_cen         YFTRDARREVEPPLLIASASTKQITAGKEDTD-KP--KALTPGKPYKFD
+Lepto_bo         YFTRDARREVKPPLVISSATVKQITAGEQEKAT----KALTPGKAYLPA
+Lepto_cl         YLTRDARREVQPPMVVASSSVKQI-------------------------
+Lepto_he         YFSRDARREVEPPMVIASATVKQI-------------------------
+Parn_nig         YFLRDARREVEPPLLIASASTKQITAGKEVTS-KP--KALTPGKIYRAD
+Pedia_ac         YYARDARREVEQPLIVASASAKQIAVEKEEAA-RP--KAITPGKPLTDD
+Peric_JH         YYTRDARREVQPPLVIASASTKQIAAGKEDTC-KP--KAITPGKVHRWD
+Prot_spe         YYTRDARHEVEPPLVIASASMKQIAAG----------------------
+Qwaq_sco         YYTRDARREVKPPLVIASASKKQIVAG----------------------
+Syne_gif         YYTRDARREVKPPDVVVSASTKLITEGKETDK----PKALTPGTTYKWD
+Syne_ito         YYTRDARREVKPPDVVTSASTNLISEGKETDK----PKALTPGTTHKWD
+Syne_jap         YYTRDARREVKPPDVVVSASTKLITEGKETDK----PKALTPGTTYKWD
+Syne_umb         YYTRDARREVNPPDVVVSASTKLITEGKETDK----PKALTPGTTYKWD
+Nasoniav         YYTRDVRREVKPPITVCTANRLAL-------------------------
+Orussusa         YFTRDARREVKPPTV----------------------------------
+Micropld         YYSRDARRLVEPPEVIASG--KLIASG----------------------
+Gblocks          ########################.........................
+
+
+
+
+Parameters used
+Minimum Number Of Sequences For A Conserved Position: 18
+Minimum Number Of Sequences For A Flanking Position: 28
+Maximum Number Of Contiguous Nonconserved Positions: 8
+Minimum Length Of A Block: 10
+Allowed Gap Positions: With Half
+Use Similarity Matrices: Yes
+
+Flank positions of the 1 selected block(s)
+Flanks: [28  84]  
+
+New number of positions in busco.31316at7399_hmm.ali.faa-ag: *** 57 *** (52% of the original 109 positions)

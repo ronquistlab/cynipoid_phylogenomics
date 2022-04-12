@@ -1,0 +1,183 @@
+Gblocks 0.91b Results
+
+
+Processed file: busco.31218at7399_hmm.ali.faa
+Number of sequences: 35
+Alignment assumed to be: Protein
+New number of positions: 95 (selected positions are underlined in blue)
+
+
+                         10        20        30        40        50        60
+                 =========+=========+=========+=========+=========+=========+
+Allox_ar         M-GRRGRA-SAPAPRTVRPMARA-APAPA---ARAAPPSSVPAQA--APATPMMAP-QQQ
+Andr_cur         -------A-SAPTPRTVRSAPRP-AARPA-------QTAPVPAQA--APAAPMMAP-QQQ
+Andr_gro         ----------------VRSAPRP-AARPV-------QTAPVPAQA--APATPMMAP-Q-Q
+Andr_qln         -------A-SAPTPRTVRSAPRP-AARPV-------QTAPVPAQA--APSAPMMAP-Q-Q
+Andr_qrm         -------A-SAPTPRTVRPAARP-AARPV-------QTAPVPAQA--APATPMMAP-QQQ
+Aula_tav         --MPRRRA-SAPAPRTVRTTR-----AAP-------APAPVPARA--APSTPMMAP-QQQ
+Aylax_hy         --MPRRRA-SAPAPRTVRTTR-----AAP-------APAPVPARA--APSTPMMAP-QQQ
+Beloc_tr         -------A-SAPTPRTVRSAPRP-AARPV-------QTAPVPAQA--APSAPMMAP-QQQ
+Callas_no        M-PRRGRA-SAPAPRTVRSAPRA-APAPV---ARAA-PASVPAQA--APSTPMMAP-Q-Q
+Calli_sp         ----------------VRPAPRP-AARPV-------QTAPVPAQA--APSAPMMAP-Q-Q
+Cecin_ib         ---------------------------------AAPPPSQVPARA--APSTPMVSQ--PQ
+Cerop_ma         ----------------VRPAP---------KPAQPAPVRSVPAQA--APAAPMVAT-Q-Q
+Diast_ki         --------------------------------------APVPAQA--APATPMAAP-Q-Q
+Dipl_spi         ------------------------------------------------------A--PSQ
+Escha_ac         ----------------VRPV-----------PASRAAPLSVPAQA--APTTPMMAGTPSQ
+Gana_sp1         ---MPRRR-AAPAPRTVRPSAPV-SRA--APAARAAPPPSVPAHA--PPSTPMMAP-Q-Q
+Hedic_le         --MPRRRA-SAPAPRTVRTTR-----AAP-------APAPVPARA--APSTPMMAP-QQQ
+Isoc_cen         -------A-SAPTPRTVRTTR-----AAP-------APAPVPARA--APSTPMMAP-QQQ
+Lepto_bo         -MPRRR--AAAPAPRTSAAP------ARAAAPVRAAPPPSVPARV--APSTPMMAPAQQQ
+Lepto_cl         -MPRRR--AAAPAPRTVRSSAPARAAPVRAAPVRAAPPPSVPAHA--APTTPMMAP-QQQ
+Lepto_he         ------------------------AAPARAAPARAAPPPSVPAHA--APATPMMAP-QQQ
+Parn_nig         M-PRRGRA-SAPAPRTVRPAARA-APPSA---ARAAPPSSVPAHA--APATPMMAP-QQQ
+Pedia_ac         --------------------VRP-ARAAPVQARAAAPPASVPAHA--APATPMMAP-PSQ
+Peric_JH         -------A-SAPAPRTVRSAPRA------------AQPAPVPAQA--APATPMVAP-Q-Q
+Phaen_vi         --------AAAPRPRTVRPAPPP-A-------ARAAPPAAVPAHA--APSTPMMAP--QQ
+Phana_JH         ----------------------------------------------------MMAP-QQQ
+Prot_spe         ----------------VR----S-APRPA-------QPAPVPAHA--APATPMVAP-Q-Q
+Qwaq_sco         M-PRRGRA-SAPAPRTVRSVPRA-AAAPTSAPRAAAAPTSVPART--APATPMMAP-QTQ
+Syne_gif         M-VRRGRA-SAPAPRTVRPAARP---AATAAPRAAAAPAQVPAHA--APATPMMAP--SQ
+Syne_ito         M-GRRGRA-SAPAPRTVRPAARP---AA-AAPRAAAAPSQVPAQA--APATPMMAP--SQ
+Syne_jap         M-GRRGRA-SAPAPRTVRPAARP---AAAAAPRAAAAPAPVPAHA--APATPMMAP--SQ
+Syne_umb         M-GRRGRA-SAPAPRTVRPAARP---AAAAAPRAAAAPAPVPAHA--APATPMMAP--SQ
+Nasoniav         -MPRRGRA-SGPPPRTVRPAAAP-ARA--------APPPAAHPPAPAPAATPMMAQPASQ
+Orussusa         -MPRRGRA-SAPPPRTVRPMASV-PAR------SAAPVAHPPAHAAAPSSVPMMAQ--PQ
+Micropld         -MPRRGRA-SGPPPRTVRAPARP-AAPMRAA------PAQVPAQAPAAAPAPMMAT-PSQ
+Gblocks          .........................................................###
+
+
+                         70        80        90       100       110       120
+                 =========+=========+=========+=========+=========+=========+
+Allox_ar         GPGLMGQMAATAGGVAIGSAVGHTLGHAMTGMFSGGSSEAAAPV----AAAPAPQQ--SY
+Andr_cur         GPGLMGQMAATAGGVAIGSAVGHTIGHAMTGMFSGGSSEAAAAA-PA--AAAPQQQYAPQ
+Andr_gro         GPGLMGQMAATAGGVAIGSAVGHTIGHAMTGMFSGGSSEVAA-PAAA--AAAPQQQYAPQ
+Andr_qln         GPGLMGQMAATAGGVAIGSAVGHTIGHAMTGMFSGGSSEAAAPA--A--AAPQQQQYAPQ
+Andr_qrm         GPGLMGQMAATAGGVAIGSAVGHTIGHAMTGMFSGGSSEAAAPA-PA--AAAPQQQYAPQ
+Aula_tav         GPGLMGQMAATAGGVAIGSAVGHTLGHAMTGMFSGGGSEAAAPAA-----APQQQQYAPQ
+Aylax_hy         GPGLMGQMAATAGGVAIGSAVGHTLGHAMTGMFSGGSSEAAAPTA----AAAPQQQYAPQ
+Beloc_tr         GPGLMGQMAATAGGVAIGSAVGHTIGHAMTGMFSGGSSEAAAAPVAA--AAAPQQQYAPQ
+Callas_no        GPGLMGQMAATAGGVAIGSAVGHTIGHAMTGMFSGGGSEAAAPAAAA----P-AAPQQNY
+Calli_sp         GPGLMGQMAATAGGVAIGSAVGHTIGHAMTGMFSGGSSEAAAPA------AAAPQQYAPQ
+Cecin_ib         QPSLMGQMAATAGGVAIGSAVGHTIGHAMTGMFSGGGTEAAAAAPVAA-AAAPEQRYG--
+Cerop_ma         QPGLMGQMAATAGGVAI----GHTIGHAVTGLFSGGGSEAAAAAPAA----AASQQYAPQ
+Diast_ki         GPGLMGQMAATAGGVAIGSAVGHTIGHAMTGLFSGGSSEAAAAPA------AAPQQDAFQ
+Dipl_spi         EPSLMGRMAATAGGVAIGSAVGHTVGHAMTGLFSGGGNEVAAPVP---------QQNAPI
+Escha_ac         GPGLMGQMAATAGGVAIGSAVGHTIGHAVTGMFSGGSSEAPTAAA--------PQQSAPQ
+Gana_sp1         GPGLMGQMAATAGGVAIGSAVGHTIGHAMTGLFSGGGSEEVAPAAAA------PQQQPAA
+Hedic_le         GPGLMGQMAATAGGVAIGSAVGHTLGHAMTGMFSGGGSEAAAPAA-----APQ-QQYAPQ
+Isoc_cen         GPGLMGQMAATAGGVAIGSAVGHTLGHAMTGMFSGGGSEAVAPAA-----APQQQQYAPQ
+Lepto_bo         GPGLMGQMAATAGGVAIGSAVGHTIGHAMTGLFSGGSNEAVAPAAAAA-----PQQVA--
+Lepto_cl         GPGLMGQMAATAGGVAIGSAVGHTIGHAMTGLFSGGGSNEAVAPTAAP-----VQQQA--
+Lepto_he         GPGLMGQMAATAGGVAIGSAVGHTIGHAMTGLFSGGSSEAPAAAAPA-----PQQQYAPA
+Parn_nig         GPGLMGQMAATAGGVAIGSAVGHTLGHAMTGMFSGGGSEA--------AAAPAPQQTAPM
+Pedia_ac         GPGLMGQMAATAGGVAIGSAVGHTIGHAMTGMFSGGGSEVAAPAAAA-----APQQNTSI
+Peric_JH         GPGLLGQMAATAGSVAVGSAVGHTLGHAMTGMFSGGSSEAAAAPAAA--PAAAPQQYAPQ
+Phaen_vi         GPGLMGQMAATAGGVAI----GHTLGHAMTGMFSGGGSEAAAPAAAA----VAPQQSGSY
+Phana_JH         GPGLMGQMAATAGGVAIGSAVGHTLGHAMTGMFSGGGSEAAAAPAAP----AASQQYAPQ
+Prot_spe         GPGLMGQMAATAGGVAIGSAVGHTIGHAMTGLFSGGSSEAAAVA--P--AAAAPQQYAPQ
+Qwaq_sco         GPGLMGQMAATAGGVAIGSAVGHTIGHAMTGMFSGGSSETAAAPAAA----AAPQQYALQ
+Syne_gif         GPGLMGQMAATAGGVAIGSAVGHTIGHAMTGMFSGGSSEAAAPAAAA----AAPQQYAPQ
+Syne_ito         GPGLMGQMAATAGGVAIGSAVGHTIGHAMTGMFSGGSSEAAAPAAAP----SAPQQYAPQ
+Syne_jap         GPGLMGQMAATAGGVAIGSAVGHTIGHAMTGMFSGGSSEAAAPAPAA----AAPQQYAPQ
+Syne_umb         GPGLMGQMAATAGGVAIGSAVGHTIGHAMTGMFSGGSSEAAAPAPAA----AASQQYAPQ
+Nasoniav         GPSLMGQMAATAGGVAIGSAVGHTLGHAMTGMFGGGSSEAAAAPAAAA-----PA-----
+Orussusa         QPSLMGQMAATAGGVAIGSAVGHTIGHGLTGLFGGSGEPAAAAAPAAA---PAAQQYPG-
+Micropld         GPSLMGQMAATAGGVAIGSAVGHTIGHAMTGMFSGGSNEAAAPAAAPA---AV-----P-
+Gblocks          ###############################################.............
+
+
+                        130       140       150       160       170       180
+                 =========+=========+=========+=========+=========+=========+
+Allox_ar         A---PAQQPAAGGACAWEIKQFLQCAEQQSDITLCQGFNEALRQCKMSNGMQI-------
+Andr_cur         Q---SA-QPAAGGACAWEIKQFLQCAEQQSDITLCQGFNEALRQCKMSNGKFQS------
+Andr_gro         Q---SA-QPGAGGACAWEIKQFLQCAEQQSDITLCQGFNEALRQCKMSNGKFQS------
+Andr_qln         Q---SAQQPAAGGACAWEIKQFLQCAEQQSDITLCQGFNEALRQCKMSN-----------
+Andr_qrm         Q---SA-QPGAGGACAWEIKQFLQCAEQQSDITLCQGFNEALRQCKMSNGMQM-------
+Aula_tav         E---SA-QPGAGGACAWEIKQFLQCAEQQSDISLCQGFNEALRQCKLSNGIQI-------
+Aylax_hy         Q---SA-QPGAGGACAWEVKQFLQCAEQQSDISLCQGFNEALRQCKLSNGIQI-------
+Beloc_tr         Q---SA-QSGAGGACAWEIKQFLQCAEQQSDITLCQGFNEALRQCKMSNGMQL-------
+Callas_no        A---PQQQPAAGGACAWEVKQFLQCAEQQSDITLCQGFNEALRQCKMANDF---------
+Calli_sp         Q---SA-QPAAGGACAWEIKQFLQCAEQQSDISLCQGFNEALRQCKMSNG----------
+Cecin_ib         ----GAPAQSGGAACSWEVKQFLECAQHQSDLTLCDGFNEALRQCKMTNG----------
+Cerop_ma         Q---SAQQPTAGGACAWEIQQFLQCAEQQSDISLCQGFNEALRQCKISNGN---------
+Diast_ki         Q---SAQQPASGGACAWEVKQFLQCAEQQSDITLCQGFNEALRQCKMAN-----------
+Dipl_spi         ----GSTQQQTNGVCDFEIKQFLQCADQQSDISLCQGFNEALRQCKMANGIQI-------
+Escha_ac         QSAPMQQQQVAGGACAWEVKQFLQCAEQQSDITLCQGFNEALRQCKMANGLQI-------
+Gana_sp1         S---YQQQPAAGGACAWEVKQFLQCAENQSDITLCQGFNEALRQCKMANGLQI-------
+Hedic_le         E---SA-QPGAGGACAWEIKQFLQCAEQQSDISLCQGFNEALRQCKLSNGIQI-------
+Isoc_cen         E---SA-QPGAGGACAWEIKQFLQCAEQQSDISLCQGFNEALRQCKLSNGIQI-------
+Lepto_bo         ---PASQPAAAGGACSWEVKQFLQCAEQQSDITLCQGFNEALRQCKMANV----------
+Lepto_cl         ---ASSQPASSGGPCSWEVQQFLQCAQGQSDISLCQGFNEALRQCKADNGMSV-------
+Lepto_he         QP----AAAAPGGACAYELKQFLDCTQNQPDISLCQGFNEALRQCKNGGL----------
+Parn_nig         A---PAQ-QPAGGACAWEIKQFLQCAEQQSDITLCQGFNEALRQCKMTNGIQI-------
+Pedia_ac         ----GSAQQPNGGACAWEIKQFLQCADQQSDITLCQGFNEALRQ----------TAAGVA
+Peric_JH         Q---SA---QPGGACAWELKQFLQCTDQQSDLTLCQGFNEVLRQCKMANGLQM-------
+Phaen_vi         --AQQQQQPATGGACAWEIQQFLQCAQQQSDISLCQG-----------------------
+Phana_JH         Q---SA-QPAAGDACAWEVKQFLQCAKEQSDISLCQGFNEALRQCKMANGNLQS------
+Prot_spe         Q---SAQQSGAGGACAWEVKQFLQCAEQQSDISLCQGFNEALRQCKMSNALTTK------
+Qwaq_sco         Q---SAQQPAAGGACSWEVKQFLQCAEQQSDITLCQGFNEALRQCKMENGIQI-------
+Syne_gif         Q---SA-QPAAGGACAWEVKQFLQCAEQQSDITLCQGFNEALRQCKMSNGIQI-------
+Syne_ito         Q---SA-QPAAGGTCAWEVKQFLQCAEQQSDITLCQGFNEALRQCKMSNGIQI-------
+Syne_jap         Q---SA-QPAAGGACAWEVKQFLQCAEQQSDITLCQGFNEALRQCKMSNGMQI-------
+Syne_umb         Q---SA-QPAAGGACAWEVKQFLQCAEQQSDITLCQGFNEALRQCKMSNGMQI-------
+Nasoniav         ---AAPAQAQPTGACAWEVKQFLECAQNQSDLSLCEGFNEALRQCKSANHLAL-------
+Orussusa         ------APAQQGGACSWEIKQFLECAQNQSDLTLCEGFNEALRQCKTANHM---------
+Micropld         ----QQGSAPAGGACAWEVKQFLECAQTQSDLTLCDGFNEALRQCKMANHI---------
+Gblocks          ....#############################################...........
+
+
+                 
+                 =======
+Allox_ar         -------
+Andr_cur         -------
+Andr_gro         -------
+Andr_qln         -------
+Andr_qrm         -------
+Aula_tav         -------
+Aylax_hy         -------
+Beloc_tr         -------
+Callas_no        -------
+Calli_sp         -------
+Cecin_ib         -------
+Cerop_ma         -------
+Diast_ki         -------
+Dipl_spi         -------
+Escha_ac         -------
+Gana_sp1         -------
+Hedic_le         -------
+Isoc_cen         -------
+Lepto_bo         -------
+Lepto_cl         -------
+Lepto_he         -------
+Parn_nig         -------
+Pedia_ac         AGSAVGH
+Peric_JH         -------
+Phaen_vi         -------
+Phana_JH         -------
+Prot_spe         -------
+Qwaq_sco         -------
+Syne_gif         -------
+Syne_ito         -------
+Syne_jap         -------
+Syne_umb         -------
+Nasoniav         -------
+Orussusa         -------
+Micropld         -------
+Gblocks          .......
+
+
+
+
+Parameters used
+Minimum Number Of Sequences For A Conserved Position: 18
+Minimum Number Of Sequences For A Flanking Position: 29
+Maximum Number Of Contiguous Nonconserved Positions: 8
+Minimum Length Of A Block: 10
+Allowed Gap Positions: With Half
+Use Similarity Matrices: Yes
+
+Flank positions of the 2 selected block(s)
+Flanks: [58  107]  [125  169]  
+
+New number of positions in busco.31218at7399_hmm.ali.faa-ag: *** 95 *** (50% of the original 187 positions)

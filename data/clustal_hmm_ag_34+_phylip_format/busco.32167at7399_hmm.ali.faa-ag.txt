@@ -1,0 +1,143 @@
+Gblocks 0.91b Results
+
+
+Processed file: busco.32167at7399_hmm.ali.faa
+Number of sequences: 35
+Alignment assumed to be: Protein
+New number of positions: 64 (selected positions are underlined in blue)
+
+
+                         10        20        30        40        50        60
+                 =========+=========+=========+=========+=========+=========+
+Allox_ar         --MIITR----------------------------KPLKLQEV-N-DLDKPVAYSKTKAA
+Andr_cur         --MSVTRLGFLSRNGFNFSQ--RLAIRTIKRNQSSKPIKLQEE-V-DLDKPVEYSKTEAA
+Andr_gro         --MSLTRLGFLSRNGYNFSQ--RFAIRTIKRNQSSKPIKLQEE-I-DLDKPVEYSKTEAA
+Andr_qln         --MSLTRLGFLTRNEFKFAQ--RLAIRTIKRNHSSKPMKLQEE-I-DLDKPVEYSKTEAA
+Andr_qrm         --MSLTRLGFLSRNGFHFSQ--RLAIRTTKRNQSSKPIKLQEE-V-DLDKPVEYSKTEAA
+Aula_tav         ------------------------------------------------------SKTKAA
+Aylax_hy         --MSLTRLGSLSRNGFNLPQ--RFAVRMMKHNNSAKPIKLQEE-N-DLDKPVEYSKTEAA
+Beloc_tr         --MSLTRLGFLSRNVFNFSQ--RLTIHTIKRNQSSKPIKLQEE-I-DLDKPVEYSKTEAA
+Callas_no        --------------------MLLLTSRTIRRNASS----LQEKIG-DFDKPIEFSKTTAA
+Calli_sp         --MSLTRLGFNSRTGYYFSQ--RFTVQTIKRTQSSKTIKLQEE-I-DLDKPVEYSKTEAA
+Cecin_ib         -----------------------------------KPIELQEDEEELLSKPVIFSETKAS
+Cerop_ma         --MSLTRLEFLYRKGFNFPQ--RFAARTIKRMQSSKPVKLQEE-D-DLNKPVEYSKTEAA
+Diast_ki         --MSLTRLGFLCRSGFNLSQ--RLALRMIKRKQSSNPIKLQEE-I-DLNKPVEYSKTEAA
+Dipl_spi         -MMSLARSGLYSKNGRNL------------------PIELEEK-D-DLNAPVAFSKTAAA
+Escha_ac         --MAIVKLGFLSVSRSFLQK--RLFSRTVVYNLWG-NRKLNE--E-DLNKPVEFSKTEAS
+Gana_sp1         --MTLLRLGFLCTRGFN---------------------KLEEE-----DKPIPYSQTKAA
+Hedic_le         --MSLMRLGSFPRSGFSLPQ--RFAVKMIKRNNSTKPIKLQEE-D-DLDKPVEYSKTEAA
+Irae_his         --MSLTRLGFLSRTAFNLSQ--RHAVRIIKRKQCSKPLKLQEE-I-DLDKPVEYSKTEAA
+Isoc_cen         --MSLTRLGSLSRNGFNLPQ--RFAVRMIKRNNSEKPIKLQEM-N-DLDKPVEYSKTEAA
+Lepto_bo         -----------------------------------KPIKLVE--E-DVDHPVRYSKTKAY
+Lepto_cl         -----------------------------------KPIKLIED-D-KNDEPVAYSKTKAY
+Lepto_he         ------------------------------------PLKLTES-D-DVDEPVVYSRTKAY
+Parn_nig         --MILTRLGFLSKNGFSLSQ--RFTSRAIKRNASSKPLKLQED-N-DLDKPVEYSKTEAA
+Pedia_ac         --MSLARLGFLSKNGYNLSQ--RLA----------KPIKLQED-D-DLNKPVEYSKTPAA
+Peric_JH         --MSRTRLGFLFRNGLNLSQ--RLTLRMIKRKQSSKPLNLQEE-V-DLEKPVEYSKTEAA
+Phaen_vi         --MSFTRLGALFRNGSNLSQ--RLTPRVTKRNSSS-PLKLQEI-N-DLDRPVEYSKTEAA
+Phana_JH         -----------------------LALRTIRRNNCSKPVKLQEE-N-DFDKPVEYSKTEAA
+Prot_spe         --MSLARLGFLSMNGFHFSQ--RLAVRTTKRKQSSKPLKLQEE-V-DLDKPVEYSKTEAA
+Qwaq_sco         ----------------------RLALRTMKRSNSSKSIKLQEE-I-DLDKPIEFSKTKAA
+Syne_gif         --MSLTKLGFLSRSGFNLSQ--RLAVWTIKRNESTKPLKLQEE-I-DLDKPVEYSKTEAA
+Syne_jap         --MSLTRLGFLSRNGFNLSQ--RFAVQTIKRNQSTKPLKLQEE-I-DLEKPVEYSKTEAA
+Syne_umb         --MSLTRLGFLSRNGFNLSQ--RFAVRTIKRNESTKPLKLQEE-I-DLDKPIEYSKTEAA
+Nasoniav         MIMLLSRLG-------------------------------------DLEKPIEYSSSSAA
+Orussusa         --MALRRLGFL-------------------------------------------------
+Micropld         --MLLSRL----------------------------------------------------
+Gblocks          ..............................................##############
+
+
+                         70        80        90       100       110       120
+                 =========+=========+=========+=========+=========+=========+
+Allox_ar         LHLARHTRCPEEN--KPWYQGYVISGSLAVFMIYFFILREENDLDLLMERPLEE------
+Andr_cur         KWLAKHTRAPEEN--KPPFQTYVISGSLAVFMIYFFILREENDLDVLLDRPLDDVLKNLS
+Andr_gro         KWLAKHTRAPEEN--KPPFQTYVISGSLAVFMIYFFILREENDIDLLMDRPLDDVLKNAN
+Andr_qln         KWLAKHTRAPEEN--KPPYQTYVISGSLAIFMVYFFILREENDLDLIMDRPLDDVLKSLN
+Andr_qrm         KWLAKHTRAPEEN--KPPFQTYVISGSLAVFMIYFFILREENDLDLLMDRPLDDVLKNLS
+Aula_tav         ----RMRVRPEEN--KPECQSYVISGSLAVFMIYFFILREENDIDSILYRPLGETLK---
+Aylax_hy         KWLARHSRAPEEN--KPDCQTYVISGSLAVFMIYFFILREENDVDLMFNRPVDEILK---
+Beloc_tr         KWLAKHTREPEEN--KPPYQTYVISGSLAVFMVYFCILREENDLDLLIDRPLDEVLKNLN
+Callas_no        LHLARHTRRPEEN--IPPYQSVVISGSLSVFLIYFCILREENDIDELIYRPLTEIIPNID
+Calli_sp         KWLARHTREPEEN--KPPFQTYVISGSLAVFMAYFFILREENDLDILIDRPLDDVLKSLN
+Cecin_ib         KWQAKQTRIPDDDPYSPDCESTVASLSIAAFLIYFCILREENDVDELIYRPLSETIPGIE
+Cerop_ma         KLLAQHSRVREQN--KPPYQSYVISGSLAVFMIYFFILREENDLDILIERPLEDTLRSLD
+Diast_ki         KWLARHTRLPEEN--KPECQTYVISGSLAVFMAYFFILREENDLDLLMSRPLTEVLKEKD
+Dipl_spi         KWQAKHARIPEEV--APPYQGIVVSLSLATFLLYFCVFREENDIDEILYRPLSETLKELE
+Escha_ac         KVLTRHIRAPEEN--KPEYQSEVVSLSLAIFLAYFCIFREENDLDELLKRPLEEALLDAE
+Gana_sp1         THLAKHSRMP----------------------IYFCILREENDIDDMLRKPLSELIPNIE
+Hedic_le         KWLARHSRAPEEN--KPECQDLVISGSLAVFMIYFFILREENDIDLLLDRPLEQAINDAR
+Irae_his         KWLARHTRYPEEN--KPECQTYVISGSLAVFMIYFFILREENDIDLMLDRPLVQILEDTK
+Isoc_cen         KWLAKQSRVQEKN--MPDCQNYIISASLAVFMIYFFILREENDVDLMFDRPLVETLKSVD
+Lepto_bo         TYLARNSRYMEHN--WPDCQPYVIVFSLTIFMIYFCILREENDLDEMIYMPLETRLQEIE
+Lepto_cl         KHLAKHTFQPESV--WPEYQPLVIALSLTIFLIYFCVLREENDIDESLDTPLEVTFKRIE
+Lepto_he         THLAKHSRYREPN--WPACTPYVIMVSFAIFMIYFCILREENDIDDLLDMPLETRLKQIE
+Parn_nig         TWLARHSRFPEEN--KPPYQSYVISASLTVFMVYFFILREENDIDLLIDQPL--------
+Pedia_ac         RWKARHTRMPEDD--RLEYQSFVISGSLAVFMVYFFILREENDIDNILYRPLDETL----
+Peric_JH         RWLARHTRSPEEN--KPECQSYVISASLSIFMIYFFILREENDLDLMMSRPLNEVVKSTD
+Phaen_vi         SRLARHTRFPEEN--KPWYQTYVISGSLAVFMIYFFILREENDIDILMDRPL--------
+Phana_JH         KWLARHSRQPEEN--KPECQTYVISGSLSVFMIYFFILREENDIDLLFDRPLHE------
+Prot_spe         KWLARHTRAPEEN--KPPYQRYVISGSLAVFMGYFFILREENDLDLIIDRPLDEVLKSLD
+Qwaq_sco         SLLAKHTRAPNED--QPLYQTYVLTGSLAVFMIYFFILREENDVDLMMDRPLEETLKLMS
+Syne_gif         QWLAKHTRKPEEN--KPECQDWVLSGSLFVFMVYFFVLREENDVDVYLDRPLEQILSDIE
+Syne_jap         EWLARHTRSPEEN--KPECQSLVISGSLFVFFIYFFVLREENDVDAYIDRPLDQIMADIQ
+Syne_umb         QWLARHTRSPEEN--KPACQSLVLSGSLFVFFIYFFVLREENDVDTYLDRPLDQILADIQ
+Nasoniav         QWKAEYTRSPPSE--MVWYTPYVVSGSVAIFMLYFCVLREENDLDEMIYQPLPETLQGIE
+Orussusa         ------------------YQSHVVTVSVAVFLIYFLMLREENDIDRLFDRDMDQCLEDTK
+Micropld         ----------------PWYQPYIISASTFTLLMYFVYLREANDIDE--------------
+Gblocks          #############..#####################################........
+
+
+                 
+                 ========
+Allox_ar         --------
+Andr_cur         KNK-----
+Andr_gro         KNK-----
+Andr_qln         KNK-----
+Andr_qrm         KNK-----
+Aula_tav         --------
+Aylax_hy         --------
+Beloc_tr         KSK-----
+Callas_no        KTVG----
+Calli_sp         KNK-----
+Cecin_ib         KTVG----
+Cerop_ma         KKKR----
+Diast_ki         GEK-----
+Dipl_spi         EKKAKQN-
+Escha_ac         KNLKK---
+Gana_sp1         QTVG----
+Hedic_le         KPVFM---
+Irae_his         KNM-----
+Isoc_cen         KSVKVD-K
+Lepto_bo         KATGRRT-
+Lepto_cl         --------
+Lepto_he         AQRKMQ--
+Parn_nig         --------
+Pedia_ac         --------
+Peric_JH         EEK-----
+Phaen_vi         --------
+Phana_JH         --------
+Prot_spe         KKK-----
+Qwaq_sco         KKT-----
+Syne_gif         KE------
+Syne_jap         AERK----
+Syne_umb         AERK----
+Nasoniav         K-------
+Orussusa         REVNH---
+Micropld         --------
+Gblocks          ........
+
+
+
+
+Parameters used
+Minimum Number Of Sequences For A Conserved Position: 18
+Minimum Number Of Sequences For A Flanking Position: 29
+Maximum Number Of Contiguous Nonconserved Positions: 8
+Minimum Length Of A Block: 10
+Allowed Gap Positions: With Half
+Use Similarity Matrices: Yes
+
+Flank positions of the 2 selected block(s)
+Flanks: [47  73]  [76  112]  
+
+New number of positions in busco.32167at7399_hmm.ali.faa-ag: *** 64 *** (50% of the original 128 positions)

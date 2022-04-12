@@ -1,0 +1,309 @@
+IQ-TREE 1.6.12 built Aug 15 2019
+
+Input file name: ../../data/allgaps34_od4-5.phy
+Type of analysis: tree reconstruction + ultrafast bootstrap (2000 replicates)
+Random seed number: 85952
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Lam-Tung Nguyen, Heiko A. Schmidt, Arndt von Haeseler, and Bui Quang Minh
+(2015) IQ-TREE: A fast and effective stochastic algorithm for estimating
+maximum likelihood phylogenies. Mol Biol Evol, 32:268-274.
+https://doi.org/10.1093/molbev/msu300
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2017) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol Biol Evol, in press.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 37 sequences with 53651 amino-acid sites
+Number of constant sites: 21461 (= 40.0011% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 21461 (= 40.0011% of all sites)
+Number of parsimony informative sites: 19742
+Number of distinct site patterns: 35836
+
+SUBSTITUTION PROCESS
+--------------------
+
+Mixture model of substitution: C60+I+G4
+
+  No  Component      Rate    Weight   Parameters
+   1  POISSON+FC60pi1  1.0000   0.0170   POISSON+FC60pi1
+   2  POISSON+FC60pi2  1.0000   0.0212   POISSON+FC60pi2
+   3  POISSON+FC60pi3  1.0000   0.0276   POISSON+FC60pi3
+   4  POISSON+FC60pi4  1.0000   0.0066   POISSON+FC60pi4
+   5  POISSON+FC60pi5  1.0000   0.0141   POISSON+FC60pi5
+   6  POISSON+FC60pi6  1.0000   0.0069   POISSON+FC60pi6
+   7  POISSON+FC60pi7  1.0000   0.0147   POISSON+FC60pi7
+   8  POISSON+FC60pi8  1.0000   0.0067   POISSON+FC60pi8
+   9  POISSON+FC60pi9  1.0000   0.0018   POISSON+FC60pi9
+  10  POISSON+FC60pi10  1.0000   0.0102   POISSON+FC60pi10
+  11  POISSON+FC60pi11  1.0000   0.0231   POISSON+FC60pi11
+  12  POISSON+FC60pi12  1.0000   0.0058   POISSON+FC60pi12
+  13  POISSON+FC60pi13  1.0000   0.0125   POISSON+FC60pi13
+  14  POISSON+FC60pi14  1.0000   0.0204   POISSON+FC60pi14
+  15  POISSON+FC60pi15  1.0000   0.0071   POISSON+FC60pi15
+  16  POISSON+FC60pi16  1.0000   0.0118   POISSON+FC60pi16
+  17  POISSON+FC60pi17  1.0000   0.0068   POISSON+FC60pi17
+  18  POISSON+FC60pi18  1.0000   0.0434   POISSON+FC60pi18
+  19  POISSON+FC60pi19  1.0000   0.0318   POISSON+FC60pi19
+  20  POISSON+FC60pi20  1.0000   0.0222   POISSON+FC60pi20
+  21  POISSON+FC60pi21  1.0000   0.0102   POISSON+FC60pi21
+  22  POISSON+FC60pi22  1.0000   0.0150   POISSON+FC60pi22
+  23  POISSON+FC60pi23  1.0000   0.0134   POISSON+FC60pi23
+  24  POISSON+FC60pi24  1.0000   0.0148   POISSON+FC60pi24
+  25  POISSON+FC60pi25  1.0000   0.0239   POISSON+FC60pi25
+  26  POISSON+FC60pi26  1.0000   0.0129   POISSON+FC60pi26
+  27  POISSON+FC60pi27  1.0000   0.0222   POISSON+FC60pi27
+  28  POISSON+FC60pi28  1.0000   0.0247   POISSON+FC60pi28
+  29  POISSON+FC60pi29  1.0000   0.0214   POISSON+FC60pi29
+  30  POISSON+FC60pi30  1.0000   0.0115   POISSON+FC60pi30
+  31  POISSON+FC60pi31  1.0000   0.0076   POISSON+FC60pi31
+  32  POISSON+FC60pi32  1.0000   0.0130   POISSON+FC60pi32
+  33  POISSON+FC60pi33  1.0000   0.0094   POISSON+FC60pi33
+  34  POISSON+FC60pi34  1.0000   0.0467   POISSON+FC60pi34
+  35  POISSON+FC60pi35  1.0000   0.0442   POISSON+FC60pi35
+  36  POISSON+FC60pi36  1.0000   0.0322   POISSON+FC60pi36
+  37  POISSON+FC60pi37  1.0000   0.0403   POISSON+FC60pi37
+  38  POISSON+FC60pi38  1.0000   0.0150   POISSON+FC60pi38
+  39  POISSON+FC60pi39  1.0000   0.0105   POISSON+FC60pi39
+  40  POISSON+FC60pi40  1.0000   0.0215   POISSON+FC60pi40
+  41  POISSON+FC60pi41  1.0000   0.0155   POISSON+FC60pi41
+  42  POISSON+FC60pi42  1.0000   0.0102   POISSON+FC60pi42
+  43  POISSON+FC60pi43  1.0000   0.0228   POISSON+FC60pi43
+  44  POISSON+FC60pi44  1.0000   0.0123   POISSON+FC60pi44
+  45  POISSON+FC60pi45  1.0000   0.0067   POISSON+FC60pi45
+  46  POISSON+FC60pi46  1.0000   0.0010   POISSON+FC60pi46
+  47  POISSON+FC60pi47  1.0000   0.0344   POISSON+FC60pi47
+  48  POISSON+FC60pi48  1.0000   0.0114   POISSON+FC60pi48
+  49  POISSON+FC60pi49  1.0000   0.0127   POISSON+FC60pi49
+  50  POISSON+FC60pi50  1.0000   0.0124   POISSON+FC60pi50
+  51  POISSON+FC60pi51  1.0000   0.0262   POISSON+FC60pi51
+  52  POISSON+FC60pi52  1.0000   0.0065   POISSON+FC60pi52
+  53  POISSON+FC60pi53  1.0000   0.0103   POISSON+FC60pi53
+  54  POISSON+FC60pi54  1.0000   0.0142   POISSON+FC60pi54
+  55  POISSON+FC60pi55  1.0000   0.0215   POISSON+FC60pi55
+  56  POISSON+FC60pi56  1.0000   0.0199   POISSON+FC60pi56
+  57  POISSON+FC60pi57  1.0000   0.0039   POISSON+FC60pi57
+  58  POISSON+FC60pi58  1.0000   0.0113   POISSON+FC60pi58
+  59  POISSON+FC60pi59  1.0000   0.0129   POISSON+FC60pi59
+  60  POISSON+FC60pi60  1.0000   0.0118   POISSON+FC60pi60
+
+Model of rate heterogeneity: Invar+Gamma with 4 categories
+Proportion of invariable sites: 0.1956
+Gamma shape alpha: 0.6510
+
+ Category  Relative_rate  Proportion
+  0         0              0.1956
+  1         0.0793         0.2011
+  2         0.4220         0.2011
+  3         1.1254         0.2011
+  4         3.3459         0.2011
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MULTIPLE RUNS
+-------------
+
+Run     logL
+1	-843552.2066
+2	-843552.2530
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -843552.2066 (s.e. 0.0000)
+Unconstrained log-likelihood (without tree): -532398.2102
+Number of free parameters (#branches + #model parameters): 73
+Akaike information criterion (AIC) score: 1687250.4132
+Corrected Akaike information criterion (AICc) score: 1687250.6149
+Bayesian information criterion (BIC) score: 1687899.4019
+
+Total tree length (sum of branch lengths): 4.2127
+Sum of internal branch lengths: 0.8254 (19.5930% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Allox_ar' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++-----Allox_ar
+|
+|                                      +--Andr_cur
+|                                   +--| (100)
+|                                   |  +--Andr_qrm
+|                                +--| (100)
+|                                |  +--Andr_gro
+|                             +--| (100)
+|                             |  |     +--Andr_qln
+|                             |  |  +--| (86)
+|                             |  |  |  +--Bior_pal
+|                             |  +--| (100)
+|                             |     +--Beloc_tr
+|                          +--| (100)
+|                          |  +----Calli_sp
+|                       +--| (100)
+|                       |  +---Cerop_ma
+|                    +--| (91)
+|                    |  |     +--Irae_his
+|                    |  |  +--| (57)
+|                    |  |  |  +--Prot_spe
+|                    |  +--| (100)
+|                    |     +----Phana_JH
+|                 +--| (89)
+|                 |  |  +--Diast_ki
+|                 |  +--| (100)
+|                 |     +--Peric_JH
+|              +--| (92)
+|              |  |  +----Qwaq_sco
+|              |  +--| (99)
+|              |     |      +--Syne_gif
+|              |     |   +--| (100)
+|              |     |   |  |  +--Syne_jap
+|              |     |   |  +--| (100)
+|              |     |   |     +--Syne_umb
+|              |     +---| (100)
+|              |         +--Syne_ito
+|           +--| (92)
+|           |  |        +--Aula_tav
+|           |  |     +--| (100)
+|           |  |     |  +--Isoc_cen
+|           |  |  +--| (100)
+|           |  |  |  +--Hedic_le
+|           |  +--| (100)
+|           |     +--Aylax_hy
+|        +--| (77)
+|        |  +------------------------Escha_ac
+|     +--| (100)
+|     |  |      +-------------Cecin_ib
+|     |  |  +---| (100)
+|     |  |  |   |          +------------------------------Nasoniav
+|     |  |  |   +----------| (100)
+|     |  |  |              |  +---------------------Orussusa
+|     |  |  |              +--| (100)
+|     |  |  |                 +-----------------------------------Micropld
+|     |  +--| (100)
+|     |     |  +------Dipl_spi
+|     |     +--| (100)
+|     |        +-----Pedia_ac
+|  +--| (100)
+|  |  +----Parn_nig
++--| (100)
+|  |  +------Callas_no
+|  +--| (33)
+|     |     +-------Gana_sp1
+|     +-----| (100)
+|           |    +---Lepto_bo
+|           +----| (100)
+|                |  +--Lepto_cl
+|                +--| (100)
+|                   +---Lepto_he
+|
++----Phaen_vi
+
+Tree in newick format:
+
+(Allox_ar:0.0925870607,(((((((((((((Andr_cur:0.0146744546,Andr_qrm:0.0196355517)100:0.0073739971,Andr_gro:0.0464238894)100:0.0022696065,((Andr_qln:0.0511282577,Bior_pal:0.0444370479)86:0.0072033734,Beloc_tr:0.0234087499)100:0.0102406447)100:0.0187519153,Calli_sp:0.0755453404)100:0.0151156562,Cerop_ma:0.0672250945)100:0.0027986551,((Irae_his:0.0485468731,Prot_spe:0.0467773459)57:0.0042605060,Phana_JH:0.0811131484)100:0.0184394275)91:0.0030691095,(Diast_ki:0.0326986047,Peric_JH:0.0373071685)100:0.0322641031)89:0.0066210336,(Qwaq_sco:0.0687240486,((Syne_gif:0.0161603108,(Syne_jap:0.0086373098,Syne_umb:0.0055863725)100:0.0159573620)100:0.0047419747,Syne_ito:0.0169841206)100:0.0599893181)99:0.0059667576)92:0.0047365846,(((Aula_tav:0.0273465748,Isoc_cen:0.0282322462)100:0.0078405470,Hedic_le:0.0354666634)100:0.0058256848,Aylax_hy:0.0263959687)100:0.0340121754)92:0.0379651409,Escha_ac:0.3457685419)77:0.0063707541,((Cecin_ib:0.1907704643,(Nasoniav:0.4315680990,(Orussusa:0.3079566512,Micropld:0.4981317602)100:0.0487612442)100:0.1519862039)100:0.0564108375,(Dipl_spi:0.1077380883,Pedia_ac:0.0850814925)100:0.0172686828)100:0.0128275595)100:0.0148294576,Parn_nig:0.0723820328)100:0.0091683390,(Callas_no:0.0963121035,(Gana_sp1:0.1104162503,(Lepto_bo:0.0547959487,(Lepto_cl:0.0410491413,Lepto_he:0.0553929811)100:0.0174304669)100:0.0714135086)100:0.0829274535)33:0.0064760528)100:0.0240713509,Phaen_vi:0.0748739026);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 2000bootstrap trees
+Log-likelihood of consensus tree: -843553.363100
+Robinson-Foulds distance between ML tree and consensus tree: 2
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++-----Allox_ar
+|
+|                                         +--Andr_cur
+|                                      +--| (100)
+|                                      |  +--Andr_qrm
+|                                   +--| (100)
+|                                   |  +--Andr_gro
+|                                +--| (100)
+|                                |  |     +--Andr_qln
+|                                |  |  +--| (86)
+|                                |  |  |  +--Bior_pal
+|                                |  +--| (100)
+|                                |     +--Beloc_tr
+|                             +--| (100)
+|                             |  +----Calli_sp
+|                          +--| (100)
+|                          |  +---Cerop_ma
+|                       +--| (91)
+|                       |  |     +--Irae_his
+|                       |  |  +--| (57)
+|                       |  |  |  +--Prot_spe
+|                       |  +--| (100)
+|                       |     +----Phana_JH
+|                    +--| (89)
+|                    |  |  +--Diast_ki
+|                    |  +--| (100)
+|                    |     +--Peric_JH
+|                 +--| (92)
+|                 |  |  +----Qwaq_sco
+|                 |  +--| (99)
+|                 |     |      +--Syne_gif
+|                 |     |   +--| (100)
+|                 |     |   |  |  +--Syne_jap
+|                 |     |   |  +--| (100)
+|                 |     |   |     +--Syne_umb
+|                 |     +---| (100)
+|                 |         +--Syne_ito
+|              +--| (92)
+|              |  |        +--Aula_tav
+|              |  |     +--| (100)
+|              |  |     |  +--Isoc_cen
+|              |  |  +--| (100)
+|              |  |  |  +--Hedic_le
+|              |  +--| (100)
+|              |     +--Aylax_hy
+|           +--| (77)
+|           |  +------------------------Escha_ac
+|        +--| (100)
+|        |  |      +------------Cecin_ib
+|        |  |  +---| (100)
+|        |  |  |   |          +------------------------------Nasoniav
+|        |  |  |   +----------| (100)
+|        |  |  |              |  +---------------------Orussusa
+|        |  |  |              +--| (100)
+|        |  |  |                 +-----------------------------------Micropld
+|        |  +--| (100)
+|        |     |  +------Dipl_spi
+|        |     +--| (100)
+|        |        +-----Pedia_ac
+|     +--| (100)
+|     |  +----Parn_nig
+|  +--| (35)
+|  |  +------Callas_no
++--| (100)
+|  |     +-------Gana_sp1
+|  +-----| (100)
+|        |    +---Lepto_bo
+|        +----| (100)
+|             |  +--Lepto_cl
+|             +--| (100)
+|                +---Lepto_he
+|
++----Phaen_vi
+
+
+Consensus tree in newick format: 
+
+(Allox_ar:0.0916729009,((((((((((((((Andr_cur:0.0146588661,Andr_qrm:0.0196215843)100:0.0074674773,Andr_gro:0.0462867130)100:0.0022623099,((Andr_qln:0.0511528452,Bior_pal:0.0443502823)86:0.0070250323,Beloc_tr:0.0234878316)100:0.0102235648)100:0.0187373942,Calli_sp:0.0755933336)100:0.0151021909,Cerop_ma:0.0670598165)100:0.0027934362,((Irae_his:0.0485040333,Prot_spe:0.0467253464)57:0.0041189549,Phana_JH:0.0811971115)100:0.0184425574)91:0.0030752873,(Diast_ki:0.0327102329,Peric_JH:0.0372568292)100:0.0323165113)89:0.0066119529,(Qwaq_sco:0.0686834727,((Syne_gif:0.0161479390,(Syne_jap:0.0086323260,Syne_umb:0.0055819272)100:0.0159510689)100:0.0047365320,Syne_ito:0.0169746859)100:0.0599614648)99:0.0060638758)92:0.0047492297,(((Aula_tav:0.0273273711,Isoc_cen:0.0282137552)100:0.0078308564,Hedic_le:0.0354398854)100:0.0059411196,Aylax_hy:0.0262621165)100:0.0339539101)92:0.0381134607,Escha_ac:0.3448418495)77:0.0063494095,((Cecin_ib:0.1900850119,(Nasoniav:0.4312397758,(Orussusa:0.3079532639,Micropld:0.4981951187)100:0.0488415589)100:0.1520548965)100:0.0564594879,(Dipl_spi:0.1075400257,Pedia_ac:0.0849575639)100:0.0171109743)100:0.0127182985)100:0.0147605718,Parn_nig:0.0719996599)100:0.0082794650,Callas_no:0.1005350522)35:0.0060422830,(Gana_sp1:0.1101565257,(Lepto_bo:0.0547354396,(Lepto_cl:0.0410328792,Lepto_he:0.0553423713)100:0.0174467201)100:0.0715729355)100:0.0846848559)100:0.0215844695,Phaen_vi:0.0747545259);
+
+TIME STAMP
+----------
+
+Date and time: Sun Apr 11 15:21:31 2021
+Total CPU time used: 650922.628 seconds (180h:48m:42s)
+Total wall-clock time used: 20542.04665 seconds (5h:42m:22s)
+

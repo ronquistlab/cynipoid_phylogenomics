@@ -1,0 +1,90 @@
+#nexus
+
+BEGIN Taxa;
+DIMENSIONS ntax=35;
+TAXLABELS
+[1] 'Allox_ar'
+[2] 'Andr_cur'
+[3] 'Andr_gro'
+[4] 'Andr_qln'
+[5] 'Andr_qrm'
+[6] 'Aula_tav'
+[7] 'Aylax_hy'
+[8] 'Beloc_tr'
+[9] 'Bior_pal'
+[10] 'Callas_no'
+[11] 'Calli_sp'
+[12] 'Cerop_ma'
+[13] 'Diast_ki'
+[14] 'Dipl_spi'
+[15] 'Gana_sp1'
+[16] 'Hedic_le'
+[17] 'Irae_his'
+[18] 'Isoc_cen'
+[19] 'Lepto_bo'
+[20] 'Lepto_cl'
+[21] 'Lepto_he'
+[22] 'Parn_nig'
+[23] 'Pedia_ac'
+[24] 'Peric_JH'
+[25] 'Phaen_vi'
+[26] 'Phana_JH'
+[27] 'Prot_spe'
+[28] 'Qwaq_sco'
+[29] 'Syne_gif'
+[30] 'Syne_ito'
+[31] 'Syne_jap'
+[32] 'Syne_umb'
+[33] 'Nasoniav'
+[34] 'Orussusa'
+[35] 'Micropld'
+;
+END; [Taxa]
+
+BEGIN Splits;
+DIMENSIONS ntax=35 nsplits=40;
+FORMAT labels=no weights=yes confidences=no intervals=no;
+MATRIX
+	14	 2 3 4 5 8 9 11 17 27,
+	7	 1 15 19 20 21 25,
+	2000	 2 5,
+	9	 2 3 4 5 8 9 11 12 13 17 24 27 28,
+	2000	 2 3 5,
+	33	 2 3 4 5 8 9 11 12 13 17 24 27 29 30 31 32,
+	307	 2 3 4 5 8 9 11 12 27,
+	2000	 4 8,
+	25	 7 16,
+	2000	 4 8 9,
+	2000	 2 3 4 5 8 9,
+	92	 6 7 18,
+	2000	 2 3 4 5 8 9 11,
+	562	 1 10 25,
+	2000	 2 3 4 5 8 9 11 27,
+	2000	 1 25,
+	1431	 10 15 19 20 21,
+	1679	 12 17,
+	2000	 2 3 4 5 8 9 11 12 17 27,
+	2000	 15 19 20 21,
+	2000	 19 20 21,
+	2000	 13 24,
+	2000	 2 3 4 5 8 9 11 12 13 17 24 27,
+	2000	 20 21,
+	2000	 1 10 15 19 20 21 25,
+	2000	 1 10 15 19 20 21 22 25,
+	2000	 14 23 33 34 35,
+	2000	 31 32,
+	2000	 29 31 32,
+	2000	 33 34 35,
+	2000	 29 30 31 32,
+	1958	 28 29 30 31 32,
+	2000	 2 3 4 5 8 9 11 12 13 17 24 27 28 29 30 31 32,
+	2000	 34 35,
+	2000	 14 23,
+	2000	 6 18,
+	2000	 1 10 14 15 19 20 21 22 23 25 33 34 35,
+	1883	 6 16 18,
+	2000	 6 7 16 18 26,
+	2000	 6 7 16 18,
+;
+END; [Splits]
+

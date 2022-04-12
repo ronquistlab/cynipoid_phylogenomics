@@ -1,0 +1,154 @@
+Fri Apr 30 22:29:53 CEST 2021
+
+******************************************************
+CHECKPOINT: Resuming analysis from iq_35_C60_I_G5.ckp.gz
+
+IQ-TREE multicore version 1.6.12 for Linux 64-bit built Aug 15 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    n37 (AVX512, FMA3, 376 GB RAM)
+Command: ../../iqtree-1.6.12-Linux/bin/iqtree -s ../../data/allgaps35.phy -nt 32 -m C60+I+G5 -pre iq_35_C60_I_G5 --runs 2 -bb 2000
+Seed:    972009 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Apr 30 22:29:54 2021
+Kernel:  AVX+FMA - 32 threads (32 CPU cores detected)
+
+Reading alignment file ../../data/allgaps35.phy ... Phylip format detected
+Alignment most likely contains protein sequences
+Alignment has 37 sequences with 107283 columns, 71390 distinct patterns
+42141 parsimony-informative, 25265 singleton sites, 39877 constant sites
+           Gap/Ambiguity  Composition  p-value
+   1  Allox_ar     5.95%    passed     15.28%
+   2  Andr_cur     4.39%    passed     27.90%
+   3  Andr_gro     7.14%    passed     79.45%
+   4  Andr_qln     5.90%    passed     52.12%
+   5  Andr_qrm    10.56%    passed     13.40%
+   6  Aula_tav     5.02%    passed     84.41%
+   7  Aylax_hy     4.73%    passed     90.30%
+   8  Beloc_tr     4.72%    failed      2.67%
+   9  Bior_pal    48.40%    failed      0.32%
+  10  Callas_no   12.51%    passed     74.55%
+  11  Calli_sp     5.64%    passed     61.46%
+  12  Cecin_ib    18.02%    failed      0.05%
+  13  Cerop_ma     5.82%    passed     99.61%
+  14  Diast_ki     6.07%    passed     99.77%
+  15  Dipl_spi     6.23%    passed     42.90%
+  16  Escha_ac     7.76%    failed      0.00%
+  17  Gana_sp1    25.48%    failed      0.00%
+  18  Hedic_le     5.61%    passed     96.50%
+  19  Irae_his    21.65%    passed     36.00%
+  20  Isoc_cen     5.72%    passed     99.09%
+  21  Lepto_bo     6.65%    failed      0.00%
+  22  Lepto_cl     5.82%    failed      0.00%
+  23  Lepto_he     6.56%    failed      0.00%
+  24  Parn_nig     5.28%    passed     99.81%
+  25  Pedia_ac     7.37%    passed     79.72%
+  26  Peric_JH     5.42%    passed     99.24%
+  27  Phaen_vi     9.28%    passed     62.62%
+  28  Phana_JH    18.20%    passed      7.84%
+  29  Prot_spe    13.97%    passed     73.24%
+  30  Qwaq_sco     5.97%    passed     96.81%
+  31  Syne_gif     6.00%    passed     98.12%
+  32  Syne_ito     6.41%    passed     98.98%
+  33  Syne_jap     4.52%    passed     99.59%
+  34  Syne_umb     4.66%    passed     99.93%
+  35  Nasoniav     7.06%    failed      0.00%
+  36  Orussusa     5.39%    failed      0.00%
+  37  Micropld     6.03%    failed      0.00%
+****  TOTAL        9.24%  11 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: minimal branch length is reduced to 0.000000932114 for long alignment
+
+CHECKPOINT: 1 independent run(s) restored
+
+---> START RUN NUMBER 2 (seed: 973009)
+
+CHECKPOINT: Initial tree restored
+Generating 2000 samples for ultrafast bootstrap (seed: 973009)...
+CHECKPOINT: 2000 UFBoot trees and 2 UFBootSplits restored
+Model C60+I+G5 is alias for POISSON+G+FMIX{C60pi1:1:0.0169698865,C60pi2:1:0.0211683374,C60pi3:1:0.0276589079,C60pi4:1:0.0065675964,C60pi5:1:0.0141221416,C60pi6:1:0.0068774834,C60pi7:1:0.0146909701,C60pi8:1:0.0067225777,C60pi9:1:0.0018396660,C60pi10:1:0.0102547197,C60pi11:1:0.0230896163,C60pi12:1:0.0057941033,C60pi13:1:0.0125394534,C60pi14:1:0.0204526478,C60pi15:1:0.0070629602,C60pi16:1:0.0117982741,C60pi17:1:0.0068334668,C60pi18:1:0.0433775839,C60pi19:1:0.0318278731,C60pi20:1:0.0222546108,C60pi21:1:0.0102264969,C60pi22:1:0.0150545891,C60pi23:1:0.0134159878,C60pi24:1:0.0148552065,C60pi25:1:0.0239111516,C60pi26:1:0.0128776278,C60pi27:1:0.0222318842,C60pi28:1:0.0247444742,C60pi29:1:0.0214274810,C60pi30:1:0.0115001882,C60pi31:1:0.0076017389,C60pi32:1:0.0130258568,C60pi33:1:0.0093701965,C60pi34:1:0.0467194264,C60pi35:1:0.0441940314,C60pi36:1:0.0322263154,C60pi37:1:0.0402999891,C60pi38:1:0.0150234227,C60pi39:1:0.0104589903,C60pi40:1:0.0214742395,C60pi41:1:0.0154957836,C60pi42:1:0.0101789953,C60pi43:1:0.0227980379,C60pi44:1:0.0123204539,C60pi45:1:0.0066777583,C60pi46:1:0.0004150083,C60pi47:1:0.0344385130,C60pi48:1:0.0113663379,C60pi49:1:0.0127143049,C60pi50:1:0.0124323741,C60pi51:1:0.0262124415,C60pi52:1:0.0064994957,C60pi53:1:0.0103203293,C60pi54:1:0.0142463512,C60pi55:1:0.0215600067,C60pi56:1:0.0199150700,C60pi57:1:0.0038964200,C60pi58:1:0.0113448855,C60pi59:1:0.0128595846,C60pi60:1:0.0117656776}+I+G5
+
+NOTE: 98517 MB RAM (96 GB) is required!
+CHECKPOINT: Model parameters restored, LogL: -1806569.960
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+CHECKPOINT: Candidate tree set restored, best LogL: -1806569.960
+Finish initializing candidate tree set (11)
+Current best tree score: -1806569.960 / CPU time: 0.000
+Number of iterations: 138
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 140 / LogL: -1806571.008 / Time: 0h:8m:21s (0h:3m:36s left)
+Iteration 150 / LogL: -1806575.650 / Time: 1h:4m:20s (0h:21m:35s left)
+Log-likelihood cutoff on original alignment: -1806751.603
+Iteration 160 / LogL: -1807032.066 / Time: 1h:56m:41s (0h:29m:21s left)
+Iteration 170 / LogL: -1806584.170 / Time: 2h:50m:56s (0h:30m:20s left)
+Iteration 180 / LogL: -1806958.043 / Time: 3h:43m:59s (0h:25m:1s left)
+Iteration 190 / LogL: -1806571.741 / Time: 4h:35m:54s (0h:14m:35s left)
+Iteration 200 / LogL: -1806571.011 / Time: 5h:36m:14s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -1806751.560
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 1.000
+TREE SEARCH COMPLETED AFTER 200 ITERATIONS / Time: 5h:36m:14s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -1806569.960
+2. Current log-likelihood: -1806569.898
+3. Current log-likelihood: -1806569.844
+4. Current log-likelihood: -1806569.816
+5. Current log-likelihood: -1806569.777
+6. Current log-likelihood: -1806569.759
+7. Current log-likelihood: -1806569.730
+8. Current log-likelihood: -1806569.716
+9. Current log-likelihood: -1806569.694
+10. Current log-likelihood: -1806569.683
+Optimal log-likelihood: -1806569.676
+Mixture weights: 0.017 0.021 0.028 0.007 0.014 0.007 0.015 0.007 0.002 0.010 0.023 0.006 0.013 0.020 0.007 0.012 0.007 0.043 0.032 0.022 0.010 0.015 0.013 0.015 0.024 0.013 0.022 0.025 0.021 0.011 0.008 0.013 0.009 0.047 0.044 0.032 0.040 0.015 0.010 0.021 0.015 0.010 0.023 0.012 0.007 0.001 0.034 0.011 0.013 0.012 0.026 0.006 0.010 0.014 0.022 0.020 0.004 0.011 0.013 0.012
+Proportion of invariable sites: 0.174
+Gamma shape alpha: 0.663
+Parameters optimization took 10 rounds (369.140 sec)
+BEST SCORE FOUND : -1806569.676
+Creating bootstrap support values...
+Split supports printed to NEXUS file iq_35_C60_I_G5.splits.nex
+Total tree length: 4.677
+
+Total number of iterations: 200
+CPU time used for tree search: 642976.014 sec (178h:36m:16s)
+Wall-clock time used for tree search: 20167.841 sec (5h:36m:7s)
+Total CPU time used: 654918.131 sec (181h:55m:18s)
+Total wall-clock time used: 20546.426 sec (5h:42m:26s)
+
+Computing bootstrap consensus tree...
+Reading input file iq_35_C60_I_G5.splits.nex...
+37 taxa and 84 splits.
+Consensus tree written to iq_35_C60_I_G5.contree
+Reading input trees file iq_35_C60_I_G5.contree
+Log-likelihood of consensus tree: -1806569.676
+
+---> SUMMARIZE RESULTS FROM 2 RUNS
+
+Run 2 gave best log-likelihood: -1806569.676
+Model C60+I+G5 is alias for POISSON+G+FMIX{C60pi1:1:0.0169698865,C60pi2:1:0.0211683374,C60pi3:1:0.0276589079,C60pi4:1:0.0065675964,C60pi5:1:0.0141221416,C60pi6:1:0.0068774834,C60pi7:1:0.0146909701,C60pi8:1:0.0067225777,C60pi9:1:0.0018396660,C60pi10:1:0.0102547197,C60pi11:1:0.0230896163,C60pi12:1:0.0057941033,C60pi13:1:0.0125394534,C60pi14:1:0.0204526478,C60pi15:1:0.0070629602,C60pi16:1:0.0117982741,C60pi17:1:0.0068334668,C60pi18:1:0.0433775839,C60pi19:1:0.0318278731,C60pi20:1:0.0222546108,C60pi21:1:0.0102264969,C60pi22:1:0.0150545891,C60pi23:1:0.0134159878,C60pi24:1:0.0148552065,C60pi25:1:0.0239111516,C60pi26:1:0.0128776278,C60pi27:1:0.0222318842,C60pi28:1:0.0247444742,C60pi29:1:0.0214274810,C60pi30:1:0.0115001882,C60pi31:1:0.0076017389,C60pi32:1:0.0130258568,C60pi33:1:0.0093701965,C60pi34:1:0.0467194264,C60pi35:1:0.0441940314,C60pi36:1:0.0322263154,C60pi37:1:0.0402999891,C60pi38:1:0.0150234227,C60pi39:1:0.0104589903,C60pi40:1:0.0214742395,C60pi41:1:0.0154957836,C60pi42:1:0.0101789953,C60pi43:1:0.0227980379,C60pi44:1:0.0123204539,C60pi45:1:0.0066777583,C60pi46:1:0.0004150083,C60pi47:1:0.0344385130,C60pi48:1:0.0113663379,C60pi49:1:0.0127143049,C60pi50:1:0.0124323741,C60pi51:1:0.0262124415,C60pi52:1:0.0064994957,C60pi53:1:0.0103203293,C60pi54:1:0.0142463512,C60pi55:1:0.0215600067,C60pi56:1:0.0199150700,C60pi57:1:0.0038964200,C60pi58:1:0.0113448855,C60pi59:1:0.0128595846,C60pi60:1:0.0117656776}+I+G5
+Split supports printed to NEXUS file iq_35_C60_I_G5.splits.nex
+Consensus tree written to iq_35_C60_I_G5.contree
+Total CPU time for 2 runs: 660068.689 seconds.
+Total wall-clock time for 2 runs: 20708.274 seconds.
+
+
+Analysis results written to: 
+  IQ-TREE report:                iq_35_C60_I_G5.iqtree
+  Maximum-likelihood tree:       iq_35_C60_I_G5.treefile
+  Trees from independent runs:   iq_35_C60_I_G5.runtrees
+  Likelihood distances:          iq_35_C60_I_G5.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          iq_35_C60_I_G5.splits.nex
+  Consensus tree:                iq_35_C60_I_G5.contree
+  Screen log file:               iq_35_C60_I_G5.log
+
+Date and Time: Sat May  1 04:15:02 2021
+Sat May 1 04:15:02 CEST 2021
