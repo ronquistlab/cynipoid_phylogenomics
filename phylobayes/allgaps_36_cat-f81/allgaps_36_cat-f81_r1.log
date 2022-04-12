@@ -1,0 +1,16 @@
+mpprun info: Starting impi run on 1 node ( 32 rank X 1 th ) for job ID 17915790
+
+model:
+stick-breaking Dirichlet process mixture (cat)
+exchangeabilities : f81 (Poisson)
+discrete gamma distribution of rates across sites (4 categories)
+
+read data from file : ../../data/allgaps36.phy
+number of taxa  : 37
+number of sites : 44695
+number of states: 20
+
+chain name : allgaps_36_cat-f81_r1
+run started
+
+slurmstepd: error: *** JOB 17915790 ON n931 CANCELLED AT 2021-12-18T17:59:39 DUE TO TIME LIMIT ***
