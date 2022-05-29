@@ -27,7 +27,7 @@ draw_tree <- function(tree, hexp, cyn_mono=TRUE, leg=TRUE, aulacideini1='Hedic_l
     displayNames <- c(
     "Alloxysta arc","Phaenoglyphis vil","Callaspidia not","Ganaspis sp","Leptopilina bou","Leptopilina cla",
     "Leptopilina het","Parnips nig","Andricus cur","Andricus gro","Andricus qrm","Andricus qln",
-    "Belonocnema tre","Biorhiza pal","Callirhytis sp","Protobalandricus spe","Ceroptres mas","Iraella his",
+    "Belonocnema kin","Biorhiza pal","Neuroterus val","Protobalandricus spe","Ceroptres mas","Iraella his",
     "Diastrophus kin","Periclistus sp","Qwaqwaia sco","Synergus gif","Synergus jap","Synergus umb",
     "Synergus ito","Aulacidea tav","Isocolus cen","\"Aylax\" hyp","Hedickiana lev","Phanacis sp",
     "Eschatocerus aca","Diplolepis spi","Pediaspis ace","Cecinothofagus iba","Nasonia vit","Orussus abi",
@@ -91,12 +91,12 @@ draw_tree <- function(tree, hexp, cyn_mono=TRUE, leg=TRUE, aulacideini1='Hedic_l
             breaks = c("Cynipini", "Aylacini", "Phanacidini", "Aulacideini","Eschatocerini"))
 }
 
-t1 <- read.tree("../iqtree/clustal34_ag_contrees/iq_clustal34_ag_lt0.13_C60_I_G5.contree")
-t2 <- read.tree("../iqtree/clustal34_ag_contrees/iq_clustal34_ag_0.13-0.26_C60_I_G5.contree")
-t3 <- read.tree("../iqtree/clustal34_ag_contrees/iq_clustal34_ag_0.26-0.37_C60_I_G5.contree")
-t4 <- read.tree("../iqtree/clustal34_ag_contrees/iq_clustal34_ag_0.37-0.47_C60_I_G5.contree")
-t5 <- read.tree("../iqtree/clustal34_ag_contrees/iq_clustal34_ag_0.47-0.59_C60_I_G5.contree")
-t6 <- read.tree("../iqtree/clustal34_ag_contrees/iq_clustal34_ag_gte0.59_C60_I_G5.contree")
+t1 <- read.tree("../iqtree/clustal34_ag_lt0.13_C60_I_G5/iq_clustal34_ag_lt0.13_C60_I_G5.contree")
+t2 <- read.tree("../iqtree/clustal34_ag_0.13-0.26_C60_I_G5/iq_clustal34_ag_0.13-0.26_C60_I_G5.contree")
+t3 <- read.tree("../iqtree/clustal34_ag_0.26-0.37_C60_I_G5/iq_clustal34_ag_0.26-0.37_C60_I_G5.contree")
+t4 <- read.tree("../iqtree/clustal34_ag_0.37-0.47_C60_I_G5/iq_clustal34_ag_0.37-0.47_C60_I_G5.contree")
+t5 <- read.tree("../iqtree/clustal34_ag_0.47-0.59_C60_I_G5/iq_clustal34_ag_0.47-0.59_C60_I_G5.contree")
+t6 <- read.tree("../iqtree/clustal34_ag_gte0.59_C60_I_G5/iq_clustal34_ag_gte0.59_C60_I_G5.contree")
 
 p1 <- draw_tree(t1, 0.25, TRUE, TRUE)
 p2 <- draw_tree(t2, 0.22, FALSE, FALSE)
