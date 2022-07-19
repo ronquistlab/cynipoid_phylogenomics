@@ -3,7 +3,7 @@ for (i in 1:7) {
     source(file)
 }
 
-for (i in 1:4) {
+for (i in 1:5) {
     file <- paste0("plot_FigS",i,".R")
     source(file)
 }

@@ -26,7 +26,7 @@ draw_tree <- function(tree, hexp, leg=TRUE, type)
     # Choose the corresponding display names we want to use
     displayNames <- c(
     "Alloxysta arc","Phaenoglyphis vil","Callaspidia not","Ganaspis sp","Leptopilina bou","Leptopilina cla",
-    "Leptopilina het","Parnips nig","Andricus cur","Andricus gro","Andricus qrm","Andricus qln",
+    "Leptopilina het","Parnips nig","Andricus cur","Andricus gro","Andricus qrm","Druon qln",
     "Belonocnema kin","Biorhiza pal","Neuroterus val","Protobalandricus spe","Ceroptres mas","Iraella his",
     "Diastrophus kin","Periclistus sp","Qwaqwaia sco","Synergus gif","Synergus jap","Synergus umb",
     "Synergus ito","Aulacidea tav","Isocolus cen","\"Aylax\" hyp","Hedickiana lev","Phanacis sp",

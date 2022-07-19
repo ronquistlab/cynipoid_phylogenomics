@@ -7,7 +7,7 @@ library(treeio)
 library(ggplot2)
 library(ggtree)
 
-draw_tree <- function(tree, hexp, cyn_mono=TRUE, leg=TRUE)
+draw_tree <- function(tree, hexp, label="", cyn_mono=TRUE, leg=TRUE)
 {
     require(ggtree)
     require(ape)
@@ -26,7 +26,7 @@ draw_tree <- function(tree, hexp, cyn_mono=TRUE, leg=TRUE)
     # Choose the corresponding display names we want to use
     displayNames <- c(
     "Alloxysta arc","Phaenoglyphis vil","Callaspidia not","Ganaspis sp","Leptopilina bou","Leptopilina cla",
-    "Leptopilina het","Parnips nig","Andricus cur","Andricus gro","Andricus qrm","Andricus qln",
+    "Leptopilina het","Parnips nig","Andricus cur","Andricus gro","Andricus qrm","Druon qln",
     "Belonocnema kin","Biorhiza pal","Neuroterus val","Protobalandricus spe","Ceroptres mas","Iraella his",
     "Diastrophus kin","Periclistus sp","Qwaqwaia sco","Synergus gif","Synergus jap","Synergus umb",
     "Synergus ito","Aulacidea tav","Isocolus cen","\"Aylax\" hyp","Hedickiana lev","Phanacis sp",
@@ -78,7 +78,7 @@ draw_tree <- function(tree, hexp, cyn_mono=TRUE, leg=TRUE)
 
     # Find out whether we should print the legend
     if (leg==TRUE)
-        leg.pos <- c(.2,.78)
+        leg.pos <- c(.2,.70)
     else
         leg.pos <- "none"
     
@@ -87,6 +87,7 @@ draw_tree <- function(tree, hexp, cyn_mono=TRUE, leg=TRUE)
         geom_treescale(x = 0.0, y = 8.0, width = 0.1, fontsize=2) + guides(color = guide_legend(override.aes = list(size = 4, shape = 15))) +
         theme_tree(legend.position = leg.pos, legend.key.size = unit(0.05,'cm'), legend.title = element_text(size=9)) +
         hexpand(hexp) +
+        geom_label(size=3, label=label, x=0.1, y=36.0, label.size=0.25, color="black") +
         scale_color_manual(values = c(cols, "black"), na.value = "black", name = "Lineage",
             breaks = c("Cynipini", "Aylacini", "Phanacidini", "Aulacideini","Eschatocerini"))
 }
@@ -96,10 +97,10 @@ t2 <- read.tree("../iqtree/iq_36_c60.contree")
 t3 <- read.tree("../iqtree/iq_35_C60_I_G5.contree")
 t4 <- read.tree("../iqtree/iq_34_c60.contree")
 
-p1 <- draw_tree(t1, 0.25, TRUE, TRUE)
-p2 <- draw_tree(t2, 0.22, FALSE, FALSE)
-p3 <- draw_tree(t3, 0.22, FALSE, FALSE)
-p4 <- draw_tree(t4, 0.22, FALSE, FALSE)
+p1 <- draw_tree(t1, 0.25, "T37-G31", TRUE, TRUE)
+p2 <- draw_tree(t2, 0.22, "T36-G123", FALSE, FALSE)
+p3 <- draw_tree(t3, 0.22, "T35-G296", FALSE, FALSE)
+p4 <- draw_tree(t4, 0.22, "T34-G542", FALSE, FALSE)
 
 labels <- c("A", "B", "C", "D")
 cowplot::plot_grid(p1,p2,p3,p4,ncol=2,labels=labels, label_size=14, hjust=0.0) + theme(plot.margin=unit(c(3,3,3,3), "pt"))
