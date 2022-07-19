@@ -124,7 +124,7 @@ draw_tree <- function(tree, hexp, cyn_mono=TRUE, leg=TRUE, treescale_height=8.0)
         geom_hilight(node=paraulacidae, fill='coral1', type="rect", extend=0.36) +
         geom_strip('Andricus cur', 'Eschatocerus aca', barsize=0, fontsize=4.5, label="Cynipidae (s. str.)", offset=0.14, offset.text=0.02) +
         geom_strip('Leptopilina cla', 'Parnips nig', barsize=0, fontsize=4.5, label="Figitidae", offset=0.17, offset.text=0.02) +
-        geom_strip('Diplolepis spi', 'Pediaspis ace', barsize=0, fontsize=4.5, label="Diplolepidae", offset=0.01, offset.text=0.02) +
+        geom_strip('Diplolepis spi', 'Pediaspis ace', barsize=0, fontsize=4.5, label="Diplolepididae", offset=0.01, offset.text=0.02) +
         geom_strip('Cecinothofagus iba', 'Cecinothofagus iba', barsize=0, fontsize=4.5, label="Paraulacidae", offset=0.0, offset.text=0.02) +
         hexpand(hexp)
 }

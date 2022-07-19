@@ -123,7 +123,7 @@ draw_tree <- function(tree, hexp, leg=TRUE, type)
             offset=-0.10, offset.text=0.04, angle=270, hjust=0.5) +
         geom_strip('Leptopilina cla', 'Parnips nig', barsize=0.2, color="gray60", fontsize=2, label="Figitidae",
             offset=0.02, offset.text=0.04, angle=270, hjust=0.5) +
-        geom_strip('Diplolepis spi', 'Pediaspis ace', barsize=0.2, color="gray60", fontsize=2, label="Diplolepidae",
+        geom_strip('Diplolepis spi', 'Pediaspis ace', barsize=0.2, color="gray60", fontsize=2, label="Diplolepididae",
             offset=-0.18, offset.text=0.02) +
         geom_strip('Cecinothofagus iba', 'Cecinothofagus iba', color="gray60", barsize=0.2, fontsize=2, label="Paraulacidae",
             offset=-0.14, offset.text=0.02) +
