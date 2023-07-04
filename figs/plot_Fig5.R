@@ -114,8 +114,8 @@ draw_tree <- function(tree, hexp, cyn_mono=TRUE, leg=TRUE, treescale_height=8.0)
         geom_strip('Callaspidia not', 'Callaspidia not', barsize=1, fontsize=font_size, color='black', label="Aspicerinae", offset=fig_offset, offset.text=fig_offset_text) +
         geom_strip('Phaenoglyphis vil', 'Alloxysta arc', barsize=1, fontsize=font_size, color='black', label="Charipinae", offset=fig_offset, offset.text=fig_offset_text) +
         geom_strip('Parnips nig', 'Parnips nig', barsize=1, fontsize=font_size, color='black', label="Parnipinae", offset=fig_offset-0.06, offset.text=fig_offset_text) +
-        geom_strip('Diplolepis spi', 'Diplolepis spi', barsize=1, fontsize=font_size, color='black', label="Diplolepidini", offset=dip_offset, offset.text=dip_offset_text) +
-        geom_strip('Pediaspis ace', 'Pediaspis ace', barsize=1, fontsize=font_size, color='black', label="Pediaspidini", offset=dip_offset, offset.text=dip_offset_text) +
+        geom_strip('Diplolepis spi', 'Diplolepis spi', barsize=1, fontsize=font_size, color='black', label="Diplolepidinae", offset=dip_offset, offset.text=dip_offset_text) +
+        geom_strip('Pediaspis ace', 'Pediaspis ace', barsize=1, fontsize=font_size, color='black', label="Pediaspidinae", offset=dip_offset, offset.text=dip_offset_text) +
         geom_strip('Cecinothofagus iba', 'Cecinothofagus iba', barsize=1, fontsize=font_size, color='black', label="Paraulacini", offset=-0.16, offset.text=.02) +
         geom_strip('Nasonia vit', 'Orussus abi', barsize=1, fontsize=4.0, color='gray50', label="Outgroups", offset=0.0, offset.text=.02) +
         geom_hilight(node=cynipidae, fill='darkseagreen2', type="rect", extend=0.16) +
