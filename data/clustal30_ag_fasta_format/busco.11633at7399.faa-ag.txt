@@ -1,0 +1,743 @@
+Gblocks 0.91b Results
+
+
+Processed file: busco.11633at7399.faa
+Number of sequences: 31
+Alignment assumed to be: Protein
+New number of positions: 481 (selected positions are underlined in blue)
+
+
+                         10        20        30        40        50        60
+                 =========+=========+=========+=========+=========+=========+
+Andr_cur         ------------------------------------------------------------
+Andr_gro         RNSEHTKCENLEEPSSKRKANVSEREARDPTEYKMS--SVQV--DRATKLDKP-----NR
+Andr_qln         -------------------------------MYKFA--TFLS--N---------------
+Andr_qrm         ------------------------------------------------------------
+Aula_tav         -------------------------------MLLH---RL--------------------
+Aylax_hy         ---MHNA-----------IKNEIGSQKRGPHMLLN---GL---------RNSNFSIPLNI
+Beloc_tr         ----------------------------------MS--SAQV--DRATKLDKP-----NR
+Bior_pal         ----------------------------------MS--SVQV--DHATKLDKP-----NR
+Calli_sp         ------------------------------------------------------------
+Cecin_ib         ---------------------MS---------------SAQV--DRATKLGNP-----NK
+Cerop_ma         -----------------------------------------------MVTEK--------
+Dipl_spi         ---------------------MS---------------SAQV--DRATKLSNP-----GK
+Escha_ac         ---------------------ME-SIETQKNLILEHKLSENFERFTTVKLDYS-----NK
+Hedic_le         ----------------------------------------------MSMTDSDSNRA--S
+Irae_his         ----------------------------------MS--SAEV--DHATKLDKP-----NK
+Isoc_cen         ------------------------------MVFLFVFLGFPV--NCILIIKINANKECNS
+Lepto_bo         ---------------------MS---------------SAQV--DRATKLNNS------K
+Lepto_cl         ---------------------MS---------------SVQV--DRATKLNNS-----NK
+Lepto_he         ---------------------MS---------------SAQV--DRATKLNNS-----NK
+Parn_nig         ---------------------MS---------------SAQV--DRATKLGNP-----NK
+Pedia_ac         ---------------------MS---------------SAQV--DRATRLGNP-----NK
+Peric_JH         ----------------------------------MS--SAHV--DPDMKLDKP-----NK
+Prot_spe         ----------------------------------MS--SVQV--DRAMKLDKP-----NK
+Qwaq_sco         ---------------------MLQRFHR----CGFI--TVWL--NSKT----------EE
+Syne_gif         ----------------------------------MS--SAEV--DRATKLDKP-----NK
+Syne_ito         ----------------------------------MS--SAQV--DRATKLDKP-----NK
+Syne_jap         ----------------------------------MS--SAQV--DRATKLDKP-----NK
+Syne_umb         ----------------------------------MS--SAQV--DRATKLDKP-----NK
+Nasonia          ---------------------MS---------------STTV--DRPAKTGMT-----NK
+Orussus          ---------------------MS---------------SVQV--DRPTKMGQV-----SR
+Micropl          ---------------------MS---------------SAQV--DRTSKVGHV-----GK
+Gblocks          ............................................................
+
+
+                         70        80        90       100       110       120
+                 =========+=========+=========+=========+=========+=========+
+Andr_cur         -------------MTSKIRLERADISSCLIPL-KFF---------MVFTRILEKNPRQFQ
+Andr_gro         KENE---KSRKPFPPHK-KHKHDDNRH--HKF----SRKRLQS----YN-VNGKCP----
+Andr_qln         ---S---LLSFLFITNKSKFERRLKLR-TLFC----TRDRLKK----YC-LLSSF-----
+Andr_qrm         -------------MF-SVR------FYREIKI-KIR---------MVFTQILEKNSGKFQ
+Aula_tav         ---------------SLKFLD--RSRRDPYTYSLLGDARVSSSKSL-----PQELLHYRR
+Aylax_hy         TSNN---VNFFEF--SLISLR--EARF--RKWSEITDRRSA-SASN-----PHG--KWSR
+Beloc_tr         KENE---KSRKPFPPHK-KHKHDDNRH-HHKF----SRKRLQS----YN-VNGKCP----
+Bior_pal         KENE---KSRKPFLPHK-KHKHDDNRH--HKF----SRKRLQS----YN-VNGKCP----
+Calli_sp         -MEE---VFYKTFQFERIKFQRNTDFLIGSNF-RIRQLGEILSVSIENSIILLKHNKFCS
+Cecin_ib         KENE---KSRKPFNPSHKKL---DNRH--FKF----GRKRLQSFTG------N--GKF--
+Cerop_ma         --DE---RKRASFGFQAKHFV--PKLYCITCF-Q-----------RFYTLRREPCTLWFL
+Dipl_spi         KENE---KSRKPFNPAHKKYKHDDNRH--FKF----GRKRLQSFTG------N--GKF--
+Escha_ac         KENE---KLRKSNNSSHKKFKYEDNRH--FKF----SRKRLQSFNG------H--GKF--
+Hedic_le         FSEN---LSFHAFLVEVLCLQ--TNLF---------------------------LKSFFS
+Irae_his         KENE---KSRKPFPANK-KHKHDDNRH--HKF----GRKRLQS----YN-VNGKCP----
+Isoc_cen         QEKS---VNLFKF--SLISWR--EARF--RKWSEITDRDRLPPAT------HMETGKWST
+Lepto_bo         KENE---KSRKPFNPTHKKYKHEDNRH--FKF----GRKRLQTFPG------N--GKF--
+Lepto_cl         KENE---KSRKPFNPTHKKYKHEDNRH--FKF----GRKRLQTFPG------N--GKF--
+Lepto_he         KENE---KARKPFNPTHKKYKHEDNRH--FKF----GRKRLQTFPG------N--GKF--
+Parn_nig         KENE---KSRKPFNPAHKKHKHEDNRH--FKF----GRKRLQSFPG------N--GKF--
+Pedia_ac         KENE---KSRKPFNPAHKKYKHEDNRH--FKF----GRKRLQSFTG------N--GKF--
+Peric_JH         KENE---KSRKTFSANK-KHKHDDNRH--QKF----GRKRLQS----YN-VNGKCP----
+Prot_spe         KENE---KSRKPFPANK-KHKHDDNRH--HKF----SRKRLQS----YN-VNGKCP----
+Qwaq_sco         CPLP---LQILPFPKII-------NVV-----------NLFIT----FAFFTGCCP---S
+Syne_gif         KENE---KSRKPFNTANKKHKHDDNR--HHKF----GRKRLQS----YN-VNGKCP----
+Syne_ito         KENE---KSRKSFNTANKKHKHDDNR--HHKF----GRKRLQS----YN-VNGKCP----
+Syne_jap         KENE---KTRKPFNTANKKHKHDDNR--HHKF----GRKRLQS----YN-VNGKCP----
+Syne_umb         KENE---KTRKPFNTANKKHKHDDNR--HHKF----GRKRLQS----YN-VNGKCP----
+Nasonia          KENENNTKARRISNASHKKHKHEENRH--FKF----GRKRLQSFTG------N--GKF--
+Orussus          KETD---KSRKPFNPSHKKHKHEDGRY--FKF----GRKRLQSFTT------N--GKF--
+Micropl          KENE---KTRKMFN---------QSRH--FKF----SRKRLQSFTG------GNANKF--
+Gblocks          ............................................................
+
+
+                        130       140       150       160       170       180
+                 =========+=========+=========+=========+=========+=========+
+Andr_cur         VFPRNL----KILQKALTIK--IFNFQRANNKKDIVLPTKFLLGGSIYDPLNLNSLQDEE
+Andr_gro         --------------------PAKRWKKEFGCKKDIVLPTKFLLGGSIYDPLNLNSLQDEE
+Andr_qln         ---------------------FYFYQNSPKSGSDIVLPTKFLLGGSIYDPLNLNSLQDEE
+Andr_qrm         AFSRNL----KILQASQTGPC-YIPYFREKGQKDIVLPTKFLLGGSIYDPLNLNSLQDEE
+Aula_tav         A-SSAE-----------TILFKSLNKYIARKKKDIVLPTRFLLGGSIYDPLNLNSLQDEE
+Aylax_hy         GQGKTS-----------RIQIEFCEPSRKRLKKDIVLPTRFLLGGSIYDPLNLNSLQDEE
+Beloc_tr         --------------------PAKRWKKEFGCKKDIVLPTKFLLGGSIYDPLNLNSLQDEE
+Bior_pal         --------------------PAKRWKKEFGCKKDIVLPTKFLLGGSIYDPLNLNSLQDEE
+Calli_sp         SF--RL----KIQNLTHSNWK-FHSFIKVNAKDDIVLPTKFLLGGSIYDPLNLNSLQDEE
+Cecin_ib         ----------------------FPPYKRRKKEGIIIPPTKFLLGGNICDPLNLNSMQDEE
+Cerop_ma         FEKRSM----D-----SRSKTKFQEHHRRRWKKDIVLPTKFLLGGSISDPLNLNSLQDEE
+Dipl_spi         ----------------------CPPYKRRKKEGIIIPPTKFLLGGNICDPLNLNSMQDEE
+Escha_ac         ----------------------LPPYKRRKKESTFIPPTKFLLGGNICDPLNLNSMQDED
+Hedic_le         VEGRIR--------PTYILKNKFRHPGDHRKKKDIVLPTRFLLGGSIYDPLNLNSLQDEE
+Irae_his         --------------------PPKRWKKEFLCKKDIVLPTKFLLGGSIYDPLNLNSLQDEE
+Isoc_cen         AEGKEKRHASRLRFANHPFSNIFLEPKIKRKKKDIVLPTRFLLGGSIYDPLNLNSLQDEE
+Lepto_bo         ----------------------FPPYKRRKKEDAIIPPTKFLLGGNICDPLNLNSMQDEE
+Lepto_cl         ----------------------FPPYKRRKKEDAIIPPTKFLLGGNICDPLNLNSMQDEE
+Lepto_he         ----------------------FPPHKRRKKEDAIIPPTKFLLGGNICDPLNLNSMQDEE
+Parn_nig         ----------------------FPPYKRRKKEGIIIPPTKFLLGGNICDPLNLNSMQDEE
+Pedia_ac         ----------------------FPPYKRRKKEGVIIPPTKFLLGGNICDPLNLNSMQDEE
+Peric_JH         --------------------PAKRWKKEIASKKDIVLPTKFLLGGSIYDPLNLNSLQDEE
+Prot_spe         --------------------PAKRWKKEFGCKKDIVLPTKFLLGGSIYDPLNLNSLQDEE
+Qwaq_sco         SFLKDV------FSIKYNTYKAFFFMKYFSQDKDIVLPTKFLLGGSIYDPLNLNSLQDEE
+Syne_gif         --------------------PTKRWKKDLFCK-DMVLPTKFLLGGSISDPLNLNSLQDEE
+Syne_ito         --------------------PTKRWKKDLFCK-DMVLPTKFLLGGSISDPLNLNSLQDEE
+Syne_jap         --------------------PAKRWKKDLFCK-DMVLPTKFLLGGSISDPLNLNSLQDEE
+Syne_umb         --------------------PAKRWKKDLFCK-DMVLPTKFLLGGSISDPLNLNSLQDEE
+Nasonia          ----------------------CPPYKRRKKEGAIIPPTKFLLGGNICDPLNLNSMQDEE
+Orussus          ----------------------FPPYKRRKKEGIIIPPTKFLLGGNICDPLNLNSMQDEE
+Micropl          ----------------------FPPYKRRKKEGGIIPPTKFLLGGNICDPLNLNSMQDEE
+Gblocks          ..................................##########################
+
+
+                        190       200       210       220       230       240
+                 =========+=========+=========+=========+=========+=========+
+Andr_cur         VNRALNAVTPKSSPLPTPKHRKGTIEVIIPPNICDPLNLSNCNDDEEYEKQLISPTKKSS
+Andr_gro         VNRALNAVTPKSSPLPTPKHRKGTIEVIIPPNICDPLNLSNCNDDEEYEKQLISPTKKSS
+Andr_qln         VNRALNAVTPKSSPLPTPKHRKGTIEVIIPPNICDPLNLSNCNDDEEYEKQLISPTKKSS
+Andr_qrm         VNRALNAVTPKSSPLPTPKHRKGTIEVIIPPNICDPLNLSNCNDDEEYEKQLISPTKKSS
+Aula_tav         VNRALNAVTPKSSPLPTPKHRKGTIEVIIPPNICDPLNLSNCNDNDEYEKQLISPTKKSS
+Aylax_hy         VNRALNAVTPKSSPLPTPKHRKGTIEVIIPPNICDPLNLSNCNDNDEYEKQLISPTKKSS
+Beloc_tr         VNRALNAVTPKSSPLPTPKHRKGTIEVIIPPNICDPLNLSNCNDDEEYEKQLISPTKKSS
+Bior_pal         VNRALNAVTPKSSPLPTPKHRKGTIEVIIPPNICDPLNLSNCNDDEEYEKQLISPTKKSS
+Calli_sp         VNRALNAVTPKSSPLPTPKHRKGTIDVIIPPNICDPLNLSNCNDDEEYEKQLISPTKKSS
+Cecin_ib         INRAMNAVTPKSSPLPTPKHRKGTIEVIIPPNICDPLNLINCNDNDEYEKQLISPMKKSS
+Cerop_ma         INRALNAVTPKSSPLPTPKHRKGTIEVIIPPNICDPLNLSNCNDDEEYEKQLISPTKKSS
+Dipl_spi         VNRAMNAVTPKSSPLPTPKHRKEPIEVIIPPNICDPLNLSNCNDNEEYEKQLISPTKKSS
+Escha_ac         VNRAMNAVTPKSSPLPTPLHKKGAIEVIIPPNICDPLNLSNSN-NEVYENQLVFPSKRSA
+Hedic_le         VNRALNAVTPKSSPLPTPKHRKETIEVIIPPNICDPLNLSNCNDNDEYEKQLISPTKKSS
+Irae_his         VNRALNAVTPKSSPLPTPKHRKGTIEVIIPPNICDPLNLSNCNDDEEYEKQLISPTKKSS
+Isoc_cen         VNRALNAVTPKSSPLPTPKHRKGTIEVIIPPNICDPLNLSNCNDNDEYEKQLISPTKKSS
+Lepto_bo         INRAMNAVTPKSSPLPIPKHRKEAIEVIIPPNICDPLNLSNCNDNEEYEKQLISPTKKNS
+Lepto_cl         INRAMNAVTPKSSPLPIPKHRKEVIEVIIPPNIRDPLNLSNCNDNEEYEKQLISPTKKNS
+Lepto_he         INRAMNAVTPKSSPLPIPKHRKEAIEVIIPPNICDPLNLSNCNDNEEYEKQLISPTKKNS
+Parn_nig         VNRALNAVTPKSSPLPTPKHRKETIEVIIPPNICDPLNLSNCNDNEEYEKQLISPTKKSS
+Pedia_ac         VNRAMNAVTPKSSPLPTPRHRKEPIEVIIPPNICDPLNLSNCNDNDEYEKQLISPTKKSS
+Peric_JH         VNRALNAVTPKSSPLPTPKHRKGTIEVIIPPNICDPLNLSNCNDNEEYEKQLISPTKKCS
+Prot_spe         VNRALNAVTPKSSPLPTPKHRKGTIEVIIPPNICDPLNLSNCNDDEEYEKQLISPTKKSS
+Qwaq_sco         VNRALNAVTPKSSPLPTPKHRKGTIEVIIPPNICDPLNLSNCNDNEEYEKQLISPTKKSS
+Syne_gif         VNRALNAVTPKSSPLPTPTYRKGTIEVIIPPNICDPLNLSNCNDDEEYEKQLISPTKKSS
+Syne_ito         VNRALNAVTPKSSPLPTPTYRKGTIEVIIPPNICDPLNLSNCNDDEEYEKQLISPTKKSS
+Syne_jap         VNRALNAVTPKSSPLPTPTYRKGTIEVIIPPNICDPLNLSNCNDDEEYEKQLISPTKKSS
+Syne_umb         VNRALNAVTPKSSPLPTPTYRKGTIEVIIPPNICDPLNLSNCNDDEEYEKQLISPTKKSS
+Nasonia          INRAMNAVTPKSSPLPTPKHRKEAIEVIIPPNICDPLNLINCNDNDEYEKQLISPVKKTS
+Orussus          VNRAMNAVTPKSSPLPTPKHRKETIEVIIPPNICDPLNLSNCD-NEDYEKQLISPTKKGS
+Micropl          INRAMNAVTPKSSPLPTPKHRKGIIEVIIPPNINDPLSLSNCND-DEYEKQLISPTKKFS
+Gblocks          ############################################################
+
+
+                        250       260       270       280       290       300
+                 =========+=========+=========+=========+=========+=========+
+Andr_cur         KKRNRKKKRALSFSSATSKIIEDTETKGK----EEVV---VENKDAE-------------
+Andr_gro         KKRNRKKKRALSFSSANSKVSEDTETKDK----E-VV---VESKDEE-------------
+Andr_qln         KKRNRKKKRALSFSSATNKVSEDSETKDE----E-VV---VENKDAD-------------
+Andr_qrm         KKRNRKKKRALSFSSATSKISEDTETKGK----EEEV---VESKDAK-------------
+Aula_tav         KKRNRKKKRALSFNSAKDKVSETTETQDQ----V-VN---VENKEVE-------------
+Aylax_hy         KKRNRKKKRALSFNSAKDKVSETIETQDQ----V-VD---VENKEVE-------------
+Beloc_tr         KKRNRKKKRALSFSSATNKVSEDTETKDE----E-VV---VENKDAE-------------
+Bior_pal         KKRNRKKKRALSFSLATNKVGEDTEAKDE----E-VV---VENKDAE-------------
+Calli_sp         KKRNRKKKRALSFNSTNSKLGEDAETKDK----E-AV---VENKDVV-------------
+Cecin_ib         KKRNRK-KKRALSNAGKGEANEVTE-VNE----AVVP---E-RKEE--------------
+Cerop_ma         KKRHRKKKRVINFESEKIQVSEDNEAKDQ----E--V---IENQNIE-------------
+Dipl_spi         KKRNRK-KKRALFSSGKNEVSETAE-PKE----ELPP---VENKEV--------------
+Escha_ac         KKRNRKRKRIPQHP-DNVGVNELNLSINSVNNSLKI----AESNEMEKKRNNDDDDDDND
+Hedic_le         KKRNRKKKRALSFNSVNDKVSETTETQDE----V-VN---VENKEVE-------------
+Irae_his         KKRHRKKKRALSFNSANNKDSEDTEAKDE----D-VV---VECKDAE-------------
+Isoc_cen         KKRNRKKKRALSFNSPKDKVTETIETQDQ----V-VN---VENKEVE-------------
+Lepto_bo         KKRNRK-KKRALSFSGKNESNETME--IE----QVIV---VENKEV--------------
+Lepto_cl         KKRNRK-KKRALSFSGKTETSELTMEIGE----QVIA---IENKDV--------------
+Lepto_he         KKRNRNKKKRALSFSGNS---EAIVETGE----QVIT---VENKDV--------------
+Parn_nig         KKRNRK-KKRTVSLSGKNEVSEAPK-AME----QVIL---VENKEV--------------
+Pedia_ac         KKRNKR-KKRALFGSRKNEVFEAAD-AKE----QVLP---VENKEV--------------
+Peric_JH         RKRNRKKKRVIPFNSANNKDNAGTEAKDQ----D-VV---VKKKDVE-------------
+Prot_spe         KKRNRKKKRALSFSIANNKVSEDAEAKDK----E-VV---VENKDLE-------------
+Qwaq_sco         KKRNRKKKRALSFNSVNNTINVASEAKDQ----V-VL---VENKDVE-------------
+Syne_gif         KKRNRKKKRALSFNSTTNQVSEVTEEKDQ----V-V----LEEKKDE-------------
+Syne_ito         KKRNRKKKRALSFNSSTEQVSEVTEEKDQ----V-V----LEEKKDE-------------
+Syne_jap         KKRNRKKKRALSFSSTTNQVSEVTEEKDQ----V-V----VEEKKDE-------------
+Syne_umb         KKRNRKKKRALSFSSTTNQVSEVTEEKDQ----V-V----VEEKKDE-------------
+Nasonia          KKRNRKRKRPSSA--GRDDTNKESAEIKD---S--IS---IEEAKV--------------
+Orussus          KRRNRK-RKRASSGSGKDDANEAAEAKSV----DTVE---IPTIEI--------------
+Micropl          KRRNRK-RKRASSGSGKEDVSHSGSETTEVKSDEIFLLPPIESQKFRVSSSSSSTSSSSE
+Gblocks          ############################################................
+
+
+                        310       320       330       340       350       360
+                 =========+=========+=========+=========+=========+=========+
+Andr_cur         -----------------------------------------------SGKT-EVESQVP-
+Andr_gro         -----------------------------------------------SGKTAEVESQVP-
+Andr_qln         -----------------------------------------------SGKA-EVVPQVP-
+Andr_qrm         -----------------------------------------------SGET-EVESQVP-
+Aula_tav         -----------------------------------------------SEETKIESQSVPA
+Aylax_hy         -----------------------------------------------SEKTEIESQSVSA
+Beloc_tr         -----------------------------------------------SGK-TEVEPQIP-
+Bior_pal         -----------------------------------------------SVK-TEVEPQVP-
+Calli_sp         -----------------------------------------------SGKT-EVESQVP-
+Cecin_ib         ---------------------------------AV--EK-----------TQVDSEGAPA
+Cerop_ma         -----------------------------------------------SGKAEVVTQGVP-
+Dipl_spi         ---------------------------------AS--EN-----------PQVEPESVPA
+Escha_ac         NN-------------------------------DNNEDE---NGADENE-TDDHDDHRPG
+Hedic_le         -----------------------------------------------SEKTEIESQSVSA
+Irae_his         -----------------------------------------------SGKTEVESQSVP-
+Isoc_cen         -----------------------------------------------SEEMKMESQSVPV
+Lepto_bo         ---------------------------------SILENI-----------VEKVEEKIPV
+Lepto_cl         ---------------------------------PL--EK-----------VVEVEDKIPV
+Lepto_he         ---------------------------------TM--EK-----------VVEVEDKIPV
+Parn_nig         ---------------------------------RS--EK-----------TQESEDNVPA
+Pedia_ac         ---------------------------------ES--EK-----------TQVEAEGLPA
+Peric_JH         -----------------------------------------------TGKAAVESQSVP-
+Prot_spe         -----------------------------------------------SGKVEVEPQSVP-
+Qwaq_sco         -----------------------------------------------SAKLEVQSQSVP-
+Syne_gif         -----------------------------------------------AGKIEVETQSIP-
+Syne_ito         -----------------------------------------------AGKIEVESQSIP-
+Syne_jap         -----------------------------------------------AGKIEVEPQSIP-
+Syne_umb         -----------------------------------------------AGKIEVEPQSIP-
+Nasonia          --------------------------------VENVEAN----VVVEPA-----KNESPS
+Orussus          ---------------------------------SEVGEP-----------KK--PKVEPV
+Micropl          PPTVPAITLSTPELSSEIPEIPPALLSRTCSVVSSMEDELTEIISTEPEFPEADPASSPV
+Gblocks          ............................................................
+
+
+                        370       380       390       400       410       420
+                 =========+=========+=========+=========+=========+=========+
+Andr_cur         EKCSS-P------------------------------------------------SKEPE
+Andr_gro         EKCSS-P------------------------------------------------SKEPE
+Andr_qln         EKCSS-P------------------------------------------------SKEPE
+Andr_qrm         EKCSS-P------------------------------------------------SKEPE
+Aula_tav         EERTS-P------------------------------------------------SKEPA
+Aylax_hy         EERTS-P------------------------------------------------SKEPA
+Beloc_tr         EKCSS-P------------------------------------------------SKEPE
+Bior_pal         EKCSS-P------------------------------------------------SKEPE
+Calli_sp         EKCSS-P------------------------------------------------SKEPE
+Cecin_ib         QSSAS-PS------------------------------------------------REPP
+Cerop_ma         EKNSS-P------------------------------------------------SKELA
+Dipl_spi         QT-VS-PL------------------------------------------------KESE
+Escha_ac         SV-SGKDYDNVNNN-------TDRET----------EVRDEKLVKEV-----DEHLTKNE
+Hedic_le         EERIS-P------------------------------------------------SKEPA
+Irae_his         EKSSS-P------------------------------------------------SKEPT
+Isoc_cen         EERTS-P------------------------------------------------SKEPA
+Lepto_bo         ENNSS-PS------------------------------------------------REIV
+Lepto_cl         KN-SS-PS------------------------------------------------KEMA
+Lepto_he         ESSSS-PT------------------------------------------------KEVA
+Parn_nig         Q-SSS-PT------------------------------------------------KEPA
+Pedia_ac         QT-IS-PL------------------------------------------------KEQA
+Peric_JH         EQSSS-P------------------------------------------------SKELV
+Prot_spe         ENCSS-P------------------------------------------------SKEPG
+Qwaq_sco         EESSS-P------------------------------------------------SKESA
+Syne_gif         AESIS-P------------------------------------------------SKESA
+Syne_ito         AESIS-P------------------------------------------------SKESA
+Syne_jap         AESIS-P------------------------------------------------LKESA
+Syne_umb         AESIS-P------------------------------------------------LKESA
+Nasonia          KPPPLPP-----------------------------------------------------
+Orussus          LAPPSPLP------------------------------------------------NNPP
+Micropl          TSLPSSPVAEMTPTPTPQQSVKDTEIKIPQPQLLNQQVKDSKVNQPQQQQIKDKDSKDKE
+Gblocks          ........................................................####
+
+
+                        430       440       450       460       470       480
+                 =========+=========+=========+=========+=========+=========+
+Andr_cur         KEAKVESQVKDKIKPRLKIFE-EPKDKRLRKVDVKDRIVSPVIPQPGAWKTRFLHRPSQD
+Andr_gro         KEAKVESQVKDKVKPRLKIFE-EPKDKRLRKVDVKDRIVSPVIPQPGAWKTRFLHRPSQD
+Andr_qln         KEAKVESQAKDKGKLRLKVFE-EPKDKRLRKVDVKDRIVSPVIPQPGAWKTRFLHRPSQD
+Andr_qrm         KEAKVESQVKDKIKPRLKIFE-EPKDKRLRKVDVKDRIVSPVIPQPGAWKTRFLHRPSQD
+Aula_tav         KEPKVENQMKDKSKLKLKVFE-EPKDKRLRKIDVKDRIVSPVVPQPGAWKTRFLHRPSQD
+Aylax_hy         KEPKVENPVKDKSKLKLKVFE-EPKDKRLRKIDVKDRIVSPVVPQPGAWKSRFLHRPSQD
+Beloc_tr         KEPKVESQAKDKGKLRLKVFE-EPKDKRLRKLDVKDRIVSPVIPQPGAWRTRFLHRPGQD
+Bior_pal         KEAKVESQAKDKGKLRLKVFE-EPKDKRLRKVDVKDRIVSPVIPQPGAWKSRFMHRPGQE
+Calli_sp         KEPKVESQVKDKAKPRLKVFE-EPKDKRLRKVDVKDRIVSPVIPQPGAWKTRFLHRPSQD
+Cecin_ib         KEPKVESPPKEKVKLRLKGLE-EPKDKRLRKVDVKDKIVSPVIPQPGAWKPRLTHRASQD
+Cerop_ma         KEPKVESQ-KDKSKLRLKVFE-EPKDKRLRKVDVKDRIVSPVIPQPGASKTRFNYRVSQD
+Dipl_spi         KESKLESPQKDKTKLRLKALE-EPKDKRLRKVDVKDKIVSPVIPQPGAWKSRLPHRPCQD
+Escha_ac         VESENERVSNDKAKSRLKA-DVEFKDKKLKKIDTKDKIVSPVIPQPGAWMSRTSHRPCQD
+Hedic_le         KEPKVENQAKDKSKLKLKVFE-EPKDKRLRKIDVKDRIVSPVVPQPGAWKSRFLHRPSQD
+Irae_his         NEPKLETQVKDKTKLRLKVFE-EPKDKRLRKVDVKDRIVSPVVPQPGAWKTRFLHRPSQD
+Isoc_cen         KEPKIENQVKDKSKLKLKVFE-EPKDKRLRKIDVKDRIVSPVVPQPGAWKTRFLHRPNQD
+Lepto_bo         KEPKVESPLKDKAKLRLKVLE-DSKDKRLRKLDVKDKIVSPVIPQPGAWKPRLTHRPSQD
+Lepto_cl         KEPKVESPVKDKAKLRLKVLE-ESKDKRLRKLDIKDKIVSPVIPQPGAWKPRLTHRLSQD
+Lepto_he         KEPKVESPVKDKAKLRLKVLE-ESKDKRLRKLDAKDKIVSPVIPQPGAWKPRLTHRPSQD
+Parn_nig         KEPKVESPLKDKTKLRLKVFE-DPKDKRLRKVDVKDKIVSPVIPQPGAWKSRLPHRPSQD
+Pedia_ac         KEPKVESPQKDKAKMRLKMLE-EPKDKRVRKVDIKDKIVSPVIPQPGAWKSRLPHRPCQD
+Peric_JH         KEPKIESHLKDKSKLRLKVFE-EPKDKRLRKVDVKDRIVSPVIPQPGAWKTRFLHRPTQD
+Prot_spe         KELKVESQAKEKAKLRLKVFE-EPKDKRLRKVDVKDRIVSPVIPQPGAWKSRFLHRTSQD
+Qwaq_sco         KEPKVDNHLKDKAKLKLKVFE-EPKDKRLRKVDVKDRIVSPVIPQPGAWKSRFLHRPSQD
+Syne_gif         KEPKVESQVKDKSKLRLKVFE-EPKDKRLRKLDVMDRIVSPVIPQPGAWKTRFLHRPSQD
+Syne_ito         KELKVESQVKDKPKLRLKVFE-EPKDKRLRKLDVMDRIVSPVIPQPGAWKTRFLHRPSQD
+Syne_jap         KEPKVESQVKDKSKLRLKVFE-EPKDKRLRKLDVMDRIVSPVIPQPGAWKTRFLHRPGQD
+Syne_umb         KEPKVESQVKDKSKLRLKVFE-EPKDKRLRKLDVMDRIVSPVIPQPGAWKTRFLHRPGQD
+Nasonia          ----------------------------LPSQETQQXXXSPVIPQPGAWKPRLPHRPNQD
+Orussus          KEAKQENLQKEKNKLRLKGLE-DPKDKRLRKVDIKDKIVSPVIPQPGAWKTRPQHRPSQD
+Micropl          TKVEAPSPQKDKNKLRLKGLEIETKDKRVRKLDIKDKIVSPVIPQPGAWKTRPPHRPNQD
+Gblocks          ############################################################
+
+
+                        490       500       510       520       530       540
+                 =========+=========+=========+=========+=========+=========+
+Andr_cur         NK-KKPP--QQMPKFKPKDAQFQYGNYNRYYGYRNLHQEVDTRLTVFAQRKELFCDKDIL
+Andr_gro         N-KKKPP--QQMPKFKPKDAQFQYGNYNRYYGYRNLHQEVDTRLTVFAQRKELFCDKDIL
+Andr_qln         NNKKKPP--QQMPKFKPKDAQFQYGNYNRYYGYRNLHQEVDTRLKVFAQRKELFCEKDIL
+Andr_qrm         NK-KKPP--QQMPKFKPKDAQFQYGNYNRYYGYRNLHQEVDTRLKVFAQRKELFCEKDIL
+Aula_tav         NKK--KP--QQMPKFKPKDAQFQYGNYNRYYGYRNLHQDVDPRLTVFAQRKELFCDKDIL
+Aylax_hy         NKK--KP--QQMPKFKPKDAQFQYGNYNRYYGYRNLHQDVDPRLTVFAQRKELFCDKDIL
+Beloc_tr         NNKKKPP--QQMPKFKPKDAQFQYGNYNRYYGYRNLHQEVDTRLKVFAQRKELFCEKDIL
+Bior_pal         N-KKKPP--QQMPKFKPKDAQFQYGNYNRYYGYRNLHQEVDTRLKVFAQRKELFCDKDIL
+Calli_sp         NK-KK-P--QQMPKFKPKDAQFQYGNYNRYYGYRNLHQEVDTRLTVFAQRKELFCDKDIL
+Cecin_ib         KKKK-PQ---KMPNFKPKDARFQYGNYNRYYGYRNAHHDVDTRLNVFAQRKELFCDKDVL
+Cerop_ma         SKK--KS--QQMPKFKPKDEQFQYGNYNRYYGYRNSNQEVDTRLTVFAQRKELFRDKDVL
+Dipl_spi         KKKK-PQ---QMPKFKPKDAQFQYGNYNRYYGYRNLHQDVDLRLTVFAQRKELFCDKDVL
+Escha_ac         RKKKH----LQMPTFKPKDALFQYGNYNRYYGYRNLHQDVDTRLNAFAQRKKLFYDKDVL
+Hedic_le         NKK--KS--QQMPKFKPKDAQFQYGNYNRYYGYRNLHQDVDPRLTVFAQRKELFCDKDIL
+Irae_his         N-KKK-T--QQMPKFKPKDAQFQYGNYNRYYGYRNLHQEVDTRLKVFAQRKELFCDKDIL
+Isoc_cen         NKK--KS--HQMPKFKPKDAQFQYGNYNRYYGYRNLHQDVDPRLTVFAQRKELFCDKDIL
+Lepto_bo         KKKK-PQ---QMPKFKPKDAKFQYGNYNRYYGYRNLHLEVDPRLKAFIQRKEMFFDKDIL
+Lepto_cl         KKKK-PQ---QIPNFKPKDAKFQYGNYNRYYGYRNLHLEVDPRLKAFVQRKEMFFSKDIL
+Lepto_he         KKKK-PQ---QMPKFKPQDAKFQYGNYNRYYGYRNLNLEVDPRLKAFIQRKEMFFDKDIL
+Parn_nig         KKKK-PQ---QMPKFKPKDAQFQYGNYNRYYGYRNLHQEVDTRLKVFAQRKELFYDKDIL
+Pedia_ac         KKKK-PQ---QMPKFKPKDAQFQYGNYNRYYGYRNMHQDVDTRLTVFAQRKELFCDKDVL
+Peric_JH         NKK--KS--LQMPKFKPKDAQFQYGNYNRYYGYRNLHQDVDTRLTVFAQRKELFCDKDIL
+Prot_spe         N-KKK-P--QQMPKFKPKDAQFQYGNYNRYYGYRNLHQEVDTRLTVFAQRKEIFCDKDVL
+Qwaq_sco         NKK--KL--QVMPKFKPKDAQFQYGNYNRYYGYRNLHQDVDTRLTVFAQRKELFCEKDIL
+Syne_gif         NKK--KP--QQIPKFKPKDAQFQYGNYNRYYGYRNSQHDVDTRLKVFAQRKELFCDKDVL
+Syne_ito         NKK--KP--QQIPKFKPKDAQFQYGNYNRYYGYRNSQHDVDTRLKVFAQRKELFCDKDVL
+Syne_jap         NKK--KP--QQIPKFKPKDAQFQYGNYNRYYGYRNSHHDVDTRLKVFAQRKELFCDKDVL
+Syne_umb         NKK--KP--QQIPKFKPKDAQFQYGNYNRYYGYRNSQHDVDTRLKVFAQRKELFCDKDVL
+Nasonia          KKKKAQ----QQPKFNSKNARFQFGNYNRYYGYRNQHQNLDTRLTVFTQRKELFYGKDIL
+Orussus          KKKKAVQ---QTPNFREKDARYQYGNYNRYYGYRNPHHDVDSRLPVFAQRKELFIGKDVL
+Micropl          KKKKGSQTGLIIPKFREKNSRYQYGNYDRYYGYRNPHHEIDPRLTVFAQRKELFYNKDIL
+Gblocks          ############################################################
+
+
+                        550       560       570       580       590       600
+                 =========+=========+=========+=========+=========+=========+
+Andr_cur         DIGCNIGHITLSMGRDFSPRSVTGIDIDRNLIKIARKNIKHY-VNCAQSPAAKD-DGDNT
+Andr_gro         DIGCNIGHITLSMGRDFSPRSVTGIDIDRNLIKIARKNIKHY-VNCAQSPAAKD-DGANT
+Andr_qln         DIGCNIGHITLSVGRDFSPRSVTGIDIDRNLIKIARKNIKHY-VNCAQSPAAKD-GGANT
+Andr_qrm         DIGCNIGHITLSVGRDFSPRSVTGIDIDRNLIKIARKNIKHY-VNCAQSPAAKD-DGANT
+Aula_tav         DIGCNIGHITLSMGRDFSPRSVTGIDIDRNLIKIARKNIKHY-VNCVQSPASTE-DGTNT
+Aylax_hy         DIGCNIGHITLSMGRDFSPRSVTGIDIDRNLIKIARKNIKHY-VNCVQSPASTE-DATNT
+Beloc_tr         DIGCNIGHITLSVGRDFSPRSVTGIDIDRNLIKIARKNIKHY-VNCAQSPAAKD-DGANT
+Bior_pal         DIGCNIGHITLSVGRDFSPRSITGIDIDRNLIKIARKNIKHY-VNCAQSPAAKD-DGANT
+Calli_sp         DIGCNIGHITLSMGRDFSPRSVTGIDIDRNLIQIARKNIKHY-VNCVQSPAATE-DGTST
+Cecin_ib         DIGCNIGHITLSVGRDFSARSVTGIDIDRSLIAIARKNIKYY-VNCVPSPASTED-GASR
+Cerop_ma         DIGCNIGHITLSVAREFSPRSVTGIDIDRNLIKIARKNIKHYCVNCAQSPASTE-DASNT
+Dipl_spi         DIGCNIGHITLSVGRDFSPRSVTGIDIDRKLISIARKNIKYY-VNCVQSPASTED-GTNN
+Escha_ac         DIGCNIGHITLSVGRYFSVRSITGIDIDRNLIKIARKNIRHY-VNCTQYPVTAEE-DVDN
+Hedic_le         DIGCNIGHITLSMGRDFSSRSVTGIDIDRNLITIARKNIKHY-VNCVQSPASTE-DGTNT
+Irae_his         DIGCNIGHITLSVGRDFSPRSVTGIDIDRNLIKIARKNIKHY-VNCVQSPASTE-DGTDT
+Isoc_cen         DIGCNIGHITLSMGRDFSPRSVTGIDIDRNLIKIARKNIKHY-VNCVQSPASTE-DGTNT
+Lepto_bo         DIGCNIGHITLSVGRDLSPRSVTGIDIDKDLITIARKNIKHY-VNFIQSPASTED-GANN
+Lepto_cl         DIGCNIGHITLSVGRDLSPRSVTGIDIDKDLITIARKNIKHY-VNFIQSPASTED-GENN
+Lepto_he         DIGCNIGHITLSVGRDLSPRSVTGIDIDKDLVTIARKNIKHY-VNFIQSPASTED-GSNN
+Parn_nig         DIGCNIGHITLSMGRDFAPRSVTGIDIDKELIKIARKNIKHY-VNCVQSPASTED-GVNH
+Pedia_ac         DIGCNIGHITLSVGRDFSPRSVTGIDIDRKLITIARKNIKYY-VNCVQSPASTED-GANN
+Peric_JH         DIGCNIGHITLSVGRDFSPRSVTGIDIDRNLIKIARKNIKHY-VNCVQSPASTTEDATSS
+Prot_spe         DIGCNIGHITLSVGRDLSPRSVTGIDIDRNLIKIARKNIKHY-VNCVQSPATTE-DGTST
+Qwaq_sco         DIGCNIGHITLSVARDFSPRSVTGIDIDRNLIKIARKNIKHY-VNCVQSPASTE-DGTKT
+Syne_gif         DIGCNIGHITLSVGRDFSPRSVTGIDIDRNLIKIARKNIKHY-VNCVQSPISTE-EGANT
+Syne_ito         DIGCNIGHITLSVGRDFSPRSVTGIDIDRNLIKIARKNIKHY-VNCVQSPISTE-EGANT
+Syne_jap         DIGCNIGHITLSVGRDFSPRSVTGIDIDRNLIKIARKNIKHY-VNCIQSPISTE-EGANT
+Syne_umb         DIGCNIGHITLSVGRDFSPRSVTGIDIDRNLIKIARKNIKHY-VNCIQSPISTE-EGANT
+Nasonia          DIGCNIGHITLSVARDFSARSVTGIDIDKKLINIARKNVKHY-VNCVQSPVSTEDG--ER
+Orussus          DIGCNIGHITLSVARDFSARSVTGIDIDRTLINIARKNIKHY-VNCVQSPASIED-GAER
+Micropl          DIGCNIGHITLSVARDLAARSVTGIDIDRKLIGIARSNIKHY-VNCVRSPASNDDNGNAT
+Gblocks          ############################################################
+
+
+                        610       620       630       640       650       660
+                 =========+=========+=========+=========+=========+=========+
+Andr_cur         KDHDANFFPISMPINYGPIDVPGFVKDKSHKGFPYNVTFVQGNYVLDDDSLLSLEQPQFD
+Andr_gro         KDHDANFFPISMPINFGPIDVPGFIKDKSHKGFPYNVTFVQGNYVLDDDSLLSLEQPQFD
+Andr_qln         KDHDANFFPISMPINYGPIDVPGFMKDKSHKGFPYNVTFVQGNYVLDDDALLSLEQPQFD
+Andr_qrm         KDHDANFFPVSMPINYGPIDVPGFVKDKSHKGFPYNVTFVQGNYVLDDDSLLSLEQPQFD
+Aula_tav         KDTDVNFFPMSMPINYGPIDVPGFTKDKSHKGFPYNVTFVQGNYVLDDDALLSLEQPQFD
+Aylax_hy         KDTDVNFFPMSMPINYGPIDVPGFSKDKSHKGFPYNVTFVQGNYVLDDDSLLSLEQPQFD
+Beloc_tr         KDHDANFFPISMPINYGPIDVPGFMKDKSHKGFPYNVTFVQGNYVLDDDSLLSLEQPQFD
+Bior_pal         KEHDANFFPISMPIDYGPIDVPGFMKDKSHKGFPYNVTFVQGNYVLDDDSLLSLEQPQFD
+Calli_sp         KDTDVNFFPISMPINYGPIDVPGFMKDKSHKGFPYNVTFVQGNYVLDDDSLLSLEQPQFD
+Cecin_ib         RESDPSFFPMSMPISYGPIDIPGFTKDKSHRGFPYNVTFVQGNYVLDHDSLLSLEQPQFD
+Cerop_ma         KDTDVNFFPMSMPIIYGPIDVPGFTKDKSHKGFPYNVTFVQGNYVLDDDSLLSLEQPQFD
+Dipl_spi         KDTDANFFPMSMPIMYGPIDIPGFSKEKSHKGFPYNVTFVQGNYVLEDDSLLSSEQPQFD
+Escha_ac         KVTDLNFFPMSMPINYGPIDVPGFIKDKNNRGFPHNVTFVQGNYVLENDSLLSLEQARFD
+Hedic_le         KDTDVNFFPMSMPINYGPIDVPGFTKNKSHKGFPYNVTFVQGNYVLDDDALLSLEQPQFD
+Irae_his         KETDVNFFPISMPINYGPIDVPGFMKDKSHKGFPYNVTFVQGNYVLDDDSLLSLEQPQFD
+Isoc_cen         KDTDVNFFPMSMPINYGPIDVPGFTKDKSHKGFPYNVTFVQGNYVLDDDSLLSLEQPQFD
+Lepto_bo         KETDPNFFPMSMPISYGPVDIPGFIKDKSHKGFPYNVSFVQGNYVLEDDSLLSLEQPQFD
+Lepto_cl         KETDPNFFPMSMPISYGPVDIPGFIKDKSHKGFPYNVSFVQGNYVLEDDSLLSLEQPQFD
+Lepto_he         KETDPNFFPLSMPISYGPIDIPGFIKDKSHKGFPYNVSFVQGNYVLEDDSLLSLEQPQFD
+Parn_nig         KETDVNFFPLSMPINYGPVDIPGFTKNKSHKGFPYNVTFVPGNYVLEDDSLLSLEQPQFD
+Pedia_ac         KDADANFFPMSMPIIYGPVDVPGFTKTNSHKGFPYNVTFVQGNYVLEDDSLLSSEQPQFD
+Peric_JH         KETDVNFFPMSMPINYGPIDVPGFTKDKSHKGFPYNVTFVQGNYVLDDVALLSSEQPQFD
+Prot_spe         KETDANFFPISMPINYGPIGVPGFMKDKCHKGFPYNVTFVQGNYVLDDDSLLSLEQPQFD
+Qwaq_sco         KDTDVNFFPMSMPINYGPIDVPGFMKDKSHKGFPYNVTFVQGNYVLDDDSLLSLEQPQFD
+Syne_gif         TDTDVNFFPMSMPINYGPIDVPGFMKDKSRKDFPHNVTFVQGNYVLDDDS-LSLEQPQFD
+Syne_ito         TDTDVNFFPMSMPINYGPIDVPGFMKDKSRKGFPHNVTFVQGNYVLDDDS-LSLEQPQFD
+Syne_jap         TDTDVNFFPMSMPINYGPIDVPGFKKDKSHKGFPHNVTFVQGNYVLDDDS-LSLEQPQFD
+Syne_umb         TDTDVNFFPMSMPINYGPIDVPGFKKDKSHKGFPHNVTFVQGNYVLDDDS-LSLEQPQFD
+Nasonia          KEYDANYFPTSMLINYGPVDIPGFTKHNDHKGFPYNVTFVQGNYILEDDALLSSEQPQFD
+Orussus          KDCDPSFFPMSMPINYGPIDIPGFTKNSKYKGFPYNITFVQGNYVLEDDALLSSEQPQFD
+Micropl          NDCDSSFFPMSMPINYGPIDVPGFTKNKNHKGFPYNVTFVQGNYVLEDDSLLKSEQPQFD
+Gblocks          ############################################################
+
+
+                        670       680       690       700       710       720
+                 =========+=========+=========+=========+=========+=========+
+Andr_cur         VVLCLSTTKWVHLNFGDEGLKQSFKRMFAQLRPGGVLVLEAQNWNSYGKKKTRTERIFKN
+Andr_gro         VVLCLSTTKWVHLNFGDEGLKQSFKRMFAQLRPGGVLVLEAQNWNSYGKKKTRT------
+Andr_qln         VVLCLSTTKWVHLNFGDEGLKQSFKRMFAQLRPGGVLVLEAQNWNSYGKKKTRTERIFKN
+Andr_qrm         VVLCLSTTKWVHLNFGDEGLKQSFKRMFAQLRPGGVLVLEAQNWNSYGKKKTRTERIFKN
+Aula_tav         VVLCLSTTKWIHLNFGDEGLKQSFKRMFAQLRPGGVLVLEAQNWNSYGKKKTRTERIFKN
+Aylax_hy         VVLCLSTTKWIHLNFGDEGLKQSFKRMFAQLRPGGVLVLEAQNWNSYGKKKTRTERIFKN
+Beloc_tr         VVLCLSTTKWVHLNFGDEGLKQSFKRMFAQLRPGGVLLLEAQNWNSYGKKKTRTERIFKN
+Bior_pal         VVLCLSTTKWVHLNFGDEGIKQSFKRMFAQLRPGGVLVLEAQNWTSYGKKKTRTERIFKN
+Calli_sp         VVLCLSTTKWVHLNFGDEGLKQSFRRMFAQLRPGGVLVLEAQNWNSYGKKKTRTERIFKN
+Cecin_ib         VIMCLSTTKWIHLNFGDEGLKQSFKRMYAQLRPGGVLILESQNWSSYGKKKTIT------
+Cerop_ma         VILCLSTTKWVHLNFGDEGMKQSFKRMFAQLRPGGVLILEAQDWNSYGKKKNRTERIFRN
+Dipl_spi         VVLCLSTTKWIHLNFGDAGLKQSFKRMFAQLRPGGVLILEAQNWSSYGKKKTRTERIFKN
+Escha_ac         VILCLSTTKWLHLNFGDEGLKRSFKRMFAQLKPGGVLILEAQNWSSYGKKKNLTERIFKN
+Hedic_le         VVLCLSTTKWIHLNFGDEGLKQSFKRMFAQLRPGGVLVLEAQNWNSYGKKKTRTERIFKN
+Irae_his         VVLCLSTTKWIHLNFGDAGLKQSFKRMFAQLRPGGVLVLEAQNWNSYGKKKTRT------
+Isoc_cen         VLLCLSTTKWIHLNFGDEGLKQSFKRMFAQLRPGGVLVLEAQNWNSYGKKKTRTERIFKN
+Lepto_bo         LILCLSTTKWIHLNFGDNGLKQSFKRMFAQLRPGGVLILEAQNWNSYGKKKGRTERIFRN
+Lepto_cl         LILCLSTTKWIHLNFGDNGLKQSFKRMFAQLRPGGVLILEAQNWNSYGKKKSRTERIFRN
+Lepto_he         LILCLSTTKWIHLNFGDNGLKQSFKRMFAQLRPGGVLILESQNWNSYGKKKSRTL-----
+Parn_nig         VILCLSTTKWIHLNFGDEGLKQSFKRMFAQLRPGGVLILEAQNWNSYGKKKSRTERIFKN
+Pedia_ac         VILCLSTTKWVHLNFGDAGLKQSFKRMFAQLRPGGVLILEAQNWSSYGKKKTRTERIFKN
+Peric_JH         VVLCLSTSKWIHLNFGDEGLKHSFKRMFAQLRPGGVLVLEAQEWNSYGKKKTRTERIFKN
+Prot_spe         VVLCLSTTKWVHLNFGDEGLKQSFKRMFAQLRPGGVLVLESQNWNSYGKKKTRT------
+Qwaq_sco         IVLCLSTTKWIHLNFGDEGLKQSFKRMFAQLRPGGVLVLEAQNWNSYGKKKTRTERIFKN
+Syne_gif         VLLCLSTTKWIHLNFGDEGMKQSFKRMFAQLRPGGVLILEPQNWNSYGKKKTRTERIFKN
+Syne_ito         VLLCLSTTKWIHLNFGDEGMKQSFKRMFAQLRPGGVLILEPQNWNSYGKKKTRTERIFKN
+Syne_jap         VLLCLSTTKWIHLNFGDEGMKQSFKRMFAQLRPGGVLILEPQNWNSYGKKKTRTERIFKN
+Syne_umb         VLLCLSTTKWIHLNFGDEGMKQSFKRMFAQLRPGGVLILEPQNWNSYGKKKTRTERIFKN
+Nasonia          TIICLSITKWIHLNFGDAGLKQSFKRMHAQLRPGGVLILEPQSWNSYSKKKALTEKIYKN
+Orussus          TILCLSITKWIHLNFGDAGLKQAFKRMHAQLRPGGVLVLEPQNWSSYGKKKNLTERIHKN
+Micropl          TILCLSITKWIHLNHGDSGLKQAFKRMHAQLRPGGVLVLEAQNWPSYGKKKGLTERIYRN
+Gblocks          ############################################################
+
+
+                        730       740       750       760       770       780
+                 =========+=========+=========+=========+=========+=========+
+Andr_cur         YQSIKFFPNQFTQYLLSPEVGFSKCEVISIPPHPSKGFQRPLHLFTKAAPVEDSPV--YV
+Andr_gro         ------------------------------------------------------------
+Andr_qln         YQSIKFFPNQFTQYLLSPEVGFSKCEVISNPPHPSKGFQRPLHLFTKAAPVEERPT--SY
+Andr_qrm         YQSIKFFPNQFTQYLLSPEVGFSKCEVISIPPHPSKGFQRPLHLFTKAAPVEDSPV--Y-
+Aula_tav         YQNIKFFPHQFTQYLLSPEVGFSKCEVISIPPHPSKGFQRPLHLFTKADPVKDSPSSEYV
+Aylax_hy         YQNIKFFPHQFTQYLLSPEVGFSKCEVISIPPHPSKGFQRPLHLFTKADPVKDSPGSEYV
+Beloc_tr         YQSIKFFPNQFTQYLLSPEVGFSKCEVISIPPHPSKGFQRPLHLFTKAAPVEESPV--YV
+Bior_pal         YQSIKFFPNQFTRYLLSPEVGFSKCEVVSIPPHPSKGFQRPLHLFTKAEPFENSPV--YV
+Calli_sp         YQSIKFFPNQFTQYLLSPEVGFSKCEVISIPPHSSKGFQRPLHLFTKAAPVEDSPV--YI
+Cecin_ib         ------------------------------------------------------------
+Cerop_ma         YRSIKFFPNQFTQYLLSSEVGFSKCEVISIPKHPSKGFQRPLHLFTKADPVEDSPI--YI
+Dipl_spi         YQNIKFFPHHFTQYLLSPEVGFSKCEVVSIPPHPSKGFQRPLHLFTKSGPIQD-------
+Escha_ac         YHSIKFFPDQFIQYLLSAEVGFCKCEVVSIPPHPSKGFQRPLHLFTKTSLNECVSESGSK
+Hedic_le         YQNIKFFPHQFTQYLLSSEVGFSKCEVISIPPHPSKGFQRPLHLFTKADPVKDSPGSMYV
+Irae_his         ------------------------------------------------------------
+Isoc_cen         YQNIKFFPHQFTQYLLSPEVGFSKCEVISIPPHPSKGFQRPLHLFTKADPVRDSPSSEYV
+Lepto_bo         YQTIRFFPNQFTQYLLSAEVGFCKCEVISMPSHSSKGFQRPLHLFTKMDLFESPPVRTTC
+Lepto_cl         YQGIKFFPNQFTQYLLSAEVGFSKCEVISMPSHSSKGFQRPLHLFTKLDLFESPPVKTES
+Lepto_he         ------------------------------------------------------------
+Parn_nig         YQNIKFFPHQFTQYLLSVEVGFSKCEVISMPSHSSKGFQRPLHLFTKADLNEDSPSSKRA
+Pedia_ac         YQNIKFLPHQFTQYLLSAEVGFCKCEVVSMPPHPSKGFQRPLHLFTKASPIEGSPSNTGS
+Peric_JH         YQNIRFFPDQFTQYLLSPEVGFSKCEVVSIPPHPSKGFQRPLHLFTKALPVKKSSV--YT
+Prot_spe         ------------------------------------------------------------
+Qwaq_sco         YQSIKFFPNQFTQYLLSPEVGFSKCEVVSIPPHPSKGFQRPLHLFTKAEPPEETST--YI
+Syne_gif         YQNIKFFPNEFTRYLLS-----------------SEGFQRPLHLFTKASPVTETPN--YT
+Syne_ito         YQNIKFFPNEFTRYLLS-----------------SEGFQRPLHLFTKASPVTETPN--YT
+Syne_jap         YQNIKFFPNEFTRYLLS-----------------SEGFQRPLHLFTKASPVTKTPN--YT
+Syne_umb         YQNIKFFPNEFTRYLLS-----------------SEGFQRPLHLFTKASPITKTPN--YT
+Nasonia          YQSIEFFPQKFTQYLLSAEVGFRKCEVVSVPPHPSRGFQRPIYLYTKADDVTSPAAIATT
+Orussus          YQSIEFLPHKFTQYLLSSEVGFGKCEVVSIPPHPSKGFQRPVHLFTKATLSPEAASGQTP
+Micropl          YHSIEFFPQKFTQYLISPEVGFTQCEVVSIPPHPSKGFQRPIQLFTKAGTSPASRTIAAP
+Gblocks          ###############################################.............
+
+
+                        790       800       810       820       830       840
+                 =========+=========+=========+=========+=========+=========+
+Andr_cur         PATAN---------------RFEHR---DQAPKEA-----------DDQYYLRGLFPSDP
+Andr_gro         ------------------------------------------------------------
+Andr_qln         GAELSPISLSPSYEAEIWK--FEKR---SQK---M-----------DKRCKIANYC---K
+Andr_qrm         ------------------------------------------------------------
+Aula_tav         SCTA---------------NRYEHR---DQQQKEL-----------EKRNYEQDLFPSDP
+Aylax_hy         SCTD---------------NRYEHR---DQQQKEL-----------EKRNYEQDLFPSGP
+Beloc_tr         PAAAA-T---A--AN-----RFEHR---DQAPKEA-----------DDQYYLRGLFPSDP
+Bior_pal         PAT----------AN-----RFDHR---DQAPKEA-----------DDQYYLQGLFPSDP
+Calli_sp         PATAN---------------RFEHR---DQEQKDS-----------DEHLYLRGLFPSDP
+Cecin_ib         ------------------------------------------------------------
+Cerop_ma         PSTCI---------------RYKHR---EQEEKES-----------ENIKYLRSLFPSAP
+Dipl_spi         -NTS---------------ARYEHR---DQEQKQQ-----------AQRYYWRDLFPTEV
+Escha_ac         SKNS---------------TTEQLD---KMGQTDN-RKYXEFAFRRPESADDRKVFVFII
+Hedic_le         PCTA---------------NRYEHR---DQQQKAL-----------EKRNYEQDLFPSDS
+Irae_his         ------------------------------------------------------------
+Isoc_cen         PYTT---------------NRYEHR---DQQQKEL-----------EKRNYEQDLFPSNP
+Lepto_bo         -ISN---------------DC-QND---D-----------SAAENFEQQRVQKIMI-SLF
+Lepto_cl         -SPE---------------DN-DKV---SDKLQDSNSNLDDCAEKIEEETMH------HW
+Lepto_he         ------------------------------------------------------------
+Parn_nig         -STS---------------IRYEHR---DQELREL-----------EQRVYERDLFPSEP
+Pedia_ac         -STS---------------IRYEHR---DQGLKDL-----------EQRYFERDLFPSDM
+Peric_JH         PMIDS-T---S--QYEEWENKFNGF---QCEP-SI-----------DQARIERSLYGTPT
+Prot_spe         ------------------------------------------------------------
+Qwaq_sco         PPI-----------------RYEHR---EQEQKEI-----------EQRLYEQGLFSSDP
+Syne_gif         PASGF-C---Q----------------------------------------------SDL
+Syne_ito         PVSGF-C---Q----------------------------------------------SDL
+Syne_jap         PVSGF-C---Q----------------------------------------------SDL
+Syne_umb         PVSGF-C---Q----------------------------------------------SDL
+Nasonia          SETA---------------ASASTTTPSATNDSAMDVSIEACSHRLG-------------
+Orussus          -GTS---------------TRIERR---DHEQREL-----------ERREYERELFPKET
+Micropl          SSTI---------------TRFVAR---AQEKKDS-----------EIRAFERDLFPIIK
+Gblocks          ............................................................
+
+
+                        850       860       870       880       890       900
+                 =========+=========+=========+=========+=========+=========+
+Andr_cur         HNPACSQRSL----------------ESLMQSHKLWRRTL-ADFTKSDIR--RRGRIR-L
+Andr_gro         ------------------------------------------------------------
+Andr_qln         KTKVCEHEIE----------------KNF-------------------------------
+Andr_qrm         ---------------------------------KLWRRTL-ADFTKSDIR--RRDLEQ-G
+Aula_tav         NKPGCSQRSL----------------EAYSHFEFDND--Y-CPCRTPIYHCETPAHLTYA
+Aylax_hy         NKPGCSQRSL----------------EAYTHFEFDND--Y-SPFRTPLYHCETPGHLTYE
+Beloc_tr         HNPACSQRSL----------------ESLMQCEFDSA--Y-SPYKTPVYHYDTSGPTSYG
+Bior_pal         HNPACSQRSL----------------DSFVQSAFDST--D-SVSSPYNYHDDPSFPKSYG
+Calli_sp         HNPSCSQRSL----------------ESLMQCEFDS--SY-CPYKTPVYHCDTSGPTSYG
+Cecin_ib         ------------------------------------------------------------
+Cerop_ma         HNPERPGSSLGL--------------DYLLDCNADFENFSRSIPPGPVYQYET---LNYG
+Dipl_spi         Y---IPA--------GNNSGSSQRSTVS-LSQYESLENVY-APLGTPSYLLGTPAHIND-
+Escha_ac         --SAIIC--------DPDDDVSIRGILL--------------------------------
+Hedic_le         NKPGCSQRSL----------------EAYSNFEFDND--Y-SPFRTPLYHCETPGHLAYA
+Irae_his         ------------------------------------------------------------
+Isoc_cen         IKPGCSQRSL----------------EAY-NFEFDND--Y-FPFRTPLYHCETPGHLTYP
+Lepto_bo         Y------------------SSKKKKKEK-KVYFGRKKVKI-CKF---LF---E-------
+Lepto_cl         H------------------DVVEKRDDW-K--------VS-CNIY--IYMLYK-------
+Lepto_he         ------------------------------------------------------------
+Parn_nig         H---K-------------LGSSQRSGES-LSQYEQLENVY-CPTGTPCYLLGTPAHTND-
+Pedia_ac         H---IP---------GNNSGSSQRSIVS-LSQFEQFENVY-APSGTPCYLLGTPAHLID-
+Peric_JH         TYPCCT---------------------------------Y-DPFKTPQYDSDCSSEVNFG
+Prot_spe         ------------------------------------------------------------
+Qwaq_sco         HNPGSSQRSFEFPLDPHNPGSSQRSVESYPPCESDFC-AF-CIDKTSLYHCDSSCQLSYA
+Syne_gif         YYPTYSQRSV----------------EYYQPFEFDRD--Y-NSPATPSHTSSDPNCCNVN
+Syne_ito         HYSIYSQRSV----------------EYYQPFEFDRD--Y-S-PATPSHTSSDPNCCNVN
+Syne_jap         YYPTYSQRSV----------------EYYQPFEFDRD--Y-NSPATPSHTSSDPNCCIVN
+Syne_umb         YYPTYSQRSV----------------EYYQPFEFDRD--Y-NSPATPSHTSSDPNCCIVN
+Nasonia          ------------------------------------------------------------
+Orussus          K----KE--------GNMSEISQRSSES-LSQYEQLENVY-APSATPCYD--TPGYTED-
+Micropl          SPASKLC--------GNLSNLSQRSSESMSSHYDQLENVY-APSSTPCYD--TPSHNDNS
+Gblocks          ............................................................
+
+
+                        910       920       930       940       950       960
+                 =========+=========+=========+=========+=========+=========+
+Andr_cur         I-RF--------------------------------------------------------
+Andr_gro         ------------------------------------------------------------
+Andr_qln         ------------------------------------------------------------
+Andr_qrm         I-FKK---------------NCIILTRNSAFSKRTIQFLFGTGNFR--KELYNTG----G
+Aula_tav         S-PLPTEELSSSNVN-TELSPTQ-SPPSDDKVSEKVHDNSNLGEE--TPEKMEEE-----
+Aylax_hy         S-PLPTEELSASNVN-TDLSPTQ-SSPNDDKVSEKVQDNSNLGEE--TPEKMEEE-----
+Beloc_tr         A-ELS-------P-I------SLSPNYE-AEVSETVQLISNHPSEEAALEKM--------
+Bior_pal         A-ELS-------P-I------SLSPSYGEAEVSETVPVISNP--SEAALEKM--------
+Calli_sp         A-ELS---------------PISLSPTYDVVASETIQPVSNPSEEN--VEK---------
+Cecin_ib         ------------------------------------------------------------
+Cerop_ma         N-------------V----SPGVSPPHYIPM-S----------PNDERFKKL--------
+Dipl_spi         GTPNANEKLYYAELNIPEESTVLDSPREEDKVSEKVQDNSNP-SEEIVQK-ME---EE--
+Escha_ac         ----VP------------------------------------------------------
+Hedic_le         S-PLPTEELSSFNVN-TELSPTQ-SSSNNDKVSEKVQENSNLDEE--TPEKMEEEEEEEE
+Irae_his         ------------------------------------------------------------
+Isoc_cen         S-PLTTEELSSSNVN-TELSPKQ-SPPSDNKVSEKVQDNLNLGKE--TPEKMKEE-----
+Lepto_bo         ------------------------------------------------------------
+Lepto_cl         ------------------------------------------------------------
+Lepto_he         ------------------------------------------------------------
+Parn_nig         GISIDNQKLCYAEIELV-RSPVPESPREDDKVSDKPQDISNQ-SEEPLEK-ME---EE--
+Pedia_ac         GVPIVPEKSCYAAVDIE-HSPVLDSPREEDKVSEKVQDNSNP-REEIVEK-ME---EE--
+Peric_JH         S-PVY-------DPF----TPHLPSPPDDYKISEELQDNSNPSEEAGIVETM--------
+Prot_spe         ------------------------------------------------------------
+Qwaq_sco         S-PGLAEETSCSNIL----SPISQSSRDDDKVSEKVQDNASP--SEEAAEKM--------
+Syne_gif         G-Y-----------H----SLSESPQFDYPQVS----------PNDEAVEKM--------
+Syne_ito         G-D-----------R----SPSESPQFDYPQVS----------PNDEAVEKM--------
+Syne_jap         G-D-----------H----SPSESPQFDYPQVS----------PNDETVEKM--------
+Syne_umb         G-D-----------H----SPSESPQFDYPQVS----------PNDETVEKM--------
+Nasonia          ------------------------------------------------------------
+Orussus          SQPLVPAKMCYVDLGIDNDRPEEKESKE---VSEKQC------SEEKLKR-AR---GSDP
+Micropl          QSAFEPEKMCYVDVGTVSNQNIKIYDNLTVQQQTSDCNDVTKTDDERKRKNNEANDHADD
+Gblocks          ............................................................
+
+
+                        970       980       990      1000      1010      1020
+                 =========+=========+=========+=========+=========+=========+
+Andr_cur         ------------------------------------------------------------
+Andr_gro         ------------------------------------------------------------
+Andr_qln         ------------------------------------------------------------
+Andr_qrm         NYLHAY---F-LSCC---------------------------------------------
+Aula_tav         ----ET---S-IRESSS--------------------------NDT--------------
+Aylax_hy         ----ET---S-IRESSS--------------------------NDT--------------
+Beloc_tr         EEEETM---S-VSESPS--------------------------NDT--------------
+Bior_pal         EGEET----S-IPESPA--------------------------NDT--------------
+Calli_sp         -MEEET---S-SSECPS--------------------------NDT--------------
+Cecin_ib         ------------------------------------------------------------
+Cerop_ma         ----EE---E-YRKYPA--------------------------NDT--------------
+Dipl_spi         ------T--SNCELA---------------------------SNDT--------------
+Escha_ac         ------------------------------------------------------------
+Hedic_le         EEEEET---S-IRESSS--------------------------NDT--------------
+Irae_his         ------------------------------------------------------------
+Isoc_cen         ----ET---S-IRESSS--------------------------NDT--------------
+Lepto_bo         ------------------------------------------------------------
+Lepto_cl         ------------------------------------------------------------
+Lepto_he         ------------------------------------------------------------
+Parn_nig         ------T--SSHEFA---------------------------TNNT--------------
+Pedia_ac         ------T--SIRELA---------------------------SKDT--------------
+Peric_JH         EEETSS---E-F---PS--------------------------NHT--------------
+Prot_spe         ------------------------------------------------------------
+Qwaq_sco         EE--EM---S-SHESPS--------------------------KET--------------
+Syne_gif         E--DAM---S-SHEIPS--------------------------NDT--------------
+Syne_ito         E--DAM---N-SHEIPF--------------------------NDT--------------
+Syne_jap         E--ETM---N-SHETPS--------------------------NDT--------------
+Syne_umb         E--EAM---N-SHETPS--------------------------NDT--------------
+Nasonia          ------------------------------------------------------------
+Orussus          GDKASPP--TACKATPITIENPESAKPTPMDIVADLDAPKRGSKDSGKQCLEVTSQTPIP
+Micropl          GGKRKKISDDQVEKNPINFTPKENY------NIENLDGEL---------NQQIK-----S
+Gblocks          ............................................................
+
+
+                       1030      1040      1050      1060      1070      1080
+                 =========+=========+=========+=========+=========+=========+
+Andr_cur         ------------------------------------------------------------
+Andr_gro         ------------------------------------------------------------
+Andr_qln         ------------------------------------------------------------
+Andr_qrm         ------------------------------------------------------------
+Aula_tav         ------------------------------------------------------------
+Aylax_hy         ------------------------------------------------------------
+Beloc_tr         ------------------------------------------------------------
+Bior_pal         ------------------------------------------------------------
+Calli_sp         ------------------------------------------------------------
+Cecin_ib         ------------------------------------------------------------
+Cerop_ma         ------------------------------------------------------------
+Dipl_spi         ------------------------------------------------------------
+Escha_ac         ------------------------------------------------------------
+Hedic_le         ------------------------------------------------------------
+Irae_his         ------------------------------------------------------------
+Isoc_cen         ------------------------------------------------------------
+Lepto_bo         ------------------------------------------------------------
+Lepto_cl         ------------------------------------------------------------
+Lepto_he         ------------------------------------------------------------
+Parn_nig         ------------------------------------------------------------
+Pedia_ac         ------------------------------------------------------------
+Peric_JH         ------------------------------------------------------------
+Prot_spe         ------------------------------------------------------------
+Qwaq_sco         ------------------------------------------------------------
+Syne_gif         ------------------------------------------------------------
+Syne_ito         ------------------------------------------------------------
+Syne_jap         ------------------------------------------------------------
+Syne_umb         ------------------------------------------------------------
+Nasonia          ------------------------------------------------------------
+Orussus          NLSKDSKTDGPTQSNQTKCPETNNTEDRQASSVKSPPDALPEDVPAESCDSTSVHQITRD
+Micropl          NSGKDSSNDEIITDN---------T-----------------------------------
+Gblocks          ............................................................
+
+
+                       1090      1100      1110      1120      1130      1140
+                 =========+=========+=========+=========+=========+=========+
+Andr_cur         ------------------------------------------------------------
+Andr_gro         ------------------------------------------------------------
+Andr_qln         ------------------------------------------------------------
+Andr_qrm         ------------------------------------------------------------
+Aula_tav         ------------------------------------------------------------
+Aylax_hy         ------------------------------------------------------------
+Beloc_tr         ------------------------------------------------------------
+Bior_pal         ------------------------------------------------------------
+Calli_sp         ------------------------------------------------------------
+Cecin_ib         ------------------------------------------------------------
+Cerop_ma         ------------------------------------------------------------
+Dipl_spi         ------------------------------------------------------------
+Escha_ac         ------------------------------------------------------------
+Hedic_le         ------------------------------------------------------------
+Irae_his         ------------------------------------------------------------
+Isoc_cen         ------------------------------------------------------------
+Lepto_bo         ------------------------------------------------------------
+Lepto_cl         ------------------------------------------------------------
+Lepto_he         ------------------------------------------------------------
+Parn_nig         ------------------------------------------------------------
+Pedia_ac         ------------------------------------------------------------
+Peric_JH         ------------------------------------------------------------
+Prot_spe         ------------------------------------------------------------
+Qwaq_sco         ------------------------------------------------------------
+Syne_gif         ------------------------------------------------------------
+Syne_ito         ------------------------------------------------------------
+Syne_jap         ------------------------------------------------------------
+Syne_umb         ------------------------------------------------------------
+Nasonia          ------------------------------------------------------------
+Orussus          SSVNEPVENRLSCEKIPGNEVDLSMPEDVRIDKGPEVVEGSAFSRESDATPESISPVCTS
+Micropl          ------------------------------------------------------------
+Gblocks          ............................................................
+
+
+                 
+                 =========
+Andr_cur         ---------
+Andr_gro         ---------
+Andr_qln         ---------
+Andr_qrm         ---------
+Aula_tav         ---------
+Aylax_hy         ---------
+Beloc_tr         ---------
+Bior_pal         ---------
+Calli_sp         ---------
+Cecin_ib         ---------
+Cerop_ma         ---------
+Dipl_spi         ---------
+Escha_ac         ---------
+Hedic_le         ---------
+Irae_his         ---------
+Isoc_cen         ---------
+Lepto_bo         ---------
+Lepto_cl         ---------
+Lepto_he         ---------
+Parn_nig         ---------
+Pedia_ac         ---------
+Peric_JH         ---------
+Prot_spe         ---------
+Qwaq_sco         ---------
+Syne_gif         ---------
+Syne_ito         ---------
+Syne_jap         ---------
+Syne_umb         ---------
+Nasonia          ---------
+Orussus          KGDLVSDNT
+Micropl          ---------
+Gblocks          .........
+
+
+
+
+Parameters used
+Minimum Number Of Sequences For A Conserved Position: 16
+Minimum Number Of Sequences For A Flanking Position: 26
+Maximum Number Of Contiguous Nonconserved Positions: 8
+Minimum Length Of A Block: 10
+Allowed Gap Positions: All
+Use Similarity Matrices: Yes
+
+Flank positions of the 2 selected block(s)
+Flanks: [155  284]  [417  767]  
+
+New number of positions in ../../aligned_buscos/fasta_format/busco.11633at7399.faa-ag: *** 481 *** (41% of the original 1149 positions)

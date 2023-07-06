@@ -1,0 +1,131 @@
+Gblocks 0.91b Results
+
+
+Processed file: busco.31641at7399.faa
+Number of sequences: 31
+Alignment assumed to be: Protein
+New number of positions: 97 (selected positions are underlined in blue)
+
+
+                         10        20        30        40        50        60
+                 =========+=========+=========+=========+=========+=========+
+Allox_ar         ---------------------------------------MRTKTILYYL-AIGFLILGVF
+Andr_cur         ---------------------------------------MRTKSILYYL-AIGLLILGFF
+Andr_gro         ---------------------------------------MRTKSVLYYL-AIGLLILGFF
+Andr_qln         ---------------------------------------MRSKSILYYL-AIGLLILGFF
+Andr_qrm         ---------------------------------------MRTKSILYYL-AIGLLILGFF
+Aula_tav         ---------------------------------------MRTKSILYYL-AIGFLILGVF
+Aylax_hy         ---------------------------------------MRTKSILYYL-AIGFLILGVF
+Beloc_tr         ---------------------------------------MRSKSILYYL-AIGLLILGFF
+Calli_sp         ------------------------------------MHFM-FENKYSIF-PLSTVVLGFF
+Cerop_ma         ---------------------------------------MRTKSVLYYL-AIGLLILGVF
+Diast_ki         ---------------------------------------MKFNNLSLKITKKLCLILGVF
+Dipl_spi         ---------------------------------------MKTKAILYYL-AVGILILSVF
+Escha_ac         ---------------------------------------MRTKTLLCYL-TIGFLILSVF
+Hedic_le         ---------------------------------------MRTKSILYYL-AIGFLILGVF
+Isoc_cen         ---------------------------------------MRTKSILYYL-AIGFLILGVF
+Lepto_bo         ---------------------------------------MIKKNLFNPF-AITLLFFNVF
+Lepto_cl         ---------------------------------------MKTKSVLYYL-AISLLILGFF
+Lepto_he         ------------------------------------MKKMKTKSVLYYL-AIGLLILGFF
+Parn_nig         ---------------------------------------MRTKIILYYL-AIGFMILNVF
+Pedia_ac         ---------------------------------------MRTKTILYYL-AIGLLILGVF
+Peric_JH         ---------------------------------------MRTKSVVCYL-AIGLLLLGVF
+Phaen_vi         ---------------------------------------MRTKSILYYL-AIGFLILGVF
+Phana_JH         ------------------------------------MGKMRTKGILYYL-AIGFLILGVF
+Qwaq_sco         ---------------------------------------MRTKAILYYL-AIGLLILSVF
+Syne_gif         ---------------------------------------MRIKSILYYL-AIGLLILGVF
+Syne_ito         ---------------------------------------MRTKSILYYL-AIGLLILGVF
+Syne_jap         ---------------------------------------MRTKSILYYL-AIGLLILGMF
+Syne_umb         ---------------------------------------MRTKSILYYL-AIGLLILGMF
+Nasonia          ---------------------------------------MRSRSILYYF-AVGFLIMGIF
+Orussus          ---------------------------------------MGVRNALLYL-AVGFLILGIF
+Micropl          MCYQDNVLPVIKPVIFLNHSPSIFPSQFTPNLLSAILIKMFNKKIILYL-AIGFLVLGCF
+Gblocks          .......................................#####################
+
+
+                         70        80        90       100       110       120
+                 =========+=========+=========+=========+=========+=========+
+Allox_ar         MEEAEGRRKILRGRKTITRRYYRGSSISAWVLVLLSGAVMVILGGGLYLIMKRFIIDNSD
+Andr_cur         MEEAEGRRKILRGRKTITRRYYRGTAIPAWSIVLISGISMLVLGGGLYVLLKKFIIDDSD
+Andr_gro         MEEAEGRRKILRGRKTITRRYYRGTAIPAWSIVLVSGISMLVLGGGLYVVLKKFIIDDSD
+Andr_qln         MEEAEGRRKILRGRKTITRRYYRGTAIPAWSIVLISGIAMLVLGGGLYVALKKFIIDDSD
+Andr_qrm         MEEAEGRRKILRGRKTITRRYYRGTAIPAWSIVLISGISMLVLGGGLYVLLKKFIIDDSD
+Aula_tav         MEEAEGRRKILRGRKTITRRYYRGTAIPAWSIVLISGVAMLVAGGGLYAVLKKFIIDDSD
+Aylax_hy         MEEAEGRRKILRGRKTITRRYYRGTAIPAWSIVLISGVAMLVAGGGLYVVLKKFIIDDSD
+Beloc_tr         MEEAEGRRKILRGRKTITRRYYRGTAIPAWSIVLISGIAMLVLGGGLYVVLKKYIIDDSD
+Calli_sp         MEEAEGRRKILRGRKTITRRYYRGTAIPAWSIVLISGIAMLVVGGGLYAVLKKFIIDDSD
+Cerop_ma         LAEAEGRRKILRGRKTITRRYYRGTAIPAWSIVLISGIAMLVVGGGLYALLKKFIID-SD
+Diast_ki         L-EAEGRRKILRGRKTITRQYFRGAAIPAWSIVLISGIGMLVAGGGLYVLLKKFIIDDSD
+Dipl_spi         IEEAEGRRKILRGRKTITRRYYRGTAIPAWSIVLLSGISMLAVGGGLYLLLKKFIIDDSS
+Escha_ac         MEDVEGRRKILRGRKTITRHYYRGAAIPAWSIVVISGIAMLIVGGGLYALLRKFIISDSN
+Hedic_le         MEEAEGRRKILRGRKTITRRYYRGTAIPAWSIVLISGVAMLVAGGGLYVVLKKFIIDDSD
+Isoc_cen         MGEAEGRRKILRGRKTITRRYYRGTAIPAWSIVLISGVTMLLAGGGLYVILKKFIIDDFD
+Lepto_bo         YKFALKRRFILKKVKTINRDYWNFAAIPAWSIVLISGIGMLVLGGGLYLILKKFIIDDN-
+Lepto_cl         IEEAEGRRKILRGRKTITRRYYKGAAIPAWSIVLISGIGMLVLGGGLYLILKKFIIDDN-
+Lepto_he         IEETEGRRKILRGRKTITRRYYRGAAIPAWSIVLISGLGMLVIGGGLYLILKKFIIDDN-
+Parn_nig         MEEAEGRRKILRGRKTITRYYYRGTAIPAWSIVLISGIAMLILGGGLYLILKKFIIDDSY
+Pedia_ac         MEEAEGRRKILRGRKTITRRYYRGTAIPAWSIVLLSGISMLVFGGAFYLVLKKFIVD-SD
+Peric_JH         LEEAEGRRKILRGRKTITRQYYRGAAIPAWSIVLISGIGMLVAGGGLYVLLKKFIIDDSG
+Phaen_vi         MEEVEGRRRILRGRKTITRRYYRGSWMSAWVLVLVSGAVMLILGGGLYLIMKKFIIDNSY
+Phana_JH         MEEAEGRRKILRGRKTITRRYYRGTAIPAWSIVLISGITMLVVGGGLYAVLKKFIID-SE
+Qwaq_sco         MEEAEGRRKILRGRKTITRRYHRGTAIPAWSIVLITGISMLIVGGGLYVLLKKFIIDESE
+Syne_gif         IEEAEGRRKILRGRKTITRRYYRGTAIPAWSIVLVSGLAMLVVGGGLYVLLKKFIIDNSE
+Syne_ito         MEEAEGRRKILRGRKTITRRYYRGTAIPAWSIVLVSGLAMLMVGGGLYVLLKKFIIDNSE
+Syne_jap         IEEAESRRKILRGRKTITRHYYRGTAIPAWSIAVVSGLAMLVVGGGLYVVLKKFIIDNSE
+Syne_umb         IEEAESRRKILRGRKTITRRYYRGTAIPAWSIAVVSGLAMLVVGGGLYVVLKKFIIDNSE
+Nasonia          LGEAEARRKILRGRKTITRRYYKGTAIPAWSIAVISGLSMLVVGAGLYLLLKKLVIDSVE
+Orussus          TEEAEARRKILRGRKTITRRYYGGTAIPAWSVVLLSGIGMLALGGGLYLLLKKLVLDGAD
+Micropl          INEVEGRRKILRGRKTITRQYYRGLAIPAWTIVLLSGLAMLTVGGGLYLVLKKVVVDSSD
+Gblocks          ############################################################
+
+
+                        130
+                 =========+======
+Allox_ar         TGETYTYHSAMQ-DEV
+Andr_cur         NAEPHSYHPAMQ-DEV
+Andr_gro         NAEPHSYHPAMQ-DEV
+Andr_qln         NAEPHSYHPAMQ-DEV
+Andr_qrm         NAEPHSYHPAMQ-DEV
+Aula_tav         NAEPHSYHPAMQ-DEV
+Aylax_hy         NAEQHSYHPAMQ-DEV
+Beloc_tr         NAEPHSYHPAMQ-NEV
+Calli_sp         NAEPHSYHPAMQ-DEV
+Cerop_ma         NAEPQSYHPAMQ-DEV
+Diast_ki         KGQPHSYHPAMQ-DDV
+Dipl_spi         NVDSHSYHPAVQ-DEV
+Escha_ac         NITSNPYRPTMS-DEV
+Hedic_le         NAEPHSYHPAMQ-DEV
+Isoc_cen         NAEPHSYHPAMQ-DEV
+Lepto_bo         PMEGTTYQPVVQ-GDV
+Lepto_cl         PMEGTTYQPVMQ-GDV
+Lepto_he         PMEGTTYQPVIQ-GDV
+Parn_nig         NVESHSYQPAAQ-DEV
+Pedia_ac         NVETRSYHPAMQ-DEV
+Peric_JH         KEKLHSYHPAMQ-DEV
+Phaen_vi         NVETHTYHSAMQ-DEV
+Phana_JH         NTETHSYHPAMQ-NEV
+Qwaq_sco         NAEPQSYHPAMQ-DEV
+Syne_gif         NDEPHSYHPAMQ-DEV
+Syne_ito         NDEPHSYHPAMQ-DEV
+Syne_jap         NDEPHSYHPAMQ-DEV
+Syne_umb         NDEPHSYHPAMQ-DEV
+Nasonia          VSEVPSYQPAMQ-DDV
+Orussus          LGEQHSYQPAGMHDEV
+Micropl          DGTTNSYHPAIQ-DDV
+Gblocks          ################
+
+
+
+
+Parameters used
+Minimum Number Of Sequences For A Conserved Position: 16
+Minimum Number Of Sequences For A Flanking Position: 26
+Maximum Number Of Contiguous Nonconserved Positions: 8
+Minimum Length Of A Block: 10
+Allowed Gap Positions: All
+Use Similarity Matrices: Yes
+
+Flank positions of the 1 selected block(s)
+Flanks: [40  136]  
+
+New number of positions in ../../aligned_buscos/fasta_format/busco.31641at7399.faa-ag: *** 97 *** (71% of the original 136 positions)

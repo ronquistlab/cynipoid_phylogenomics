@@ -1,0 +1,97 @@
+Gblocks 0.91b Results
+
+
+Processed file: busco.30605at7399.faa
+Number of sequences: 32
+Alignment assumed to be: Protein
+New number of positions: 78 (selected positions are underlined in blue)
+
+
+                         10        20        30        40        50        60
+                 =========+=========+=========+=========+=========+=========+
+Allox_ar         MASAAFPVFFFTALWAAVGIALPIFVPKGPNRGILQVILMLTAFTCWLFWLCCYMAQMNP
+Andr_cur         MHSAAAPILIFTLLWGAVGIALPIFVPKGPNRGILQVILMLTAFTCWLFWLCCYMAQMNP
+Andr_qln         MSSAAAPVLIFTILWGAVGIALPIFVPKGPNRGILQVILMLTAFTCWLFWLCCYMAQMNP
+Andr_qrm         MGTAAAPVLIFTLLWGAVGIALPIFVPKGPNRGILQVILMLTAFTCWLFWLCCYMAQMNP
+Aula_tav         MGASAAPVLIFTLLWGAVGIALPIFVPKGPNRGILQVILMLTAFTCWLFWLCCYMAQMNP
+Aylax_hy         MGASAAPILIFTLLWGAVGIALPIFVPKGPNRGILQVILMLTAFTCWLFWLCCYMAQMNP
+Beloc_tr         MGAAAAPVLIFTILWGAVGIALPIFVPKGPNRGILQVILMLTAFTCWLFWLCCYMAQMNP
+Callas_no        MGASAAPVIIFTLIWGAVGIGLPMFVPKGPNRGILQVILMLTAFTCWLFWLCCYMSQMNP
+Calli_sp         MGAAAAPVLIFTLLWGAVGIALPIFVPKGPNRGILQVILMLTAFTCWLFWLCCYMAQMNP
+Cerop_ma         MTTTTAPVLIFTLLWGAVGIALPIFVPKGPNRGILQVILMLTAFTCWLFWLCCYMAQMNP
+Diast_ki         MGAAAAPVLVFTLLWGAVGIALPIFVPKGPNRGILQVILMLTAFTCWLFWLCCYMAQMNP
+Dipl_spi         MGASAAPILIFTLLWGAVGIALPIFVPKGPNRGILQVILILTAFTCWLFWLCCYMAQMNP
+Escha_ac         MGAAVAPVLIFTVLWGAVGIGLPIFVPKGPNRGILQVILMLTAFTCWLFWLCCYMAQMNP
+Irae_his         MLSAAAPVLIFTLLWGAVGIALPIFVPKGPNRGILQVILMLTAFTCWLFWLCCYMAQMNP
+Isoc_cen         MVKSAAPVLVFTLLWGAIGIALPIFVPKGPNRGILQVILMLTAFTCWLFWLCCYMAQMNP
+Lepto_bo         MYSSSAPILIFTLFWGAIGIALPIFVPKGPNRGILQVILMLTAFTCWLFWLCCYMAQMNP
+Lepto_cl         MGALAAPVLIFTLFWGAIGIALPIFVPKGPNRGILQVILMLTAFTCWLFWLCCYMAQMNP
+Lepto_he         MGALAAPVLIFTLFWGAIGIGLPIFVPKGPNRGILQVILMLTAFTCWLFWLCCYMAQMNP
+Parn_nig         MKTSAAPILIFTLLWGAVGIGLPIFVPKGPNRGILQVILMLTAFTCWLFWLCCYMAQMNP
+Pedia_ac         MGASAAPVLIFTLLWGAVGIALPIFVPKGPNRGILQVILMLTAFTCWLFWLCCYMAQMNP
+Peric_JH         MITAAAPVLVFTLLWGAVGIALPIFVPKGPNRGILQVILMLTAFTCWLFWLCCYMAQMNP
+Phaen_vi         MSFQALPVFIFTLLWGGVGIGLPLFVPKGPNRGILQVILMLTAFTCWLFWLCCYMAQMNP
+Phana_JH         MGASAAPILIFTLLWGAVGIALPIFVPKGPNRGILQVILMLTAFTCWLFWLCCYMAQMNP
+Prot_spe         MGAAAAPVLIFTLLWGAVGIALPIFVPKGPNRGILQVILMLTAFTCWLFWLCCYMAQMNP
+Qwaq_sco         MGAAAAPVLVFTLLWGAVGIGLPIFVPKGPNRGILQVILMLTAFTCWLFWLCCYMAQMNP
+Syne_gif         MSFGSAPVLIFTLLWGAVGIALPIFVPKGPNRGILQVILMLTAFTCWLFWLCCYMAQMNP
+Syne_ito         MGAAAAPVLIFTLLWGAVGIALPIFVPKGPNRGILQVILMLTAFTCWLFWLCCYMAQMNP
+Syne_jap         MKSAAAPVLIFTLLWGAVGIALPIFVPKGPNRGILQVILMLTAFTCWLFWLCCYMAQMNP
+Syne_umb         MGAAAAPVLIFTLLWGAVGIALPIFVPKGPNRGILQVILMLTAFTCWLFWLCCYMAQMNP
+Nasonia          MGASWAPVLFFTVVWGAVGIVLPFFVPKGPNKGILQVILMLTAFTCWLFWLCCYMAQMNP
+Orussus          MGASAAPVLIFSILWGVVGIVLPFFVPKGPNRGILQAILMLTAFTCWLFWLCCYMAQMNP
+Micropl          MGASALPVCIFTLFWGVIGIVLPFFVPKGPNRGILQVILMLTAFSCWLFWLCCYMAQMNP
+Gblocks          ############################################################
+
+
+                         70        80        90       100       110
+                 =========+=========+=========+=========+=========+===
+Allox_ar         LIGPLLDSKVLLVMSREWLINLTKKMFFPES----------------------
+Andr_cur         LIGPALKNNTILLMAREWVDGYKLQVDYAGLEMYYSRLQVDCPD---------
+Andr_qln         LIGPALKNNTLLLMAREWSDYIPK-----------------------------
+Andr_qrm         LIGPALKNNTILLMAREWSDYIPK-----------------------------
+Aula_tav         LIGPALKNNTLLLMAREWNGYVPK-----------------------------
+Aylax_hy         LIGPALKNNTLLLMAREWNGYTPK-----------------------------
+Beloc_tr         LIGPALKNNTLLLMAREWSDYIPK-----------------------------
+Callas_no        LIGPAIKNTTLLLIAREWNKEIPK-----------------------------
+Calli_sp         LIGPALKNTTLLLMAREWTERFYFQKTSL----FV------------------
+Cerop_ma         LIGPTLKNNTILLMAREWSGYEPN-----------------------------
+Diast_ki         LIGPVLKNNTLLLMAREWNGYRPE-----------------------------
+Dipl_spi         LIGPALKNTTLLLMAREWSHYEPK-----------------------------
+Escha_ac         LIGPVLKKNTLLLMQREWGKTQGGKGSQK----NPQDGQKESSEFVNSSEKLF
+Irae_his         LIGPALKNNTILLMAREWGNILF------------------------------
+Isoc_cen         LIGPALKNNTLLLMAREWNGNILE-----------------------------
+Lepto_bo         LIGPKIKNTTLLLMATEWVSG--------------------------------
+Lepto_cl         LIGPKIKNTTLLLMATEWNNYTPK-----------------------------
+Lepto_he         LIGPKIKNTTLLLMATEWNDYTPK-----------------------------
+Parn_nig         LIGPALKNTTLLIMAREWLTNFINEMLFFQNDFIPE-----------------
+Pedia_ac         LIGPALKNTTLLLMAREWVRN--------------------------------
+Peric_JH         LIGPALKSNTLLLMAREWNGYRPE-----------------------------
+Phaen_vi         LIGPSLESNVLLVMSEQWGDNSAR-----------------------------
+Phana_JH         LIGPVLKSNTLLLMAREWNNYIPK-----------------------------
+Prot_spe         LIGPALKNNTILLMAREWNGYVPK-----------------------------
+Qwaq_sco         LIGPALKNNTLLLMAREWSKETPK-----------------------------
+Syne_gif         LIGPALKNNTLLLMAREWNNYTPK-----------------------------
+Syne_ito         LIGPALKNNTLLLMAREWNNYTPK-----------------------------
+Syne_jap         LIGPALKNNTLLLMAREWNNYTPK-----------------------------
+Syne_umb         LIGPALKNNTLLLMAREWNNYTPK-----------------------------
+Nasonia          LIGPALKNTTVLLMAREWQDYNPFLPKP-------------------------
+Orussus          LIGPKLPNTTILIMAREWGNPIET-----------------------------
+Micropl          LIGPKLSNATLLLMAREWNGKAIEM----------------------------
+Gblocks          ##################...................................
+
+
+
+
+Parameters used
+Minimum Number Of Sequences For A Conserved Position: 17
+Minimum Number Of Sequences For A Flanking Position: 27
+Maximum Number Of Contiguous Nonconserved Positions: 8
+Minimum Length Of A Block: 10
+Allowed Gap Positions: All
+Use Similarity Matrices: Yes
+
+Flank positions of the 1 selected block(s)
+Flanks: [1  78]  
+
+New number of positions in ../../aligned_buscos/fasta_format/busco.30605at7399.faa-ag: *** 78 *** (69% of the original 113 positions)
