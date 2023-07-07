@@ -92,18 +92,9 @@ draw_tree <- function(tree, hexp, label="", cyn_mono=TRUE, leg=TRUE)
             breaks = c("Cynipini", "Aylacini", "Phanacidini", "Aulacideini","Eschatocerini"))
 }
 
-t1 <- read.tree("../iqtree/b-ag-c37.contree")
-t2 <- read.tree("../iqtree/iq_36_c60.contree")
-t3 <- read.tree("../iqtree/iq_35_C60_I_G5.contree")
-t4 <- read.tree("../iqtree/iq_34_c60.contree")
+t <- read.tree("../iqtree/clustal30_ag_lt0.10_C60_I_G5/iq_clustal30_ag_lt0.10_C60_I_G5.contree")
 
-p1 <- draw_tree(t1, 0.25, "T37-G31", TRUE, TRUE)
-p2 <- draw_tree(t2, 0.22, "T36-G123", FALSE, FALSE)
-p3 <- draw_tree(t3, 0.22, "T35-G296", FALSE, FALSE)
-p4 <- draw_tree(t4, 0.22, "T34-G542", FALSE, FALSE)
+draw_tree(t, 0.25, "T30-Gxx", TRUE, TRUE)
 
-labels <- c("A", "B", "C", "D")
-cowplot::plot_grid(p1,p2,p3,p4,ncol=2,labels=labels, label_size=14, hjust=0.0) + theme(plot.margin=unit(c(3,3,3,3), "pt"))
-
-ggsave("Fig_1.png", device="png")
+ggsave("Fig_S_ag30.png", device="png")
 

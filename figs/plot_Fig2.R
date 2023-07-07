@@ -68,11 +68,11 @@ draw_tree <- function(tree, hexp, label="", cyn_mono=TRUE, leg=TRUE)
     # Set the colors
     cols <- c(Cynipini="blue", Eschatocerini="orange", Phanacidini="green3", Aylacini="deeppink", Aulacideini="green")
     
-    # Change display names and only show support < 100% (=1 in phylobayes notation)
+    # Change display names and only show support < 100%
     for ( i in 1:length(tree$tip.label) )
         tree$tip.label[i] <- displayNames[ match(tree$tip.label[i],taxonNames) ]
     for ( i in 1:length(tree$node.label) ) {
-        if ( tree$node.label[i] == "1" )
+        if ( tree$node.label[i] == "100" )
             tree$node.label[i] <- ""
     }
 
@@ -87,19 +87,23 @@ draw_tree <- function(tree, hexp, label="", cyn_mono=TRUE, leg=TRUE)
         geom_treescale(x = 0.0, y = 8.0, width = 0.1, fontsize=2) + guides(color = guide_legend(override.aes = list(size = 4, shape = 15))) +
         theme_tree(legend.position = leg.pos, legend.key.size = unit(0.05,'cm'), legend.title = element_text(size=9)) +
         hexpand(hexp) +
-        geom_label(size=3, label=label, x=0.13, y=36.0, label.size=0.25, color="black") +
+        geom_label(size=3, label=label, x=0.1, y=36.0, label.size=0.25, color="black") +
         scale_color_manual(values = c(cols, "black"), na.value = "black", name = "Lineage",
             breaks = c("Cynipini", "Aylacini", "Phanacidini", "Aulacideini","Eschatocerini"))
 }
 
-t1 <- read.tree("../phylobayes/allgaps_37_cat-f81.con.tre")
-t2 <- read.tree("../phylobayes/allgaps_36_cat-f81.con.tre")
+t1 <- read.tree("../iqtree/b-ag-c37.contree")
+t2 <- read.tree("../iqtree/iq_36_c60.contree")
+t3 <- read.tree("../iqtree/iq_35_C60_I_G5.contree")
+t4 <- read.tree("../iqtree/iq_34_c60.contree")
 
 p1 <- draw_tree(t1, 0.25, "T37-G31", TRUE, TRUE)
 p2 <- draw_tree(t2, 0.22, "T36-G123", FALSE, FALSE)
+p3 <- draw_tree(t3, 0.22, "T35-G296", FALSE, FALSE)
+p4 <- draw_tree(t4, 0.22, "T34-G542", FALSE, FALSE)
 
-labels <- c("A", "B")
-cowplot::plot_grid(p1,p2,ncol=2,labels=labels, label_size=14, hjust=0.0) + theme(plot.margin=unit(c(3,3,3,3), "pt"))
+labels <- c("A", "B", "C", "D")
+cowplot::plot_grid(p1,p2,p3,p4,ncol=2,labels=labels, label_size=14, hjust=0.0) + theme(plot.margin=unit(c(3,3,3,3), "pt"))
 
-ggsave("Fig_2.png", device="png", height=3.5)
+ggsave("Fig_1.png", device="png")
 

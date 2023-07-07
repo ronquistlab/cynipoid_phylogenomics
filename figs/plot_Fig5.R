@@ -46,34 +46,31 @@ draw_tree <- function(tree, hexp, cyn_mono=TRUE, leg=TRUE, treescale_height=8.0)
 
     # Get indices for clades and branches we want to color
     tb <- as_tibble(tree)
-    cynipidae <- MRCA(tb, "Andr_gro", "Escha_ac")$node
-    figitidae <- MRCA(tb, "Parn_nig", "Lepto_he")$node
+    cynipidae_core <- MRCA(tb, "Andr_gro", "Hedic_le")$node
+    figitidae <- MRCA(tb,"Parn_nig", "Lepto_he")$node
     diplolepidae <- MRCA(tb, "Dipl_spi", "Pedia_ac")$node
-#    diplo <- tb$node[match("Dipl_spi",tb$label)]
-#    pedia <- tb$node[match("Pedia_ac",tb$label)]
-#    aylax <- tb$node[match("Aylax_hy",tb$label)]
-#    phanacis <- tb$node[match("Phana_JH",tb$label)]
-    paraulacidae <- tb$node[match("Cecin_ib",tb$label)]
+    diplo <- tb$node[match("Dipl_spi",tb$label)]
+    pedia <- tb$node[match("Pedia_ac",tb$label)]
 
     # Add the lineage info to the tree (using the "group" attribute)
-#    clades <- c(Phytophagous=cynipidae_core, Parasitoid=figitidae)
-#    tree <- groupClade(tree, clades)
-#    x <- as.character(attr(tree,"group"))
-#    if ("Escha_ac" %in% tb$label) {
-#        escha <- tb$node[match("Escha_ac",tb$label)]
-#        x[escha] <- "Phytophagous"
-#        if ("Orussusa" %in% tb$label) {
-#            cynipidae <- MRCA(tb, "Andr_gro", "Escha_ac")$node
-#            x[cynipidae] <- "Phytophagous"
-#        }
-#    }
-#    x[diplolepidae] = "Phytophagous"
-#    x[diplo] = "Phytophagous"
-#    x[pedia] = "Phytophagous"
-#    attr(tree,"group") <- as.factor(x)
+    clades <- c(Phytophagous=cynipidae_core, Parasitoid=figitidae)
+    tree <- groupClade(tree, clades)
+    x <- as.character(attr(tree,"group"))
+    if ("Escha_ac" %in% tb$label) {
+        escha <- tb$node[match("Escha_ac",tb$label)]
+        x[escha] <- "Phytophagous"
+        if ("Orussusa" %in% tb$label) {
+            cynipidae <- MRCA(tb, "Andr_gro", "Escha_ac")$node
+            x[cynipidae] <- "Phytophagous"
+        }
+    }
+    x[diplolepidae] = "Phytophagous"
+    x[diplo] = "Phytophagous"
+    x[pedia] = "Phytophagous"
+    attr(tree,"group") <- as.factor(x)
 
     # Set the colors
-#    cols <- c(Phytophagous="green4", Parasitoid="black")
+    cols <- c(Phytophagous="green4", Parasitoid="black")
 
     # Change display names and only show support < 100%
     for ( i in 1:length(tree$tip.label) )
@@ -90,50 +87,31 @@ draw_tree <- function(tree, hexp, cyn_mono=TRUE, leg=TRUE, treescale_height=8.0)
         leg.pos <- "none"
     }
 
-    font_size <- 3.0    # default is 3.88
-    cyn_offset <- -0.14
-    fig_offset <- -0.14
-    dip_offset <- -0.18
-    cyn_offset_text <- 0.02
-    fig_offset_text <- 0.02
-    dip_offset_text <- 0.02
-    cyn_color <- 'darkseagreen2'
-    ggtree(tree, ladderize = TRUE) + geom_nodelab(size=2,hjust=0) +
-        geom_tree(size=0.8) + geom_tiplab(aes(label = paste0("italic('", label, "')")), parse = TRUE, size = 2) +
-        geom_treescale(x = 0.0, y = treescale_height, width = 0.1, fontsize=2.0) +
-        geom_strip('Andricus cur', 'Protobalandricus spe', barsize=1, fontsize=font_size, color='black', label="Cynipini", offset=cyn_offset, offset.text=cyn_offset_text) +
-        geom_strip('Ceroptres mas', 'Ceroptres mas', barsize=1, fontsize=font_size, color='black', label="Ceroptresini", offset=cyn_offset, offset.text=cyn_offset_text) +
-        geom_strip('Iraella his', 'Iraella his', barsize=1, fontsize=font_size, color='black', label="Aylacini", offset=cyn_offset, offset.text=cyn_offset_text) +
-        geom_strip('Diastrophus kin', 'Periclistus sp', barsize=1, fontsize=font_size, color='black', label="Diastrophini", offset=cyn_offset, offset.text=cyn_offset_text) +
-        geom_strip('Synergus jap', 'Synergus ito', barsize=1, fontsize=font_size, color='black', label="Synergini", offset=cyn_offset, offset.text=cyn_offset_text) +
-        geom_strip('Qwaqwaia sco', 'Qwaqwaia sco', barsize=1, fontsize=font_size, color='black', label="Qwaqwaiini", offset=cyn_offset, offset.text=cyn_offset_text) +
-        geom_strip('Aulacidea tav', '"Aylax" hyp', barsize=1, fontsize=font_size, color='black', label="Aulacideini", offset=cyn_offset, offset.text=cyn_offset_text) +
-        geom_strip('Phanacis sp', 'Phanacis sp', barsize=1, fontsize=font_size, color='black', label="Phanacidini", offset=cyn_offset, offset.text=cyn_offset_text) +
-        geom_strip('Eschatocerus aca', 'Eschatocerus aca', barsize=1, fontsize=font_size, color='black', label="Eschatocerini", offset=0.17, offset.text=0.02) +
-        geom_strip('Leptopilina cla', 'Ganaspis sp', barsize=1, fontsize=font_size, color='black', label="Eucoilinae", offset=0.0, offset.text=0.02) +
-        geom_strip('Callaspidia not', 'Callaspidia not', barsize=1, fontsize=font_size, color='black', label="Aspicerinae", offset=fig_offset, offset.text=fig_offset_text) +
-        geom_strip('Phaenoglyphis vil', 'Alloxysta arc', barsize=1, fontsize=font_size, color='black', label="Charipinae", offset=fig_offset, offset.text=fig_offset_text) +
-        geom_strip('Parnips nig', 'Parnips nig', barsize=1, fontsize=font_size, color='black', label="Parnipinae", offset=fig_offset-0.06, offset.text=fig_offset_text) +
-        geom_strip('Diplolepis spi', 'Diplolepis spi', barsize=1, fontsize=font_size, color='black', label="Diplolepidinae", offset=dip_offset, offset.text=dip_offset_text) +
-        geom_strip('Pediaspis ace', 'Pediaspis ace', barsize=1, fontsize=font_size, color='black', label="Pediaspidinae", offset=dip_offset, offset.text=dip_offset_text) +
-        geom_strip('Cecinothofagus iba', 'Cecinothofagus iba', barsize=1, fontsize=font_size, color='black', label="Paraulacini", offset=-0.16, offset.text=.02) +
-        geom_strip('Nasonia vit', 'Orussus abi', barsize=1, fontsize=4.0, color='gray50', label="Outgroups", offset=0.0, offset.text=.02) +
-        geom_hilight(node=cynipidae, fill='darkseagreen2', type="rect", extend=0.16) +
-        geom_hilight(node=figitidae, fill='chocolate1', type="rect", extend=0.32) +
-        geom_hilight(node=diplolepidae, fill='darkolivegreen3', type="rect", extend=0.35) +
-        geom_hilight(node=paraulacidae, fill='coral1', type="rect", extend=0.36) +
-        geom_strip('Andricus cur', 'Eschatocerus aca', barsize=0, fontsize=4.5, label="Cynipidae (s. str.)", offset=0.14, offset.text=0.02) +
-        geom_strip('Leptopilina cla', 'Parnips nig', barsize=0, fontsize=4.5, label="Figitidae", offset=0.17, offset.text=0.02) +
-        geom_strip('Diplolepis spi', 'Pediaspis ace', barsize=0, fontsize=4.5, label="Diplolepididae", offset=0.01, offset.text=0.02) +
-        geom_strip('Cecinothofagus iba', 'Cecinothofagus iba', barsize=0, fontsize=4.5, label="Paraulacidae", offset=0.0, offset.text=0.02) +
+    ggtree(tree, aes(color = group), ladderize = TRUE) + geom_nodelab(size=1.5,hjust=0) +
+        geom_tree(size=0.6) + geom_tiplab(aes(label = paste0("italic('", label, "')")), parse = TRUE, size = 1.5) +
+        geom_treescale(x = 0.0, y = treescale_height, width = 0.05, fontsize=1.5) +
+        scale_color_manual(values = c("green3", "black", "black"), na.value = "black", name = "Larval feeding mode", breaks = c("Phytophagous", "Parasitoid")) +
+        guides(color = guide_legend(override.aes = list(size = 3, shape = 15))) +
+        theme_tree(legend.position = leg.pos, legend.key.size = unit(0.04,'cm'), legend.title = element_text(size=9)) +
         hexpand(hexp)
 }
 
 t1 <- read.tree("../phylobayes/clustal34_ag_lt0.26.con.tre")
+t2 <- read.tree("../phylobayes/clustal34_ag_lt0.26_no_cecin.con.tre")
+t3 <- read.tree("../phylobayes/clustal34_ag_lt0.26_no_escha.con.tre")
+t4 <- read.tree("../phylobayes/clustal34_ag_lt0.26_no_outgr.con.tre")
+t5 <- read.tree("../phylobayes/clustal34_ag_lt0.26_no_cecin_escha.con.tre")
+t6 <- read.tree("../phylobayes/clustal34_ag_lt0.26_no_outgr_escha.con.tre")
 
 p1 <- draw_tree(t1, 0.22, TRUE, TRUE, 8.0)
+p2 <- draw_tree(t2, 0.22, FALSE, FALSE)
+p3 <- draw_tree(t3, 0.22, FALSE, FALSE)
+p4 <- draw_tree(t4, 0.22, FALSE, FALSE, 30.0)
+p5 <- draw_tree(t5, 0.22, FALSE, FALSE)
+p6 <- draw_tree(t6, 0.22, FALSE, FALSE, 30.0)
 
-p1
+labels <- c("A", "B", "C", "D", "E", "F")
+cowplot::plot_grid(p1,p2,p3,p4,p5,p6,ncol=2,labels=labels, label_size=12, hjust=0.0) + theme(plot.margin=unit(c(3,3,3,3), "pt"))
 
-ggsave("Fig_5.png", device="png")
+ggsave("Fig_4.png", device="png")
 

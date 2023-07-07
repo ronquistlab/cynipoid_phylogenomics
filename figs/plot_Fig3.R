@@ -7,7 +7,7 @@ library(treeio)
 library(ggplot2)
 library(ggtree)
 
-draw_tree <- function(tree, hexp, cyn_mono=TRUE, leg=TRUE, aulacideini1='Hedic_le', aulacideini2='Aylax_hy')
+draw_tree <- function(tree, hexp, label="", cyn_mono=TRUE, leg=TRUE)
 {
     require(ggtree)
     require(ape)
@@ -43,7 +43,7 @@ draw_tree <- function(tree, hexp, cyn_mono=TRUE, leg=TRUE, aulacideini1='Hedic_l
     
     # Get indices for clades and branches we want to color
     tb <- as_tibble(tree)
-    aulacideini <- MRCA(tb, aulacideini1, aulacideini2)$node
+    aulacideini <- MRCA(tb, "Hedic_le", "Aylax_hy")$node
     cynipini <- MRCA(tb, "Prot_spe", "Andr_gro")$node
     cynipini1 <- MRCA(tb, "Calli_sp", "Andr_gro")$node
     cynipini2 <- tb$node[match("Prot_spe",tb$label)]
@@ -68,45 +68,38 @@ draw_tree <- function(tree, hexp, cyn_mono=TRUE, leg=TRUE, aulacideini1='Hedic_l
     # Set the colors
     cols <- c(Cynipini="blue", Eschatocerini="orange", Phanacidini="green3", Aylacini="deeppink", Aulacideini="green")
     
-    # Change display names and only show support < 100%
+    # Change display names and only show support < 100% (=1 in phylobayes notation)
     for ( i in 1:length(tree$tip.label) )
         tree$tip.label[i] <- displayNames[ match(tree$tip.label[i],taxonNames) ]
     for ( i in 1:length(tree$node.label) ) {
-        if ( tree$node.label[i] == "100" )
+        if ( tree$node.label[i] == "1" )
             tree$node.label[i] <- ""
     }
 
     # Find out whether we should print the legend
     if (leg==TRUE)
-        leg.pos <- c(.2,.78)
+        leg.pos <- c(.2,.70)
     else
         leg.pos <- "none"
     
-    ggtree(tree, aes(color = group), ladderize = TRUE) + geom_nodelab(size=1.5,hjust=0) +
-        geom_tree(size=0.6) + geom_tiplab(aes(label = paste0("italic('", label, "')")), parse = TRUE, size = 1.5) +
-        geom_treescale(x = 0.0, y = 8.0, width = 0.1, fontsize=1.5) + guides(color = guide_legend(override.aes = list(size = 3, shape = 15))) +
-        theme_tree(legend.position = leg.pos, legend.key.size = unit(0.04,'cm'), legend.title = element_text(size=9)) +
+    ggtree(tree, aes(color = group), ladderize = TRUE) + geom_nodelab(size=2,hjust=0) +
+        geom_tree(size=0.8) + geom_tiplab(aes(label = paste0("italic('", label, "')")), parse = TRUE, size = 2.0) +
+        geom_treescale(x = 0.0, y = 8.0, width = 0.1, fontsize=2) + guides(color = guide_legend(override.aes = list(size = 4, shape = 15))) +
+        theme_tree(legend.position = leg.pos, legend.key.size = unit(0.05,'cm'), legend.title = element_text(size=9)) +
         hexpand(hexp) +
+        geom_label(size=3, label=label, x=0.13, y=36.0, label.size=0.25, color="black") +
         scale_color_manual(values = c(cols, "black"), na.value = "black", name = "Lineage",
             breaks = c("Cynipini", "Aylacini", "Phanacidini", "Aulacideini","Eschatocerini"))
 }
 
-t1 <- read.tree("../iqtree/clustal34_ag_lt0.13_C60_I_G5/iq_clustal34_ag_lt0.13_C60_I_G5.contree")
-t2 <- read.tree("../iqtree/clustal34_ag_0.13-0.26_C60_I_G5/iq_clustal34_ag_0.13-0.26_C60_I_G5.contree")
-t3 <- read.tree("../iqtree/clustal34_ag_0.26-0.37_C60_I_G5/iq_clustal34_ag_0.26-0.37_C60_I_G5.contree")
-t4 <- read.tree("../iqtree/clustal34_ag_0.37-0.47_C60_I_G5/iq_clustal34_ag_0.37-0.47_C60_I_G5.contree")
-t5 <- read.tree("../iqtree/clustal34_ag_0.47-0.59_C60_I_G5/iq_clustal34_ag_0.47-0.59_C60_I_G5.contree")
-t6 <- read.tree("../iqtree/clustal34_ag_gte0.59_C60_I_G5/iq_clustal34_ag_gte0.59_C60_I_G5.contree")
+t1 <- read.tree("../phylobayes/allgaps_37_cat-f81.con.tre")
+t2 <- read.tree("../phylobayes/allgaps_36_cat-f81.con.tre")
 
-p1 <- draw_tree(t1, 0.25, TRUE, TRUE)
-p2 <- draw_tree(t2, 0.22, FALSE, FALSE)
-p3 <- draw_tree(t3, 0.22, FALSE, FALSE)
-p4 <- draw_tree(t4, 0.22, FALSE, FALSE)
-p5 <- draw_tree(t5, 0.22, FALSE, FALSE)
-p6 <- draw_tree(t6, 0.22, FALSE, FALSE, 'Hedic_le', 'Aula_tav')
+p1 <- draw_tree(t1, 0.25, "T37-G31", TRUE, TRUE)
+p2 <- draw_tree(t2, 0.22, "T36-G123", FALSE, FALSE)
 
-labels <- c("A", "B", "C", "D", "E", "F")
-cowplot::plot_grid(p1,p2,p3,p4,p5,p6,ncol=2,labels=labels, label_size=12, hjust=0.0) + theme(plot.margin=unit(c(3,3,3,3), "pt"))
+labels <- c("A", "B")
+cowplot::plot_grid(p1,p2,ncol=2,labels=labels, label_size=14, hjust=0.0) + theme(plot.margin=unit(c(3,3,3,3), "pt"))
 
-ggsave("Fig_3.png", device="png")
+ggsave("Fig_2.png", device="png", height=3.5)
 
