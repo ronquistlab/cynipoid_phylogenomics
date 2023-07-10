@@ -12,7 +12,7 @@ draw_tree <- function(tree, hexp, cyn_mono=TRUE, leg=TRUE)
     require(ggtree)
     require(ape)
 
-    # Set tip labels and desired display names
+    # Set tip labels and preferred display names
     source("names.R")
 
     # Desired order of tips
@@ -24,7 +24,7 @@ draw_tree <- function(tree, hexp, cyn_mono=TRUE, leg=TRUE)
     
     # Get indices for clades and branches we want to color
     tb <- as_tibble(tree)
-    aulacideini <- MRCA(tb, "Hedic_le", "Aylax_hy")$node
+    aulacideini <- MRCA(tb, "Isoc_cen", "Aylax_hy")$node
     cynipini <- MRCA(tb, "Prot_spe", "Andr_gro")$node
     cynipini1 <- MRCA(tb, "Calli_sp", "Andr_gro")$node
     cynipini2 <- tb$node[match("Prot_spe",tb$label)]
@@ -66,31 +66,23 @@ draw_tree <- function(tree, hexp, cyn_mono=TRUE, leg=TRUE)
     ggtree(tree, aes(color = group), ladderize = TRUE) +
         geom_tree(size=0.6, key_glyph="rect") +
         hexpand(hexp) +
-        geom_tiplab(aes(label = paste0("italic('", label, "')")), parse = TRUE, size = 1.5) +
-        geom_nodelab(size=1.2,hjust=0) +
-        geom_treescale(x = 0.0, y = 8.0, width = 0.1, fontsize=1.5) +
-        theme_tree(legend.position = leg.pos, legend.key.size = unit(0.04,'cm'), legend.title = element_text(size=9)) +
+        geom_tiplab(aes(label = paste0("italic('", label, "')")), parse = TRUE, size = 2.0) +
+        geom_nodelab(size=1.5,hjust=0) +
+        geom_treescale(x = 0.0, y = 8.0, width = 0.1, fontsize=2) +
+        theme_tree(legend.position = leg.pos, legend.key.size = unit(0.05,'cm'), legend.title = element_text(size=9), legend.text = element_text(size=7)) +
         scale_color_manual(values = c(cols, "black"), na.value = "black", name = "Lineage",
             breaks = c("Cynipini", "Aylacini", "Phanacidini", "Aulacideini","Eschatocerini"),
-            guide = guide_legend(override.aes = list(size = 3)))
+            guide = guide_legend(override.aes = list(size = 4)))
 }
 
-t1 <- read.tree("../iqtree/iq_34_od0_C60_I_G5.contree")
-t2 <- read.tree("../iqtree/iq_34_od1-3_C60_I_G5.contree")
-t3 <- read.tree("../iqtree/iq_34_od4-5_C60_I_G5.contree")
-t4 <- read.tree("../iqtree/iq_34_od6-7_C60_I_G5.contree")
-t5 <- read.tree("../iqtree/iq_34_od8-9_C60_I_G5.contree")
-t6 <- read.tree("../iqtree/iq_34_odgte10_C60_I_G5.contree")
+t1 <- read.tree("../iqtree/clustal34_ag_lt0.26_C60_I_G5/iq_clustal34_ag_lt0.26_C60_I_G5.contree")
+t2 <- read.tree("../iqtree/clustal30_ag_lt0.10_C60_I_G5/iq_clustal30_ag_lt0.10_C60_I_G5.contree")
 
-p1 <- draw_tree(t1, 0.22, TRUE, TRUE)
-p2 <- draw_tree(t2, 0.22, FALSE, FALSE)
-p3 <- draw_tree(t3, 0.22, FALSE, FALSE)
-p4 <- draw_tree(t4, 0.22, FALSE, FALSE)
-p5 <- draw_tree(t5, 0.22, FALSE, FALSE)
-p6 <- draw_tree(t6, 0.22, FALSE, FALSE)
+p1 <- draw_tree(t1, 0.25, TRUE, TRUE)
+p2 <- draw_tree(t2, 0.25, TRUE, FALSE)
 
-labels <- c("A", "B", "C", "D", "E", "F")
-cowplot::plot_grid(p1,p2,p3,p4,p5,p6,ncol=2,labels=labels, label_size=12, hjust=0.0) + theme(plot.margin=unit(c(3,3,3,3), "pt"))
+labels <- c("A", "B")
+cowplot::plot_grid(p1,p2,ncol=2,labels=labels, label_size=14, hjust=0.0) + theme(plot.margin=unit(c(3,3,3,3), "pt"))
 
-ggsave("Fig_S3.svg", device="svg")
+ggsave("Fig_S6.svg", device="svg", height=3.5)
 

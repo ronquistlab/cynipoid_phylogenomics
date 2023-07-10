@@ -12,27 +12,11 @@ draw_tree <- function(tree, hexp, cyn_mono=TRUE, leg=TRUE, treescale_height=8.0)
     require(ggtree)
     require(ape)
 
-    # Taxon names actually used in the trees
-    taxonNames <- c(
-    "Allox_ar","Phaen_vi","Callas_no","Gana_sp1","Lepto_bo","Lepto_cl",
-    "Lepto_he","Parn_nig","Andr_cur","Andr_gro","Andr_qrm","Andr_qln",
-    "Beloc_tr","Bior_pal","Calli_sp","Prot_spe","Cerop_ma","Irae_his",
-    "Diast_ki","Peric_JH","Qwaq_sco","Syne_gif","Syne_jap","Syne_umb",
-    "Syne_ito","Aula_tav","Isoc_cen","Aylax_hy","Hedic_le","Phana_JH",
-    "Escha_ac","Dipl_spi","Pedia_ac","Cecin_ib","Nasoniav","Orussusa",
-    "Micropld"
-    )
+    # Read in the tip labels and desired display names
+    source("names.R")
 
-    # Choose the corresponding display names we want to use
-    displayNames <- c(
-    "Alloxysta arc","Phaenoglyphis vil","Callaspidia not","Ganaspis sp","Leptopilina bou","Leptopilina cla",
-    "Leptopilina het","Parnips nig","Andricus cur","Andricus gro","Andricus qrm","Druon qln",
-    "Belonocnema kin","Biorhiza pal","Neuroterus val","Protobalandricus spe","Ceroptres mas","Iraella his",
-    "Diastrophus kin","Periclistus sp","Qwaqwaia sco","Synergus gif","Synergus jap","Synergus umb",
-    "Synergus ito","Aulacidea tav","Isocolus cen","\"Aylax\" hyp","Hedickiana lev","Phanacis sp",
-    "Eschatocerus aca","Diplolepis spi","Pediaspis ace","Cecinothofagus iba","Nasonia vit","Orussus abi",
-    "Microplitis dem"
-    )
+    # Read in colors adapted for color blind
+    source("colors.R")
 
     # Desired order of tips
     taxonOrder <- c(36,37,35,34,32,33,31,8,1,2,3,4,5,6,7,26,27,28,29,30,19,20,21,22,23,24,25,18,17,16,15,14,13,12,11,10,9)
@@ -81,6 +65,8 @@ draw_tree <- function(tree, hexp, cyn_mono=TRUE, leg=TRUE, treescale_height=8.0)
     for ( i in 1:length(tree$node.label) ) {
         if ( tree$node.label[i] == "1" )
             tree$node.label[i] <- ""
+        else
+            tree$node.label[i] <- round(as.numeric(tree$node.label[i])*100)
     }
 
     if (leg==TRUE) {
@@ -97,32 +83,32 @@ draw_tree <- function(tree, hexp, cyn_mono=TRUE, leg=TRUE, treescale_height=8.0)
     cyn_offset_text <- 0.02
     fig_offset_text <- 0.02
     dip_offset_text <- 0.02
-    cyn_color <- 'darkseagreen2'
+    cyn_color <- z[2]
     ggtree(tree, ladderize = TRUE) + geom_nodelab(size=2,hjust=0) +
-        geom_tree(size=0.8) + geom_tiplab(aes(label = paste0("italic('", label, "')")), parse = TRUE, size = 2) +
+        geom_tree(size=0.8) + geom_tiplab(aes(label = paste0("italic('", label, "')")), parse = TRUE, size = 2.2) +
         geom_treescale(x = 0.0, y = treescale_height, width = 0.1, fontsize=2.0) +
-        geom_strip('Andricus cur', 'Protobalandricus spe', barsize=1, fontsize=font_size, color='black', label="Cynipini", offset=cyn_offset, offset.text=cyn_offset_text) +
+        geom_strip('Andricus cur', 'Protobalandricus spe', barsize=1, fontsize=font_size, color='black', label="Cynipini", offset=cyn_offset+0.04, offset.text=cyn_offset_text) +
         geom_strip('Ceroptres mas', 'Ceroptres mas', barsize=1, fontsize=font_size, color='black', label="Ceroptresini", offset=cyn_offset, offset.text=cyn_offset_text) +
         geom_strip('Iraella his', 'Iraella his', barsize=1, fontsize=font_size, color='black', label="Aylacini", offset=cyn_offset, offset.text=cyn_offset_text) +
         geom_strip('Diastrophus kin', 'Periclistus sp', barsize=1, fontsize=font_size, color='black', label="Diastrophini", offset=cyn_offset, offset.text=cyn_offset_text) +
         geom_strip('Synergus jap', 'Synergus ito', barsize=1, fontsize=font_size, color='black', label="Synergini", offset=cyn_offset, offset.text=cyn_offset_text) +
         geom_strip('Qwaqwaia sco', 'Qwaqwaia sco', barsize=1, fontsize=font_size, color='black', label="Qwaqwaiini", offset=cyn_offset, offset.text=cyn_offset_text) +
-        geom_strip('Aulacidea tav', '"Aylax" hyp', barsize=1, fontsize=font_size, color='black', label="Aulacideini", offset=cyn_offset, offset.text=cyn_offset_text) +
+        geom_strip('Aulacidea tav', 'Fumariphilus hyp', barsize=1, fontsize=font_size, color='black', label="Aulacideini", offset=cyn_offset, offset.text=cyn_offset_text) +
         geom_strip('Phanacis sp', 'Phanacis sp', barsize=1, fontsize=font_size, color='black', label="Phanacidini", offset=cyn_offset, offset.text=cyn_offset_text) +
-        geom_strip('Eschatocerus aca', 'Eschatocerus aca', barsize=1, fontsize=font_size, color='black', label="Eschatocerini", offset=0.17, offset.text=0.02) +
+        geom_strip('Eschatocerus aca', 'Eschatocerus aca', barsize=1, fontsize=font_size, color='black', label="Eschatocerini", offset=0.15, offset.text=0.02) +
         geom_strip('Leptopilina cla', 'Ganaspis sp', barsize=1, fontsize=font_size, color='black', label="Eucoilinae", offset=0.0, offset.text=0.02) +
         geom_strip('Callaspidia not', 'Callaspidia not', barsize=1, fontsize=font_size, color='black', label="Aspicerinae", offset=fig_offset, offset.text=fig_offset_text) +
         geom_strip('Phaenoglyphis vil', 'Alloxysta arc', barsize=1, fontsize=font_size, color='black', label="Charipinae", offset=fig_offset, offset.text=fig_offset_text) +
         geom_strip('Parnips nig', 'Parnips nig', barsize=1, fontsize=font_size, color='black', label="Parnipinae", offset=fig_offset-0.06, offset.text=fig_offset_text) +
-        geom_strip('Diplolepis spi', 'Diplolepis spi', barsize=1, fontsize=font_size, color='black', label="Diplolepidinae", offset=dip_offset, offset.text=dip_offset_text) +
-        geom_strip('Pediaspis ace', 'Pediaspis ace', barsize=1, fontsize=font_size, color='black', label="Pediaspidinae", offset=dip_offset, offset.text=dip_offset_text) +
+        geom_strip('Diplolepis spi', 'Diplolepis spi', barsize=1, fontsize=font_size, color='black', label="Diplolepidini", offset=dip_offset, offset.text=dip_offset_text) +
+        geom_strip('Pediaspis ace', 'Pediaspis ace', barsize=1, fontsize=font_size, color='black', label="Pediaspidini", offset=dip_offset, offset.text=dip_offset_text) +
         geom_strip('Cecinothofagus iba', 'Cecinothofagus iba', barsize=1, fontsize=font_size, color='black', label="Paraulacini", offset=-0.16, offset.text=.02) +
         geom_strip('Nasonia vit', 'Orussus abi', barsize=1, fontsize=4.0, color='gray50', label="Outgroups", offset=0.0, offset.text=.02) +
-        geom_hilight(node=cynipidae, fill='darkseagreen2', type="rect", extend=0.16) +
-        geom_hilight(node=figitidae, fill='chocolate1', type="rect", extend=0.32) +
-        geom_hilight(node=diplolepidae, fill='darkolivegreen3', type="rect", extend=0.35) +
-        geom_hilight(node=paraulacidae, fill='coral1', type="rect", extend=0.36) +
-        geom_strip('Andricus cur', 'Eschatocerus aca', barsize=0, fontsize=4.5, label="Cynipidae (s. str.)", offset=0.14, offset.text=0.02) +
+        geom_hilight(node=cynipidae, fill=z[2], type="rect", extend=0.18) +
+        geom_hilight(node=figitidae, fill=z[1], type="rect", extend=0.32) +
+        geom_hilight(node=diplolepidae, fill=z[3], type="rect", extend=0.35) +
+        geom_hilight(node=paraulacidae, fill=z[4], type="rect", extend=0.36) +
+        geom_strip('Andricus cur', 'Eschatocerus aca', barsize=0, fontsize=4.5, label="Cynipidae (s. str.)", offset=0.16, offset.text=0.02) +
         geom_strip('Leptopilina cla', 'Parnips nig', barsize=0, fontsize=4.5, label="Figitidae", offset=0.17, offset.text=0.02) +
         geom_strip('Diplolepis spi', 'Pediaspis ace', barsize=0, fontsize=4.5, label="Diplolepididae", offset=0.01, offset.text=0.02) +
         geom_strip('Cecinothofagus iba', 'Cecinothofagus iba', barsize=0, fontsize=4.5, label="Paraulacidae", offset=0.0, offset.text=0.02) +
@@ -135,5 +121,5 @@ p1 <- draw_tree(t1, 0.22, TRUE, TRUE, 8.0)
 
 p1
 
-ggsave("Fig_5.png", device="png")
+ggsave("Fig_6.svg", device="svg")
 

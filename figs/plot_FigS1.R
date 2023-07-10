@@ -12,27 +12,8 @@ draw_tree <- function(tree, hexp, cyn_mono=TRUE, leg=TRUE)
     require(ggtree)
     require(ape)
 
-    # Taxon names actually used in the trees
-    taxonNames <- c(
-    "Allox_ar","Phaen_vi","Callas_no","Gana_sp1","Lepto_bo","Lepto_cl",
-    "Lepto_he","Parn_nig","Andr_cur","Andr_gro","Andr_qrm","Andr_qln",
-    "Beloc_tr","Bior_pal","Calli_sp","Prot_spe","Cerop_ma","Irae_his",
-    "Diast_ki","Peric_JH","Qwaq_sco","Syne_gif","Syne_jap","Syne_umb",
-    "Syne_ito","Aula_tav","Isoc_cen","Aylax_hy","Hedic_le","Phana_JH",
-    "Escha_ac","Dipl_spi","Pedia_ac","Cecin_ib","Nasoniav","Orussusa",
-    "Micropld"
-    )
-
-    # Choose the corresponding display names we want to use
-    displayNames <- c(
-    "Alloxysta arc","Phaenoglyphis vil","Callaspidia not","Ganaspis sp","Leptopilina bou","Leptopilina cla",
-    "Leptopilina het","Parnips nig","Andricus cur","Andricus gro","Andricus qrm","Druon qln",
-    "Belonocnema kin","Biorhiza pal","Neuroterus val","Protobalandricus spe","Ceroptres mas","Iraella his",
-    "Diastrophus kin","Periclistus sp","Qwaqwaia sco","Synergus gif","Synergus jap","Synergus umb",
-    "Synergus ito","Aulacidea tav","Isocolus cen","\"Aylax\" hyp","Hedickiana lev","Phanacis sp",
-    "Eschatocerus aca","Diplolepis spi","Pediaspis ace","Cecinothofagus iba","Nasonia vit","Orussus abi",
-    "Microplitis dem"
-    )
+    # Read in tip labels and desired display names
+    source("names.R")
 
     # Desired order of tips
     taxonOrder <- c(36,37,35,34,32,33,31,8,1,2,3,4,5,6,7,26,27,28,29,30,19,20,21,22,23,24,25,18,17,16,15,14,13,12,11,10,9)
@@ -66,7 +47,7 @@ draw_tree <- function(tree, hexp, cyn_mono=TRUE, leg=TRUE)
     attr(tree,"group") <- as.factor(x)
 
     # Set the colors
-    cols <- c(Cynipini="blue", Eschatocerini="orange", Phanacidini="green3", Aylacini="deeppink", Aulacideini="green")
+    source("colors.R")
     
     # Change display names and only show support < 100%
     for ( i in 1:length(tree$tip.label) )
@@ -82,13 +63,16 @@ draw_tree <- function(tree, hexp, cyn_mono=TRUE, leg=TRUE)
     else
         leg.pos <- "none"
     
-    ggtree(tree, aes(color = group), ladderize = TRUE) + geom_nodelab(size=1.5,hjust=0) +
-        geom_tree(size=0.6) + geom_tiplab(aes(label = paste0("italic('", label, "')")), parse = TRUE, size = 1.5) +
-        geom_treescale(x = 0.0, y = 8.0, width = 0.1, fontsize=1.5) + guides(color = guide_legend(override.aes = list(size = 3, shape = 15))) +
-        theme_tree(legend.position = leg.pos, legend.key.size = unit(0.04,'cm'), legend.title = element_text(size=9)) +
+    ggtree(tree, aes(color = group), ladderize = TRUE) +
+        geom_tree(size=0.6, key_glyph="rect") +
         hexpand(hexp) +
+        geom_nodelab(size=1.2,hjust=0) +
+        geom_tiplab(aes(label = paste0("italic('", label, "')")), parse = TRUE, size = 1.5) +
+        geom_treescale(x = 0.0, y = 8.0, width = 0.1, fontsize=1.5) +
+        theme_tree(legend.position = leg.pos, legend.key.size = unit(0.04,'cm'), legend.title = element_text(size=9), legend.text=element_text(size=7)) +
         scale_color_manual(values = c(cols, "black"), na.value = "black", name = "Lineage",
-            breaks = c("Cynipini", "Aylacini", "Phanacidini", "Aulacideini","Eschatocerini"))
+            breaks = c("Cynipini", "Aylacini", "Phanacidini", "Aulacideini","Eschatocerini"),
+            guide = guide_legend(override.aes = list(size = 3, shape = 15)))
 }
 
 t1 <- read.tree("../iqtree/iq_clustal34_hmm_lt0.018_C60_I_G5.contree")
@@ -108,5 +92,5 @@ p6 <- draw_tree(t6, 0.22, FALSE, FALSE)
 labels <- c("A", "B", "C", "D", "E", "F")
 cowplot::plot_grid(p1,p2,p3,p4,p5,p6,ncol=2,labels=labels, label_size=12, hjust=0.0) + theme(plot.margin=unit(c(3,3,3,3), "pt"))
 
-ggsave("Fig_S1.png", device="png")
+ggsave("Fig_S1.svg", device="svg")
 

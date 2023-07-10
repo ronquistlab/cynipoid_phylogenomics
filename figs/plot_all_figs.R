@@ -1,9 +1,9 @@
-for (i in 1:7) {
+for (i in c(2:6,10,11)) {
     file <- paste0("plot_Fig",i,".R")
     source(file)
 }
 
-for (i in 1:5) {
+for (i in 1:7) {
     file <- paste0("plot_FigS",i,".R")
     source(file)
 }

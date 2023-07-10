@@ -12,27 +12,8 @@ draw_tree <- function(tree, hexp, leg=TRUE, type)
     require(ggtree)
     require(ape)
 
-    # Taxon names actually used in the trees
-    taxonNames <- c(
-    "Allox_ar","Phaen_vi","Callas_no","Gana_sp1","Lepto_bo","Lepto_cl",
-    "Lepto_he","Parn_nig","Andr_cur","Andr_gro","Andr_qrm","Andr_qln",
-    "Beloc_tr","Bior_pal","Calli_sp","Prot_spe","Cerop_ma","Irae_his",
-    "Diast_ki","Peric_JH","Qwaq_sco","Syne_gif","Syne_jap","Syne_umb",
-    "Syne_ito","Aula_tav","Isoc_cen","Aylax_hy","Hedic_le","Phana_JH",
-    "Escha_ac","Dipl_spi","Pedia_ac","Cecin_ib","Nasoniav","Orussusa",
-    "Micropld"
-    )
-
-    # Choose the corresponding display names we want to use
-    displayNames <- c(
-    "Alloxysta arc","Phaenoglyphis vil","Callaspidia not","Ganaspis sp","Leptopilina bou","Leptopilina cla",
-    "Leptopilina het","Parnips nig","Andricus cur","Andricus gro","Andricus qrm","Druon qln",
-    "Belonocnema kin","Biorhiza pal","Neuroterus val","Protobalandricus spe","Ceroptres mas","Iraella his",
-    "Diastrophus kin","Periclistus sp","Qwaqwaia sco","Synergus gif","Synergus jap","Synergus umb",
-    "Synergus ito","Aulacidea tav","Isocolus cen","\"Aylax\" hyp","Hedickiana lev","Phanacis sp",
-    "Eschatocerus aca","Diplolepis spi","Pediaspis ace","Cecinothofagus iba","Nasonia vit","Orussus abi",
-    "Microplitis dem"
-    )
+    # Read in tip labels and desired display names
+    source("names.R") 
 
     # Desired order of tips
     taxonOrder <- c(36,37,35,34,32,33,31,8,1,2,3,4,5,6,7,26,27,28,29,30,19,20,21,22,23,24,25,18,17,16,15,14,13,12,11,10,9)
@@ -92,8 +73,9 @@ draw_tree <- function(tree, hexp, leg=TRUE, type)
     attr(tree,"group") <- as.factor(x)
     attr(tree,"branch_label") <- as.factor(y)
 
-    # Set the colors
-    cols <- c(Gall_inducer="green3", Inquiline="blue")
+    # Read in color palette adapted for color blind
+    source("colors.R")
+    cols <- c(Gall_inducer=z[3], Inquiline=z[2])
     
     # Change display names
     for ( i in 1:length(tree$tip.label) )
@@ -106,16 +88,15 @@ draw_tree <- function(tree, hexp, leg=TRUE, type)
         leg.pos <- "none"
     }
 
-    fill_col <- "red"
+    fill_col <- z[1]
     if (type == "galler_first")
         root_col <- cols[1]
     else
         root_col <- cols[2]
 
     ggtree(tree, aes(color = group), ladderize = TRUE) + geom_rootedge(size=0.8, color=root_col) +
-        geom_tree(size=0.8) + geom_tiplab(aes(label = paste0("italic('", label, "')")), parse = TRUE, size = 1.5) +
-        guides(color = guide_legend(override.aes = list(size = 3, shape = 15))) +
-        theme_tree(legend.position = leg.pos, legend.key.size = unit(0.04,'cm'), legend.title = element_blank()) +
+        geom_tree(size=0.8, key_glyph="rect") +
+        geom_tiplab(aes(label = paste0("italic('", label, "')")), parse = TRUE, size = 1.5) +
         hexpand(hexp) +
         geom_strip('Andricus cur', 'Protobalandricus spe', barsize=0.2, color="gray60", fontsize=2, label="Cynipini",
             offset=0.022, offset.text=0.003) +
@@ -129,13 +110,15 @@ draw_tree <- function(tree, hexp, leg=TRUE, type)
             offset=0.022, offset.text=0.003) +
         geom_strip('Synergus jap', 'Synergus ito', barsize=0.2, color="gray60", fontsize=2, label="Synergini",
             offset=0.022, offset.text=0.003) +
-        geom_strip('Aulacidea tav', '"Aylax" hyp', barsize=0.2, color="gray60", fontsize=2, label="Aulacideini",
+        geom_strip('Aulacidea tav', 'Fumariphilus hyp', barsize=0.2, color="gray60", fontsize=2, label="Aulacideini",
             offset=0.022, offset.text=0.003) +
         geom_strip('Phanacis sp', 'Phanacis sp', barsize=0.2, color="gray60", fontsize=2, label="Phanacidini",
             offset=0.022, offset.text=0.003) +
         geom_label(aes(x=branch, label=branch_label), color="white", fill=fill_col, size=3, label.size=0.1, label.padding=unit(0.05,'cm'), show.legend=FALSE, na.rm=TRUE) + 
+        theme_tree(legend.position = leg.pos, legend.key.size = unit(0.04,'cm'), legend.title = element_blank()) +
         scale_color_manual(values = c(cols, "black"), na.value = "black", name = "Life history",
-            breaks = c("Gall_inducer", "Inquiline", "Uncertain"))
+            breaks = c("Gall_inducer", "Inquiline", "Uncertain"),
+            guide = guide_legend(override.aes = list(size = 3)))
 }
 
 t1 <- read.tree("../phylobayes/clustal34_ag_lt0.26.con.tre")
@@ -151,5 +134,5 @@ p2 <- draw_tree(t2, 0.35, FALSE, type="galler_first")
 labels <- c("A", "B")
 cowplot::plot_grid(p1,p2,ncol=2,labels=labels, label_size=14, hjust=0.0) + theme(plot.margin=unit(c(3,3,3,3), "pt"))
 
-ggsave("Fig_7.png", device="png", height=3.5)
+ggsave("Fig_11.svg", device="svg", height=3.5)
 
