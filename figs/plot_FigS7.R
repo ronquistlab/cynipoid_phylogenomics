@@ -97,11 +97,11 @@ draw_tree <- function(tree, hexp, cyn_mono=TRUE, leg=TRUE, treescale_height=8.0)
     geom_tiplab(aes(label = paste0("italic('", label, "')")), parse = TRUE, size = 1) +
     geom_treescale(x = 0.225, y = treescale_height, width = 0.1, fontsize=2.0) +
     geom_strip('Disholcaspis_qma', 'Protobalandricus_spe_phylo', barsize=1, fontsize=font_size, color='black', label="Cynipini", offset=cyn_offset, offset.text=cyn_offset_text) +
-    geom_strip('Ceroptres_mas_phylo','Ceroptres_cor',  barsize=1, fontsize=font_size, color='black', label="Ceroptresini", offset=cyn_offset, offset.text=cyn_offset_text) +
-    geom_strip('Iraella_his_phylo', 'Iraella_his_phylo', barsize=1, fontsize=font_size, color='black', label="Aylacini", offset=cyn_offset, offset.text=cyn_offset_text) +
+    geom_strip('Ceroptres_mas_phylo','Ceroptres_cor',  barsize=1, fontsize=font_size-0.6, color='black', label="Ceroptresini", offset=cyn_offset, offset.text=cyn_offset_text) +
+    geom_strip('Iraella_his_phylo', 'Iraella_his_phylo', barsize=1, fontsize=font_size-0.6, color='black', label="Aylacini (s. str.)", offset=cyn_offset, offset.text=cyn_offset_text) +
     geom_strip('Diastrophus_tur', 'Periclistus_sp_phylo', barsize=1, fontsize=font_size, color='black', label="Diastrophini", offset=cyn_offset, offset.text=cyn_offset_text) +
     geom_strip('Synergus_jap_phylo','Synergus_lae',  barsize=1, fontsize=font_size, color='black', label="Synergini", offset=cyn_offset, offset.text=cyn_offset_text) +
-    geom_strip('Rhoophilus_loe','Qwaqwaia_sco_phylo',  barsize=1, fontsize=font_size, color='black', label="Qwaqwaiini", offset=cyn_offset, offset.text=cyn_offset_text) +
+    geom_strip('Rhoophilus_loe','Qwaqwaia_sco_phylo',  barsize=1, fontsize=font_size, color='black', label="Qwaqwaiini + Rhoophilini", offset=cyn_offset, offset.text=cyn_offset_text) +
     geom_strip('Isocolus_rog', 'Fumariphilus_hyp_phylo', barsize=1, fontsize=font_size, color='black', label="Aulacideini", offset=cyn_offset, offset.text=cyn_offset_text) +
     geom_strip('Phanacis_sp1', 'Phanacis_sp2_phylo', barsize=1, fontsize=font_size, color='black', label="Phanacidini", offset=cyn_offset, offset.text=cyn_offset_text) +
     geom_strip('Eschatocerus_nig', 'Eschatocerus_aca_phylo', barsize=1, fontsize=font_size, color='black', label="Eschatocerini", offset=0.03, offset.text=0.01) +
@@ -138,5 +138,6 @@ p1 <- draw_tree(t1, 0.05, TRUE, TRUE, 0.1)
 p1
 
 ggsave("Fig_S7.svg", device="svg")
+ggsave("Fig_S7.pdf", device="pdf")
 
 

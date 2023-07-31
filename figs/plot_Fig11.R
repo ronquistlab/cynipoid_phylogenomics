@@ -94,7 +94,8 @@ draw_tree <- function(tree, hexp, leg=TRUE, type)
     else
         root_col <- cols[2]
 
-    ggtree(tree, aes(color = group), ladderize = TRUE) + geom_rootedge(size=0.8, color=root_col) +
+    ggtree(tree, aes(color = group), ladderize = TRUE) +
+        geom_rootedge(size=0.8, color=root_col) +
         geom_tree(size=0.8, key_glyph="rect") +
         geom_tiplab(aes(label = paste0("italic('", label, "')")), parse = TRUE, size = 1.5) +
         hexpand(hexp) +
@@ -135,4 +136,5 @@ labels <- c("A", "B")
 cowplot::plot_grid(p1,p2,ncol=2,labels=labels, label_size=14, hjust=0.0) + theme(plot.margin=unit(c(3,3,3,3), "pt"))
 
 ggsave("Fig_11.svg", device="svg", height=3.5)
+ggsave("Fig_11.pdf", device="pdf", height=3.5)
 

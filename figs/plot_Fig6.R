@@ -122,4 +122,5 @@ p1 <- draw_tree(t1, 0.22, TRUE, TRUE, 8.0)
 p1
 
 ggsave("Fig_6.svg", device="svg")
+ggsave("Fig_6.pdf", device="pdf")
 

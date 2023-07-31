@@ -127,4 +127,5 @@ labels <- c("A", "B")
 cowplot::plot_grid(p1,p2,ncol=2,labels=labels, label_size=14, hjust=0.0) + theme(plot.margin=unit(c(3,3,3,3), "pt"))
 
 ggsave("Fig_10.svg", device="svg", height=3.5)
+ggsave("Fig_10.pdf", device="pdf", height=3.5)
 
