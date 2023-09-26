@@ -1,0 +1,622 @@
+IQ-TREE multicore version 2.1.3 COVID-edition for Linux 64-bit built Apr 21 2021
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    lug (AVX512, FMA3, 1007 GB RAM)
+Command: ../iqtree-2.1.3-Linux/bin/iqtree2 -s All_UCESGblocs.fasta -T 20 --ufboot 1000 -p GblockTree.best_scheme.nex --prefix GblockTreeModelEst
+Seed:    988721 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon May 15 14:55:33 2023
+Kernel:  AVX+FMA - 20 threads (72 CPU cores detected)
+
+Reading partition model file GblockTree.best_scheme.nex ...
+Reading alignment file All_UCESGblocs.fasta ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 154 sequences with 86945 columns, 39229 distinct patterns
+24522 parsimony-informative, 11499 singleton sites, 50924 constant sites
+                                     Gap/Ambiguity  Composition  p-value
+   1  Acanthaegilips_brasiliensis_1339636    4.93%    passed     13.50%
+   2  Acraspis_villosa_1322264              77.31%    failed      0.01%
+   3  Aegilips_chilensis_1339639             4.51%    passed     48.89%
+   4  Aegilips_sp1_1339605                  60.70%    passed     45.33%
+   5  Aegilips_sp3_1339647                   5.89%    passed     28.48%
+   6  Alloc1_Phylogenom                     15.42%    failed      0.04%
+   7  Alloxysta_sp1_1339609                  9.43%    passed     86.46%
+   8  Amphibolips_hidalgoensis_1339676      42.73%    failed      0.07%
+   9  Anacharis_sp1_1339608                 24.95%    passed     99.95%
+  10  Anacharis_sp2_1339612                  3.59%    passed     30.07%
+  11  Anacharoides_pallida_1322147          40.40%    passed     24.46%
+  12  Andricus_californicus_1322348         33.43%    passed     21.03%
+  13  Andricus_californicus_1339660         37.36%    passed     36.76%
+  14  Andricus_coriarus_Phylogenom          19.53%    failed      0.01%
+  15  Andricus_curvator_Phylogenom          15.35%    failed      0.20%
+  16  Andricus_formosanus_1322259           23.34%    passed     37.78%
+  17  Andricus_grossulariae_1322258         52.74%    failed      0.19%
+  18  Andricus_kollari_Phylogenom           24.34%    failed      0.00%
+  19  Andricus_lanigera_1322299             27.63%    passed     20.80%
+  20  Andricus_lucidus_1322256              17.09%    passed     44.62%
+  21  Andricus_quercusoperator_1322298      18.59%    passed     46.54%
+  22  Andricus_sp1_877721                   12.95%    passed      6.91%
+  23  Andricus_sphaericus_1339663           65.19%    failed      0.69%
+  24  Andricus_sternlichti_1322297          33.89%    passed     11.24%
+  25  Antistrophus_minor_1322280             4.25%    passed     73.89%
+  26  Antistrophus_rufus_653898             12.21%    passed     92.86%
+  27  Aphelonix_persica_1322296             61.15%    failed      0.01%
+  28  Apocharips_trapezoidea_1322156         9.97%    passed     86.22%
+  29  Aspicera_hartigi_1322148              11.21%    passed     54.42%
+  30  Atrusca_bella_892683                  88.95%    failed      0.26%
+  31  Aulacidea_hieracii_1322279             6.32%    passed     35.75%
+  32  Aulacidea_podagrae_1322278            87.74%    passed     22.28%
+  33  Aultav4_Phylogenom                    14.40%    failed      0.61%
+  34  Aylax_salviae_1322277                 13.52%    passed     38.91%
+  35  Aylhyp5_Phylogenom                    13.95%    failed      2.35%
+  36  Bassettia_tenuana_893138              87.22%    failed      0.00%
+  37  Biorhiza_pallida_Phylogenom           71.66%    failed      0.00%
+  38  Callaspidia_sp1_1322110               78.40%    failed      0.00%
+  39  Callaspidia_sp2_1339613               44.55%    passed     97.22%
+  40  Callihormius_bifasciatus_1322486      24.25%    failed      1.82%
+  41  Callirhytis_eldoradensis_893402       82.81%    failed      1.98%
+  42  Callirhytis_wheeleri_893435           86.50%    passed     20.03%
+  43  Cecinothofagus_ibarrai_1322269        21.95%    passed     31.25%
+  44  Ceroptres_cornigera_892674            25.04%    passed     46.44%
+  45  Ciba1_Phylogenom                      31.05%    failed      0.00%
+  46  Cnot1_Phylogenom                      14.43%    failed      1.42%
+  47  Crpmas2_Phylogenom                    14.66%    failed      0.13%
+  48  Cynips_divisa_1322301                 81.21%    failed      0.06%
+  49  Cynips_plumbea_1322300                74.54%    failed      0.00%
+  50  Diakin6_Phylogenom                    19.70%    passed     27.18%
+  51  Diastrophus_kinkadii_1322314          33.73%    failed      0.38%
+  52  Diastrophus_sp1_1322310               10.38%    passed     47.52%
+  53  Diastrophus_turgidus_1322311          11.45%    passed     95.59%
+  54  Dilyta_sp1_1339646                    26.64%    passed     68.98%
+  55  Diplolepis_bicolor_1322275            10.03%    failed      3.59%
+  56  Diplolepis_mayri_1322267              57.76%    failed      0.01%
+  57  Diplolepis_rosae_1322265              21.64%    failed      4.61%
+  58  Disholcaspis_acetabula_1322308        80.48%    failed      1.26%
+  59  Disholcaspis_lasia_EX580              55.95%    failed      0.00%
+  60  Disholcaspis_quercusmamma_EX579       50.65%    failed      0.00%
+  61  Dryocosmus_kuriphilus_1322316         68.14%    failed      0.02%
+  62  Dryocosmus_kuriphilus_1322318         66.94%    failed      0.01%
+  63  Dryocosmus_rileypokei_1322317         14.67%    passed     48.28%
+  64  DspinComb_Phylogenom                  21.98%    failed      1.43%
+  65  Eaca1_Phylogenom                      65.50%    failed      0.84%
+  66  Eschatocerus_niger_1322270            26.57%    failed      0.00%
+  67  Euceroptres_montanus_1322161           7.17%    failed      2.13%
+  68  Figites_sp1_1322163                    9.39%    passed     76.37%
+  69  Ganaspis_brasiliensis_1081315          6.77%    passed      7.54%
+  70  Ganaspis_brasiliensis_1339685          7.31%    failed      2.19%
+  71  Ganaspis_sp1_Phylogenom               73.67%    passed     11.23%
+  72  Ganaspis_sp1_764917                   42.49%    passed     19.11%
+  73  Ganaspis_sp2_1339603                  12.46%    passed      8.32%
+  74  Gronotoma_sp1_877589                  13.95%    failed      0.01%
+  75  Hedlev5_Phylogenom                    14.52%    failed      3.19%
+  76  Heteribalia_sp1_1339673                2.22%    passed     59.64%
+  77  Hexacharis_flavipes_1339633           50.54%    passed     97.10%
+  78  Hexacola_sp1_1339645                   6.40%    passed     15.82%
+  79  Holocynips_hartmani_1322321           76.40%    failed      0.00%
+  80  Ibalia_anceps_653903                   5.47%    passed     89.53%
+  81  Ibalia_leucospoides_1339664           43.64%    passed     70.86%
+  82  Irahis2_Phylogenom                    23.07%    passed      6.67%
+  83  Isocen2_Phylogenom                    15.00%    passed     11.99%
+  84  Isocolus_rogenhoferi_1322274           8.90%    passed     92.39%
+  85  Isocolus_scabiosae_1322273             5.79%    passed     65.13%
+  86  Kleidotoma_sp1_1339641                44.42%    passed      8.10%
+  87  Leptocybe_invasa_1339654              20.82%    failed      0.00%
+  88  Leptolamina_ponapensis_1339637         7.73%    passed     27.96%
+  89  Leptopilina_boulardi_877726           54.80%    failed      0.00%
+  90  Leptopilina_japonica_1339619          21.47%    passed     16.09%
+  91  Lonchidia_sp1_1339616                  5.65%    passed     12.62%
+  92  Lytoxysta_brevipalpis_1322157         14.00%    passed     94.92%
+  93  Melanips_sp1_1322150                  29.58%    passed     99.49%
+  94  Mikeius_hartigi_1322169               42.14%    passed      6.47%
+  95  Myrtopsen_mimosae_1322134             82.23%    passed     10.61%
+  96  Neralsia_sp1_1339607                   4.02%    passed     26.45%
+  97  Neuroterus_distortus_1322326          48.02%    failed      0.56%
+  98  Nixonia_watshami_1109338               8.27%    passed     91.08%
+  99  Nordlandiella_semirufa_1339644         7.50%    failed      1.51%
+ 100  Oberthuerella_lenticularis_1322285    14.55%    failed      0.06%
+ 101  Odonteucoila_sp1_1339643               8.14%    passed     13.46%
+ 102  Omalaspis_sp1_1322151                 35.78%    passed     17.93%
+ 103  Paramblynotus_virginianus_1339638      6.07%    passed     99.35%
+ 104  Paramblynotus_virginianus_877725       8.28%    passed     96.37%
+ 105  Paraspicera_sp1_1322152                5.29%    passed     63.78%
+ 106  Paraulacini_sp1_1322276               16.82%    failed      1.58%
+ 107  Paraulax_queulensis_1322268           16.64%    passed     36.10%
+ 108  Parnips_nigripes_1322129              23.53%    passed      9.54%
+ 109  Pedace8_Phylogenom                    16.86%    failed      0.14%
+ 110  Pediaspis_aceris_1339590              46.59%    failed      0.14%
+ 111  Per_spB2_Phylogenom                   14.59%    failed      1.55%
+ 112  Periclistus_sp1_1322291                3.66%    passed     47.96%
+ 113  Periclistus_sp2_1322266               18.19%    passed     22.30%
+ 114  Pha_sp2_Phylogenom                    19.82%    passed      5.42%
+ 115  Phaenoglyphis_sp1_1339640              4.02%    failed      3.81%
+ 116  Phaenoglyphis_villosa_Phylogenom      15.67%    failed      0.15%
+ 117  Phanacis_sp1_653613                   58.26%    passed     36.56%
+ 118  Philonix_fulvicollis_1322347          89.36%    failed      0.04%
+ 119  Plagiotrochus_suberi_1322345          30.43%    failed      0.41%
+ 120  Platygaster_sp1_1335833               28.49%    failed      0.00%
+ 121  Plectocynips_pilosus_1322170          37.40%    failed      2.72%
+ 122  Prnig_Phylogenom                      11.61%    failed      3.08%
+ 123  Propsilomma_columbianum_1322336       18.13%    failed      0.00%
+ 124  Prosaspicera_sp1_1322153              13.40%    passed     76.52%
+ 125  Prospe15_Phylogenom                   18.30%    failed      0.21%
+ 126  Pseudibalia_sp1_1339677               35.33%    passed      6.03%
+ 127  Qwasco_Phylogenom                     16.20%    failed      3.29%
+ 128  Rhoophilus_loewi_1322293               4.53%    passed     65.27%
+ 129  Rhoptromeris_sp1_1339642              30.46%    passed     42.76%
+ 130  Sarothrus_sp1_1339610                 58.46%    passed     37.42%
+ 131  Sarothrus_sp2_1339611                  5.49%    passed     69.22%
+ 132  Scutimica_sp1_1322133                 57.72%    failed      0.00%
+ 133  Sparasion_cullaris_1322137            15.52%    failed      0.92%
+ 134  Striatovertex_sp1_653899               7.90%    failed      0.00%
+ 135  Sumb541B_Phylogenom                   14.14%    failed      3.06%
+ 136  Synergus_gifuensis_Phylogenom         15.43%    passed      5.60%
+ 137  Synergus_itoensis_Phylogenom          13.92%    passed      8.93%
+ 138  Synergus_laeviventris_960238          83.03%    passed     20.05%
+ 139  Synergus_sp1_1322283                   2.61%    passed     67.66%
+ 140  Synergus_sp2_1322294                   4.71%    passed     38.15%
+ 141  Synjap3_Phylogenom                    15.37%    failed      4.41%
+ 142  Synophromorpha_sylvestris_1322282      5.06%    passed     28.32%
+ 143  Synophromorpha_terricola_1322281       4.79%    passed     40.89%
+ 144  Synophrus_pilulae_961203               5.05%    passed     22.97%
+ 145  Thoreauella_sp1_1339606               17.43%    passed     96.36%
+ 146  Thoreauella_sp2_1339615               13.55%    passed     98.69%
+ 147  Trichoplasta_sp1_1339635               8.55%    passed     82.45%
+ 148  Trissolcus_sp1_1223831                22.04%    failed      0.01%
+ 149  Trybliographa_sp1_877722               8.80%    passed      6.50%
+ 150  Tylosema_dayae_1322132                80.60%    failed      1.07%
+ 151  Xyalaspis_sp1_1339604                  5.50%    passed     54.40%
+ 152  Xyalophora_sp1_1339617                 3.56%    failed      1.76%
+ 153  Zaeucoila_robusta_1339614              7.66%    passed      5.78%
+ 154  Zapatella_davisae_1322330             54.60%    failed      0.00%
+WARNING: 33 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                 28.50%  67 sequences failed composition chi2 test (p-value<5%; df=3)
+
+Loading 38 partitions...
+Subset	Type	Seqs	Sites	Infor	Invar	Model	Name
+1	DNA	154	2447	657	1456	TIM3e+R3	uce_100_uce_10156_uce_10229_uce_1024_uce_10535_uce_10595_uce_106_uce_1110_uce_11275_uce_11410_uce_11826_uce_11972_uce_12302_uce_1238_uce_12762_uce_192_uce_23_uce_272_uce_373_uce_430_uce_473_uce_5_uce_531_uce_594_uce_618_uce_621_uce_647_uce_683_uce_741_uce_791_uce_821_uce_99
+2	DNA	154	4919	2046	1944	TVM+F+R4	uce_10008_uce_10099_uce_10199_uce_10236_uce_10286_uce_10424_uce_10447_uce_10467_uce_10470_uce_1049_uce_10586_uce_1061_uce_1065_uce_1070_uce_1071_uce_10743_uce_10758_uce_1078_uce_10801_uce_10974_uce_11027_uce_11183_uce_11198_uce_11325_uce_1135_uce_11507_uce_1155_uce_11605_uce_1214_uce_1221_uce_12435_uce_12516_uce_12578_uce_12679_uce_12681_uce_12718_uce_1272_uce_12747_uce_1366_uce_1381_uce_1416_uce_1487_uce_1500_uce_153_uce_173_uce_303_uce_316_uce_327_uce_40_uce_402_uce_454_uce_479_uce_481_uce_54_uce_562_uce_566_uce_568_uce_69_uce_693_uce_697_uce_76_uce_77_uce_787_uce_86_uce_875_uce_979_uce_985
+3	DNA	153	3650	1373	2091	TIM2+F+R4	uce_10009_uce_10033_uce_10141_uce_10188_uce_10300_uce_10344_uce_10411_uce_10416_uce_10478_uce_10529_uce_10640_uce_10771_uce_10936_uce_10965_uce_10970_uce_10988_uce_11087_uce_11224_uce_11282_uce_11329_uce_11338_uce_11428_uce_11584_uce_11601_uce_11664_uce_11677_uce_12032_uce_12126_uce_12142_uce_12245_uce_12376_uce_12388_uce_12491_uce_12535_uce_12917_uce_1510
+4	DNA	154	6584	2384	3768	GTR+F+R4	uce_10015_uce_10069_uce_10100_uce_10137_uce_10142_uce_10208_uce_10230_uce_10251_uce_10254_uce_10288_uce_10304_uce_10330_uce_10361_uce_10368_uce_10398_uce_10464_uce_10504_uce_10534_uce_10583_uce_10725_uce_10756_uce_10791_uce_10794_uce_10803_uce_10858_uce_10967_uce_11002_uce_11163_uce_11263_uce_11264_uce_11397_uce_11461_uce_11640_uce_11671_uce_11785_uce_11796_uce_11815_uce_11865_uce_11909_uce_11922_uce_11927_uce_11982_uce_12077_uce_12158_uce_12220_uce_12237_uce_12238_uce_12244_uce_1225_uce_12261_uce_12350_uce_12358_uce_12474_uce_12514_uce_12529_uce_12532_uce_12553_uce_12564_uce_12593_uce_12648_uce_12661_uce_12836_uce_12979_uce_132_uce_177_uce_446_uce_448_uce_506_uce_588_uce_59_uce_617_uce_659_uce_750
+5	DNA	154	4402	1764	2252	TIM2+F+R5	uce_10020_uce_10104_uce_10134_uce_10144_uce_10315_uce_10366_uce_10392_uce_10399_uce_10414_uce_10459_uce_10506_uce_10775_uce_10831_uce_10926_uce_11028_uce_11046_uce_11236_uce_11252_uce_11291_uce_11326_uce_11376_uce_11437_uce_11465_uce_11670_uce_11714_uce_11728_uce_11787_uce_11791_uce_12127_uce_12216_uce_12260_uce_12282_uce_12290_uce_12305_uce_12469_uce_12515_uce_12557_uce_12558_uce_12565_uce_12698_uce_12793_uce_12973_uce_71
+6	DNA	154	3003	903	1709	TIM2e+R3	uce_10029_uce_10061_uce_10068_uce_10187_uce_10215_uce_10270_uce_10360_uce_1047_uce_10482_uce_10588_uce_1099_uce_1133_uce_11395_uce_11565_uce_11666_uce_12394_uce_12713_uce_12765_uce_12875_uce_12938_uce_1358_uce_1391_uce_170_uce_236_uce_291_uce_351_uce_587_uce_64_uce_694_uce_721_uce_728_uce_752_uce_82_uce_95
+7	DNA	154	3436	324	2727	TIM+F+R2	uce_1004_uce_1012_uce_1026_uce_10340_uce_104_uce_10604_uce_10847_uce_11177_uce_11368_uce_1177_uce_11870_uce_1211_uce_1217_uce_1239_uce_12408_uce_1242_uce_1253_uce_12857_uce_12966_uce_1304_uce_1325_uce_1345_uce_1393_uce_1477_uce_1482_uce_189_uce_194_uce_204_uce_205_uce_231_uce_241_uce_329_uce_382_uce_390_uce_472_uce_475_uce_487_uce_49_uce_55_uce_550_uce_558_uce_598_uce_60_uce_640_uce_672_uce_691_uce_707_uce_760_uce_777_uce_789_uce_794_uce_799_uce_816_uce_844_uce_847_uce_855_uce_869_uce_910_uce_915_uce_963_uce_989
+8	DNA	154	2707	435	2019	TN+F+I+G4	uce_10053_uce_1055_uce_1098_uce_1143_uce_115_uce_1208_uce_1232_uce_12470_uce_12495_uce_12509_uce_12769_uce_129_uce_130_uce_1394_uce_18_uce_211_uce_212_uce_253_uce_278_uce_279_uce_401_uce_434_uce_518_uce_520_uce_533_uce_570_uce_591_uce_595_uce_610_uce_793_uce_851_uce_931_uce_957
+9	DNA	153	2188	680	1169	SYM+R3	uce_10059_uce_10177_uce_10646_uce_11094_uce_11399_uce_11448_uce_11869_uce_11963_uce_11965_uce_1204_uce_1207_uce_12111_uce_1235_uce_12517_uce_12608_uce_1268_uce_12755_uce_1490_uce_150_uce_171_uce_258_uce_468_uce_560_uce_624_uce_822_uce_912_uce_922
+10	DNA	154	4566	628	3435	TPM2+F+I+G4	uce_1006_uce_10214_uce_1073_uce_1076_uce_1080_uce_1081_uce_1085_uce_1086_uce_1094_uce_1111_uce_1127_uce_11345_uce_1156_uce_1159_uce_11626_uce_11763_uce_1181_uce_1191_uce_1198_uce_1206_uce_121_uce_125_uce_12735_uce_12846_uce_12958_uce_1324_uce_1339_uce_1348_uce_1380_uce_139_uce_1441_uce_1463_uce_181_uce_306_uce_366_uce_370_uce_381_uce_399_uce_406_uce_483_uce_492_uce_498_uce_509_uce_534_uce_559_uce_580_uce_604_uce_626_uce_639_uce_646_uce_660_uce_662_uce_680_uce_688_uce_696_uce_74_uce_764_uce_768_uce_796_uce_834_uce_905_uce_908_uce_916_uce_917_uce_955_uce_96_uce_960_uce_962_uce_965_uce_999
+11	DNA	152	1542	479	963	TVM+F+I+G4	uce_10063_uce_10074_uce_10977_uce_11085_uce_11119_uce_11418_uce_11517_uce_11679_uce_1194_uce_1213_uce_12801_uce_12886_uce_12889_uce_946
+12	DNA	154	2852	409	1936	TIM2+F+R2	uce_1007_uce_1029_uce_10339_uce_10363_uce_10727_uce_1095_uce_1112_uce_1124_uce_1173_uce_11754_uce_12053_uce_12179_uce_12193_uce_1224_uce_1243_uce_12545_uce_12633_uce_1267_uce_13004_uce_1352_uce_141_uce_149_uce_19_uce_200_uce_208_uce_233_uce_269_uce_30_uce_38_uce_389_uce_410_uce_435_uce_436_uce_485_uce_507_uce_513_uce_58_uce_642_uce_645_uce_747_uce_773_uce_800_uce_829_uce_835_uce_864_uce_927
+13	DNA	154	49864	12695	30041	TVM+F+R4	uce_10073_uce_10096_uce_10221_uce_1023_uce_1032_uce_1037_uce_11144_uce_1202_uce_12393_uce_1260_uce_12680_uce_1281_uce_12852_uce_12858_uce_1314_uce_1343_uce_1383_uce_1497_uce_270_uce_3_uce_365_uce_4_uce_44_uce_47_uce_553_uce_649_uce_848_uce_929
+14	DNA	154	4253	1501	1919	TVM+F+R3	uce_1008_uce_1011_uce_10216_uce_10402_uce_10607_uce_1066_uce_1093_uce_113_uce_11319_uce_1139_uce_11394_uce_11631_uce_1172_uce_11780_uce_120_uce_12167_uce_12910_uce_12943_uce_1296_uce_1374_uce_1386_uce_1414_uce_1426_uce_1430_uce_1434_uce_1446_uce_1462_uce_148_uce_1495_uce_1502_uce_169_uce_242_uce_260_uce_325_uce_334_uce_495_uce_532_uce_543_uce_552_uce_555_uce_557_uce_654_uce_656_uce_695_uce_698_uce_769_uce_832_uce_856_uce_858_uce_861_uce_882_uce_907_uce_953
+15	DNA	154	3139	723	2038	TVMe+I+G4	uce_10089_uce_1009_uce_1014_uce_10175_uce_10178_uce_10201_uce_10327_uce_10454_uce_10796_uce_1096_uce_11104_uce_11238_uce_11311_uce_1134_uce_11658_uce_1167_uce_11863_uce_1193_uce_1237_uce_12947_uce_1340_uce_1377_uce_1503_uce_158_uce_193_uce_215_uce_244_uce_265_uce_331_uce_383_uce_404_uce_438_uce_441_uce_455_uce_546_uce_57_uce_576_uce_584_uce_607_uce_682_uce_842_uce_888_uce_913_uce_918_uce_945_uce_958
+16	DNA	146	824	258	529	TIM2e+I+G4	uce_10093_uce_10145_uce_10704_uce_11676_uce_11713_uce_12063_uce_12275_uce_12301_uce_12894_uce_1476
+17	DNA	153	2525	499	1662	GTR+F+R3	uce_1010_uce_1020_uce_10204_uce_10222_uce_10235_uce_10822_uce_10896_uce_11320_uce_1174_uce_11947_uce_1279_uce_1297_uce_1301_uce_1359_uce_1443_uce_191_uce_239_uce_252_uce_310_uce_36_uce_423_uce_460_uce_517_uce_519_uce_554_uce_563_uce_739_uce_783_uce_862_uce_871_uce_872_uce_914_uce_987
+18	DNA	154	225808	62845	132752	GTR+F+R3	uce_10101_uce_10600_uce_1114
+19	DNA	150	1301	530	717	GTR+F+R5	uce_10127_uce_10497_uce_10738_uce_11833_uce_11969_uce_11971_uce_12079_uce_12457_uce_12646_uce_12656_uce_1432
+20	DNA	153	1988	512	1119	TIM3+F+R3	uce_1013_uce_1046_uce_10742_uce_1083_uce_1125_uce_1142_uce_11633_uce_11784_uce_1227_uce_12407_uce_1292_uce_12962_uce_1395_uce_1481_uce_257_uce_337_uce_391_uce_411_uce_46_uce_484_uce_501_uce_516_uce_537_uce_743_uce_839_uce_870
+21	DNA	154	3003	1059	1600	GTR+F+R3	uce_10146_uce_10432_uce_10559_uce_11060_uce_11358_uce_11548_uce_11716_uce_11925_uce_11961_uce_11981_uce_12090_uce_12123_uce_12248_uce_12277_uce_1258_uce_12589_uce_12635_uce_12669_uce_12682_uce_12715_uce_12804_uce_12970_uce_1330_uce_1447_uce_201_uce_280_uce_615_uce_616_uce_786_uce_809_uce_930_uce_94
+22	DNA	154	3034	840	1483	TVM+F+R3	uce_1015_uce_10179_uce_10189_uce_10519_uce_10528_uce_10554_uce_10734_uce_1090_uce_10957_uce_1104_uce_11604_uce_1168_uce_11747_uce_11765_uce_11766_uce_1178_uce_12117_uce_12325_uce_1236_uce_12954_uce_1317_uce_1335_uce_1384_uce_1421_uce_1451_uce_188_uce_288_uce_304_uce_332_uce_34_uce_349_uce_363_uce_384_uce_408_uce_478_uce_528_uce_565_uce_613_uce_714_uce_877_uce_88_uce_881_uce_896_uce_991
+23	DNA	154	4020	779	2319	TVM+F+R3	uce_1016_uce_1038_uce_10429_uce_10778_uce_1079_uce_10848_uce_11053_uce_1122_uce_1128_uce_11359_uce_1138_uce_11474_uce_11746_uce_1175_uce_1196_uce_1241_uce_12418_uce_1246_uce_1252_uce_1286_uce_12874_uce_1288_uce_12935_uce_1323_uce_1328_uce_1337_uce_1342_uce_136_uce_1362_uce_1415_uce_1452_uce_1479_uce_238_uce_243_uce_254_uce_263_uce_39_uce_409_uce_424_uce_505_uce_508_uce_521_uce_527_uce_605_uce_625_uce_627_uce_641_uce_658_uce_67_uce_681_uce_706_uce_710_uce_713_uce_742_uce_749_uce_785_uce_803_uce_860_uce_880_uce_901_uce_902_uce_939_uce_959_uce_984_uce_990_uce_997
+24	DNA	154	5125	1384	2922	TVM+F+R3	uce_1019_uce_10218_uce_10355_uce_10412_uce_10660_uce_1067_uce_11634_uce_1171_uce_11744_uce_11745_uce_1209_uce_12409_uce_12520_uce_12603_uce_12614_uce_12685_uce_1285_uce_1308_uce_1315_uce_1353_uce_1392_uce_1460_uce_154_uce_157_uce_159_uce_22_uce_237_uce_24_uce_240_uce_297_uce_313_uce_32_uce_33_uce_333_uce_378_uce_392_uce_416_uce_42_uce_459_uce_48_uce_51_uce_510_uce_590_uce_632_uce_633_uce_635_uce_673_uce_674_uce_689_uce_690_uce_711_uce_745_uce_746_uce_758_uce_797_uce_823_uce_836_uce_867_uce_87_uce_876_uce_935_uce_949_uce_950_uce_952_uce_977
+25	DNA	154	2536	566	1638	TVMe+R3	uce_10202_uce_10299_uce_10608_uce_10633_uce_10719_uce_1075_uce_10955_uce_11061_uce_11567_uce_11698_uce_11914_uce_11916_uce_12249_uce_12719_uce_12736_uce_1282_uce_1349_uce_1378_uce_1403_uce_217_uce_271_uce_345_uce_400_uce_449_uce_511_uce_525_uce_529_uce_547_uce_577_uce_684_uce_73_uce_936_uce_947
+26	DNA	154	36738	8724	22823	TIM+F+R3	uce_1027_uce_10502_uce_10852_uce_10901_uce_11900_uce_12677_uce_488_uce_701_uce_780_uce_784_uce_885_uce_900_uce_966
+27	DNA	154	3192	577	2211	GTR+F+R3	uce_1028_uce_1031_uce_10405_uce_10663_uce_10849_uce_1091_uce_1107_uce_11170_uce_11415_uce_1163_uce_1195_uce_12_uce_1259_uce_1274_uce_13_uce_1303_uce_1327_uce_1357_uce_142_uce_172_uce_186_uce_196_uce_275_uce_295_uce_317_uce_319_uce_335_uce_336_uce_360_uce_415_uce_443_uce_450_uce_542_uce_581_uce_589_uce_634_uce_669_uce_699_uce_702_uce_735_uce_833_uce_956_uce_97_uce_988
+28	DNA	154	2426	799	1343	SYM+R3	uce_10283_uce_10329_uce_10370_uce_10394_uce_10716_uce_1102_uce_1109_uce_11091_uce_1144_uce_11441_uce_11672_uce_11722_uce_11740_uce_11742_uce_12062_uce_12326_uce_12854_uce_12908_uce_1457_uce_163_uce_330_uce_412_uce_606_uce_631_uce_666_uce_686_uce_975_uce_98
+29	DNA	153	803	316	400	SYM+R4	uce_10313_uce_11099_uce_114_uce_12137_uce_12315_uce_12369_uce_12989_uce_1484_uce_7_uce_820
+30	DNA	121	177	59	116	TN+F+R3	uce_10352_uce_10427
+31	DNA	154	227840	60443	136193	GTR+F+R3	uce_1052_uce_10776_uce_11323_uce_11525_uce_11741_uce_11776_uce_11937_uce_12052_uce_12059_uce_12373_uce_146_uce_162_uce_277_uce_734_uce_819
+32	DNA	152	1609	724	619	TVM+F+R4	uce_10821_uce_1092_uce_11188_uce_11231_uce_11327_uce_11383_uce_11407_uce_11454_uce_11464_uce_11683_uce_11939_uce_12300_uce_12319_uce_1234_uce_225_uce_276_uce_50
+33		119	140	54	81	K2P+R3	uce_10833_uce_12133
+34	DNA	69	170	55	112	GTR+F+I+G4	uce_11831
+35		154	269192	65330	164463	K3Pu+F+R4	uce_1205_uce_12731_uce_12794_uce_12983_uce_12992_uce_12996_uce_1334_uce_145_uce_396_uce_744
+36	DNA	69	92	37	35	GTR+F+I+G4	uce_12130
+37	DNA	71	26	14	9	GTR+F+I+G4	uce_12823
+38	DNA	154	274925	65405	169467	TIM+F+R5	uce_176_uce_228_uce_293_uce_340_uce_356_uce_497_uce_500_uce_523_uce_535_uce_541_uce_544_uce_609_uce_65
+Degree of missing data: 0.000
+Info: multi-threading strategy over partitions
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 6.652 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 988721)...
+
+NOTE: 3418 MB RAM (3 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -11250800.024
+Current log-likelihood at step 1: -10268550.415
+Current log-likelihood at step 2: -10203935.844
+Current log-likelihood at step 3: -10182821.223
+Current log-likelihood at step 4: -10168051.097
+Current log-likelihood at step 5: -10161827.411
+Current log-likelihood at step 6: -10159917.393
+Current log-likelihood at step 7: -10159052.906
+Current log-likelihood at step 8: -10158547.007
+Current log-likelihood at step 9: -10158226.468
+Current log-likelihood at step 10: -10158007.539
+Current log-likelihood at step 11: -10157849.937
+Current log-likelihood at step 12: -10157729.152
+Current log-likelihood at step 13: -10157627.928
+Current log-likelihood at step 14: -10157274.910
+Current log-likelihood at step 15: -10156763.554
+Current log-likelihood at step 16: -10156449.091
+Current log-likelihood at step 17: -10155591.016
+Current log-likelihood at step 18: -10155197.805
+Current log-likelihood at step 19: -10155067.622
+Current log-likelihood at step 20: -10154945.013
+Current log-likelihood at step 21: -10154595.392
+Current log-likelihood at step 22: -10153921.277
+Current log-likelihood at step 23: -10153741.638
+Current log-likelihood at step 24: -10153624.007
+Current log-likelihood at step 25: -10153513.044
+Current log-likelihood at step 26: -10153404.774
+Current log-likelihood at step 27: -10153297.895
+Current log-likelihood at step 28: -10153191.295
+Current log-likelihood at step 29: -10153084.065
+Current log-likelihood at step 30: -10152976.025
+Current log-likelihood at step 31: -10152867.748
+Current log-likelihood at step 32: -10152760.139
+Current log-likelihood at step 33: -10152654.642
+Current log-likelihood at step 34: -10152553.950
+Current log-likelihood at step 35: -10152460.231
+Current log-likelihood at step 36: -10152375.323
+Current log-likelihood at step 37: -10152300.511
+Current log-likelihood at step 38: -10152235.799
+Current log-likelihood at step 39: -10152180.279
+Current log-likelihood at step 40: -10152132.454
+Current log-likelihood at step 41: -10152090.401
+Current log-likelihood at step 42: -10152052.209
+Current log-likelihood at step 43: -10152015.907
+Current log-likelihood at step 44: -10151979.580
+Current log-likelihood at step 45: -10151941.416
+Current log-likelihood at step 46: -10151893.197
+Current log-likelihood at step 47: -10151671.259
+Current log-likelihood at step 48: -10151595.188
+Current log-likelihood at step 49: -10151528.254
+Current log-likelihood at step 50: -10151458.326
+Current log-likelihood at step 51: -10151385.840
+Current log-likelihood at step 52: -10151314.094
+Current log-likelihood at step 53: -10151245.741
+Current log-likelihood at step 54: -10151184.869
+Current log-likelihood at step 55: -10151133.448
+Current log-likelihood at step 56: -10151091.272
+Current log-likelihood at step 57: -10151057.763
+Current log-likelihood at step 58: -10151030.995
+Current log-likelihood at step 59: -10151008.988
+Current log-likelihood at step 60: -10150990.496
+Current log-likelihood at step 61: -10150973.776
+Current log-likelihood at step 62: -10150958.403
+Current log-likelihood at step 63: -10150943.532
+Current log-likelihood at step 64: -10150928.480
+Current log-likelihood at step 65: -10150913.395
+Current log-likelihood at step 66: -10150897.798
+Current log-likelihood at step 67: -10150881.402
+Current log-likelihood at step 68: -10150863.725
+Current log-likelihood at step 69: -10150844.879
+Current log-likelihood at step 70: -10150824.211
+Current log-likelihood at step 71: -10150801.125
+Current log-likelihood at step 72: -10150775.316
+Current log-likelihood at step 73: -10150746.753
+Current log-likelihood at step 74: -10150715.283
+Current log-likelihood at step 75: -10150681.671
+Current log-likelihood at step 76: -10150646.900
+Current log-likelihood at step 77: -10150579.709
+Current log-likelihood at step 78: -10150542.468
+Current log-likelihood at step 79: -10150500.370
+Current log-likelihood at step 80: -10150451.809
+Current log-likelihood at step 81: -10150395.375
+Current log-likelihood at step 82: -10150328.836
+Current log-likelihood at step 83: -10150249.178
+Current log-likelihood at step 84: -10150152.660
+Current log-likelihood at step 85: -10150036.799
+Current log-likelihood at step 86: -10149903.508
+Current log-likelihood at step 87: -10149759.002
+Current log-likelihood at step 88: -10149606.187
+Current log-likelihood at step 89: -10149447.765
+Current log-likelihood at step 90: -10149287.035
+Current log-likelihood at step 91: -10149128.150
+Current log-likelihood at step 92: -10148975.063
+Current log-likelihood at step 93: -10148831.975
+Current log-likelihood at step 94: -10148702.704
+Current log-likelihood at step 95: -10148589.902
+Current log-likelihood at step 96: -10148495.069
+Current log-likelihood at step 97: -10148418.224
+Current log-likelihood at step 98: -10148358.054
+Current log-likelihood at step 99: -10148312.173
+Partition-specific rates:  0.869 1.443 3.720 2.568 3.831 1.213 0.198 0.536 1.065 0.295 1.635 0.307 0.939 0.996 0.755 2.189 0.510 1.247 4.212 0.698 1.889 0.750 0.457 0.733 0.590 0.702 0.427 1.374 2.494 3.622 1.100 2.002 3.255 186.011 0.792 22.655 56.474 0.734
+Parameters optimization took 99 rounds (4263.036 sec)
+
+Computing ML distances based on estimated model parameters...
+Computing ML distances took 0.000497 sec (of wall-clock time) 0.009816 sec(of CPU time)
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing RapidNJ tree took 0.012101 sec (of wall-clock time) 0.246303 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -14217597.626
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 985.825 second
+Computing log-likelihood of 98 initial trees ... 382.388 seconds
+Current best score: -10148312.173
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -10143667.069
+Current log-likelihood at step 1: -10143632.016
+Current log-likelihood at step 2: -10143609.076
+Current log-likelihood at step 3: -10143592.794
+Current log-likelihood at step 4: -10143580.803
+Current log-likelihood at step 5: -10143571.827
+Current log-likelihood at step 6: -10143564.991
+Current log-likelihood at step 7: -10143559.746
+Current log-likelihood at step 8: -10143555.619
+Current log-likelihood at step 9: -10143552.311
+Current log-likelihood at step 10: -10143549.606
+Current log-likelihood at step 11: -10143547.381
+Current log-likelihood at step 12: -10143545.682
+Current log-likelihood at step 13: -10143544.238
+Current log-likelihood at step 14: -10143543.051
+Current log-likelihood at step 15: -10143541.893
+Current log-likelihood at step 16: -10143541.104
+Current log-likelihood at step 17: -10143540.181
+Current log-likelihood at step 18: -10143539.492
+Current log-likelihood at step 19: -10143538.853
+Current log-likelihood at step 20: -10143538.060
+Current log-likelihood at step 21: -10143537.423
+Current log-likelihood at step 22: -10143536.885
+Current log-likelihood at step 23: -10143536.239
+Current log-likelihood at step 24: -10143535.510
+Current log-likelihood at step 25: -10143534.564
+Current log-likelihood at step 26: -10143533.351
+Current log-likelihood at step 27: -10143531.598
+Current log-likelihood at step 28: -10143528.985
+Current log-likelihood at step 29: -10143524.473
+Current log-likelihood at step 30: -10143515.947
+Current log-likelihood at step 31: -10143498.074
+Current log-likelihood at step 32: -10143463.239
+Current log-likelihood at step 33: -10143423.011
+Current log-likelihood at step 34: -10143397.955
+Current log-likelihood at step 35: -10143383.356
+Current log-likelihood at step 36: -10143374.669
+Current log-likelihood at step 37: -10143368.977
+Current log-likelihood at step 38: -10143364.998
+Current log-likelihood at step 39: -10143361.919
+Current log-likelihood at step 40: -10143359.148
+Current log-likelihood at step 41: -10143356.307
+Current log-likelihood at step 42: -10143352.976
+Current log-likelihood at step 43: -10143348.734
+Current log-likelihood at step 44: -10143342.663
+Current log-likelihood at step 45: -10143333.001
+Current log-likelihood at step 46: -10143316.142
+Current log-likelihood at step 47: -10143287.134
+Current log-likelihood at step 48: -10143253.158
+Current log-likelihood at step 49: -10143232.558
+Current log-likelihood at step 50: -10143222.070
+Current log-likelihood at step 51: -10143215.850
+Current log-likelihood at step 52: -10143211.816
+Current log-likelihood at step 53: -10143208.856
+Current log-likelihood at step 54: -10143206.681
+Current log-likelihood at step 55: -10143204.928
+Current log-likelihood at step 56: -10143203.578
+Current log-likelihood at step 57: -10143202.479
+Current log-likelihood at step 58: -10143201.571
+Current log-likelihood at step 59: -10143200.789
+Current log-likelihood at step 60: -10143200.136
+Current log-likelihood at step 61: -10143199.575
+Current log-likelihood at step 62: -10143199.085
+Current log-likelihood at step 63: -10143198.654
+Current log-likelihood at step 64: -10143198.284
+Current log-likelihood at step 65: -10143197.944
+Current log-likelihood at step 66: -10143197.655
+Current log-likelihood at step 67: -10143197.389
+Current log-likelihood at step 68: -10143197.145
+Current log-likelihood at step 69: -10143196.928
+Current log-likelihood at step 70: -10143196.731
+Current log-likelihood at step 71: -10143196.549
+Current log-likelihood at step 72: -10143196.376
+Current log-likelihood at step 73: -10143196.226
+Current log-likelihood at step 74: -10143196.076
+Current log-likelihood at step 75: -10143195.946
+Current log-likelihood at step 76: -10143195.821
+Current log-likelihood at step 77: -10143195.716
+Current log-likelihood at step 78: -10143195.614
+Current log-likelihood at step 79: -10143195.526
+Parameters optimization took 78 rounds (1477.848 sec)
+
+BETTER TREE FOUND at iteration 1: -10143195.526
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -10142829.435
+Current log-likelihood at step 1: -10142826.620
+Current log-likelihood at step 2: -10142826.295
+Current log-likelihood at step 3: -10142826.049
+Current log-likelihood at step 4: -10142825.930
+Current log-likelihood at step 5: -10142825.827
+Current log-likelihood at step 6: -10142825.748
+Parameters optimization took 5 rounds (114.220 sec)
+
+BETTER TREE FOUND at iteration 2: -10142825.748
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -10141297.127
+Current log-likelihood at step 1: -10141293.326
+Current log-likelihood at step 2: -10141292.178
+Current log-likelihood at step 3: -10141291.982
+Current log-likelihood at step 4: -10141291.857
+Current log-likelihood at step 5: -10141291.760
+Parameters optimization took 4 rounds (117.832 sec)
+
+BETTER TREE FOUND at iteration 10: -10141291.760
+Iteration 10 / LogL: -10141291.760 / Time: 2h:13m:28s
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -10140976.377
+Current log-likelihood at step 1: -10140974.754
+Current log-likelihood at step 2: -10140974.623
+Current log-likelihood at step 3: -10140974.539
+Parameters optimization took 2 rounds (75.119 sec)
+
+BETTER TREE FOUND at iteration 13: -10140974.539
+Iteration 20 / LogL: -10141302.145 / Time: 2h:23m:58s
+Finish initializing candidate tree set (10)
+Current best tree score: -10140974.539 / CPU time: 4233.372
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -10140752.655
+Current log-likelihood at step 1: -10140740.020
+Current log-likelihood at step 2: -10140737.575
+Current log-likelihood at step 3: -10140737.424
+Current log-likelihood at step 4: -10140737.329
+Parameters optimization took 3 rounds (87.416 sec)
+
+BETTER TREE FOUND at iteration 30: -10140737.329
+Iteration 30 / LogL: -10140737.329 / Time: 2h:36m:5s (8h:57m:45s left)
+Iteration 40 / LogL: -10207763.456 / Time: 2h:46m:33s (6h:24m:2s left)
+Iteration 50 / LogL: -10140748.423 / Time: 2h:56m:57s (4h:48m:40s left)
+Log-likelihood cutoff on original alignment: -10140975.773
+Iteration 60 / LogL: -10140754.049 / Time: 3h:7m:16s (3h:42m:1s left)
+Iteration 70 / LogL: -10140826.284 / Time: 3h:18m:31s (2h:52m:30s left)
+Iteration 80 / LogL: -10140755.018 / Time: 3h:29m:9s (2h:12m:17s left)
+Iteration 90 / LogL: -10142091.487 / Time: 3h:40m:33s (1h:39m:4s left)
+Iteration 100 / LogL: -10140753.973 / Time: 3h:53m:50s (1h:10m:49s left)
+Log-likelihood cutoff on original alignment: -10140975.773
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+Iteration 110 / LogL: -10140756.028 / Time: 4h:5m:33s (3h:22m:38s left)
+Iteration 120 / LogL: -10140767.713 / Time: 4h:16m:41s (2h:52m:28s left)
+Iteration 130 / LogL: -10140753.511 / Time: 4h:28m:12s (2h:25m:27s left)
+TREE SEARCH COMPLETED AFTER 131 ITERATIONS / Time: 4h:29m:8s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+Initial log-likelihood: -10140737.329
+Current log-likelihood at step 1: -10140737.270
+Current log-likelihood at step 2: -10140737.223
+Current log-likelihood at step 3: -10140737.186
+Current log-likelihood at step 4: -10140737.152
+Current log-likelihood at step 5: -10140737.121
+Current log-likelihood at step 6: -10140737.083
+Current log-likelihood at step 7: -10140737.054
+Current log-likelihood at step 8: -10140737.026
+Current log-likelihood at step 9: -10140737.002
+Current log-likelihood at step 10: -10140736.979
+Current log-likelihood at step 11: -10140736.955
+Current log-likelihood at step 12: -10140736.930
+Current log-likelihood at step 13: -10140736.910
+Current log-likelihood at step 14: -10140736.889
+Current log-likelihood at step 15: -10140736.869
+Current log-likelihood at step 16: -10140736.848
+Current log-likelihood at step 17: -10140736.829
+Current log-likelihood at step 18: -10140736.809
+Current log-likelihood at step 19: -10140736.788
+Current log-likelihood at step 20: -10140736.766
+Current log-likelihood at step 21: -10140736.745
+Current log-likelihood at step 22: -10140736.724
+Current log-likelihood at step 23: -10140736.706
+Current log-likelihood at step 24: -10140736.687
+Current log-likelihood at step 25: -10140736.669
+Current log-likelihood at step 26: -10140736.651
+Current log-likelihood at step 27: -10140736.633
+Current log-likelihood at step 28: -10140736.615
+Current log-likelihood at step 29: -10140736.598
+Current log-likelihood at step 30: -10140736.581
+Current log-likelihood at step 31: -10140736.564
+Current log-likelihood at step 32: -10140736.544
+Current log-likelihood at step 33: -10140736.528
+Current log-likelihood at step 34: -10140736.511
+Current log-likelihood at step 35: -10140736.494
+Current log-likelihood at step 36: -10140736.477
+Current log-likelihood at step 37: -10140736.461
+Current log-likelihood at step 38: -10140736.445
+Current log-likelihood at step 39: -10140736.429
+Current log-likelihood at step 40: -10140736.408
+Current log-likelihood at step 41: -10140736.392
+Current log-likelihood at step 42: -10140736.376
+Current log-likelihood at step 43: -10140736.360
+Current log-likelihood at step 44: -10140736.340
+Current log-likelihood at step 45: -10140736.324
+Current log-likelihood at step 46: -10140736.303
+Current log-likelihood at step 47: -10140736.288
+Current log-likelihood at step 48: -10140736.268
+Current log-likelihood at step 49: -10140736.250
+Current log-likelihood at step 50: -10140736.229
+Current log-likelihood at step 51: -10140736.210
+Current log-likelihood at step 52: -10140736.193
+Current log-likelihood at step 53: -10140736.173
+Current log-likelihood at step 54: -10140736.154
+Current log-likelihood at step 55: -10140736.137
+Current log-likelihood at step 56: -10140736.121
+Current log-likelihood at step 57: -10140736.104
+Current log-likelihood at step 58: -10140736.086
+Current log-likelihood at step 59: -10140736.068
+Current log-likelihood at step 60: -10140736.051
+Current log-likelihood at step 61: -10140736.034
+Current log-likelihood at step 62: -10140736.016
+Current log-likelihood at step 63: -10140735.999
+Current log-likelihood at step 64: -10140735.982
+Current log-likelihood at step 65: -10140735.963
+Current log-likelihood at step 66: -10140735.946
+Current log-likelihood at step 67: -10140735.925
+Current log-likelihood at step 68: -10140735.908
+Current log-likelihood at step 69: -10140735.890
+Current log-likelihood at step 70: -10140735.868
+Current log-likelihood at step 71: -10140735.847
+Current log-likelihood at step 72: -10140735.826
+Current log-likelihood at step 73: -10140735.806
+Current log-likelihood at step 74: -10140735.785
+Current log-likelihood at step 75: -10140735.764
+Current log-likelihood at step 76: -10140735.742
+Current log-likelihood at step 77: -10140735.720
+Current log-likelihood at step 78: -10140735.696
+Current log-likelihood at step 79: -10140735.674
+Current log-likelihood at step 80: -10140735.652
+Current log-likelihood at step 81: -10140735.629
+Current log-likelihood at step 82: -10140735.603
+Current log-likelihood at step 83: -10140735.580
+Current log-likelihood at step 84: -10140735.556
+Current log-likelihood at step 85: -10140735.530
+Current log-likelihood at step 86: -10140735.504
+Current log-likelihood at step 87: -10140735.478
+Current log-likelihood at step 88: -10140735.451
+Current log-likelihood at step 89: -10140735.425
+Current log-likelihood at step 90: -10140735.397
+Current log-likelihood at step 91: -10140735.368
+Current log-likelihood at step 92: -10140735.339
+Current log-likelihood at step 93: -10140735.309
+Current log-likelihood at step 94: -10140735.278
+Current log-likelihood at step 95: -10140735.245
+Current log-likelihood at step 96: -10140735.213
+Current log-likelihood at step 97: -10140735.177
+Current log-likelihood at step 98: -10140735.144
+Current log-likelihood at step 99: -10140735.109
+Partition-specific rates:  0.880 1.464 3.876 2.638 3.976 1.228 0.199 0.551 1.080 0.299 1.667 0.310 0.953 1.012 0.773 2.226 0.514 1.269 4.303 0.709 1.922 0.761 0.461 0.744 0.597 0.712 0.436 1.393 2.540 3.693 1.118 2.037 3.305 79.097 0.801 22.642 57.040 0.745
+Parameters optimization took 99 rounds (2077.981 sec)
+
+Partition information was printed to GblockTreeModelEst.best_model.nex
+BEST SCORE FOUND : -10140735.109
+Creating bootstrap support values...
+Split supports printed to NEXUS file GblockTreeModelEst.splits.nex
+Total tree length: 2.190
+
+Total number of iterations: 131
+CPU time used for tree search: 193209.698 sec (53h:40m:9s)
+Wall-clock time used for tree search: 11743.586 sec (3h:15m:43s)
+Total CPU time used: 238529.049 sec (66h:15m:29s)
+Total wall-clock time used: 18227.283 sec (5h:3m:47s)
+
+Computing bootstrap consensus tree...
+Reading input file GblockTreeModelEst.splits.nex...
+154 taxa and 324 splits.
+Consensus tree written to GblockTreeModelEst.contree
+Reading input trees file GblockTreeModelEst.contree
+Log-likelihood of consensus tree: -10140735.094
+
+Analysis results written to: 
+  IQ-TREE report:                GblockTreeModelEst.iqtree
+  Maximum-likelihood tree:       GblockTreeModelEst.treefile
+  Likelihood distances:          GblockTreeModelEst.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          GblockTreeModelEst.splits.nex
+  Consensus tree:                GblockTreeModelEst.contree
+  Screen log file:               GblockTreeModelEst.log
+
+Date and Time: Mon May 15 20:00:21 2023
