@@ -1,0 +1,25 @@
+IQ-TREE multicore version 2.1.3 COVID-edition for Linux 64-bit built Apr 21 2021
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    annotation-gerson (AVX2, FMA3, 19 GB RAM)
+Command: ../iqtree-2.1.3-Linux/bin/iqtree2 -t clustal34_ag_lt0.26.conOut.tre --gcf cynipoid_phylogenomics_iqtreePerGene.tree --prefix concordCynipoid
+Seed:    975177 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Apr 21 08:46:04 2022
+Kernel:  AVX+FMA - 1 threads (10 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 10 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading tree clustal34_ag_lt0.26.conOut.tre ...
+un-rooted tree with 37 taxa and 71 branches
+Reading tree(s) file cynipoid_phylogenomics_iqtreePerGene.tree ...
+1890 tree(s) loaded (0 rooted and 1890 unrooted)
+Trees have different number of taxa
+Computing gene concordance factor...
+0.181 sec
+Tree with concordance factors written to concordCynipoid.cf.tree
+Annotated tree (best viewed in FigTree) written to concordCynipoid.cf.tree.nex
+Tree with branch IDs written to concordCynipoid.cf.branch
+Concordance factors per branch printed to concordCynipoid.cf.stat
+Date and Time: Thu Apr 21 08:46:05 2022

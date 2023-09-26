@@ -1,0 +1,65 @@
+IQ-TREE multicore version 2.2.0 COVID-edition for Linux 64-bit built Jun  1 2022
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    antoinerestore (AVX2, FMA3, 19 GB RAM)
+Command: ../iqtree-2.2.0-Linux/bin/iqtree2 -t InputTrees/clustal34_ag_lt0.26.conOut.tre -s clustal34_ag_lt0.26.phy --scf 10000 --prefix concord -T 10 -seed 12432904
+Seed:    12432904 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Sep 13 15:34:05 2022
+Kernel:  AVX+FMA - 10 threads (10 CPU cores detected)
+
+Reading alignment file clustal34_ag_lt0.26.phy ... Phylip format detected
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.0776626 secs using 194.8% CPU
+Alignment has 37 sequences with 70412 columns, 46325 distinct patterns
+25756 parsimony-informative, 16249 singleton sites, 28407 constant sites
+           Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.00217809 secs using 99.86% CPU
+   1  Allox_ar     3.90%    passed     36.59%
+   2  Andr_cur     4.15%    passed     80.57%
+   3  Andr_gro     7.49%    passed     72.55%
+   4  Andr_qln     3.98%    passed     99.74%
+   5  Andr_qrm    11.74%    passed     16.11%
+   6  Aula_tav     3.53%    passed     97.46%
+   7  Aylax_hy     3.64%    passed     99.32%
+   8  Beloc_tr     3.95%    passed     80.37%
+   9  Bior_pal    57.87%    failed      3.82%
+  10  Callas_no   13.95%    passed     96.68%
+  11  Calli_sp     6.22%    passed     79.54%
+  12  Cecin_ib    27.98%    failed      0.07%
+  13  Cerop_ma     6.29%    passed     99.95%
+  14  Diast_ki     6.22%    passed    100.00%
+  15  Dipl_spi     6.09%    passed     91.99%
+  16  Escha_ac     8.27%    failed      0.00%
+  17  Gana_sp1    22.12%    failed      2.92%
+  18  Hedic_le     6.71%    passed     97.03%
+  19  Irae_his    30.51%    failed      2.92%
+  20  Isoc_cen     4.25%    passed     99.96%
+  21  Lepto_bo     6.78%    failed      0.00%
+  22  Lepto_cl     6.05%    failed      0.00%
+  23  Lepto_he     4.32%    failed      0.00%
+  24  Parn_nig     5.29%    passed     99.99%
+  25  Pedia_ac     9.30%    passed     57.30%
+  26  Peric_JH     4.80%    passed     99.91%
+  27  Phaen_vi     8.30%    passed     78.09%
+  28  Phana_JH    20.15%    passed     99.80%
+  29  Prot_spe    17.19%    passed     92.82%
+  30  Qwaq_sco     5.51%    passed     98.77%
+  31  Syne_gif     4.55%    passed     99.90%
+  32  Syne_ito     3.97%    passed     99.99%
+  33  Syne_jap     4.79%    passed    100.00%
+  34  Syne_umb     4.80%    passed    100.00%
+  35  Nasoniav     7.95%    failed      0.00%
+  36  Micropld     5.86%    failed      0.00%
+  37  Orussusa     5.18%    failed      0.00%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL        9.83%  11 sequences failed composition chi2 test (p-value<5%; df=19)
+Reading tree InputTrees/clustal34_ag_lt0.26.conOut.tre ...
+un-rooted tree with 37 taxa and 71 branches
+Computing site concordance factor...
+20.769 sec
+Tree with concordance factors written to concord.cf.tree
+Annotated tree (best viewed in FigTree) written to concord.cf.tree.nex
+Tree with branch IDs written to concord.cf.branch
+Concordance factors per branch printed to concord.cf.stat
+Date and Time: Tue Sep 13 15:34:26 2022
