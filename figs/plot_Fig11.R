@@ -136,7 +136,7 @@ draw_tree <- function(tree, hexp, leg=TRUE, type)
         root_col <- cols[2]
 
     ggtree(tree, aes(color = group), ladderize = TRUE) +
-        geom_rootedge(size=0.8, color=root_col) +
+        geom_rootedge(linewidth=0.8, color=root_col) +
         geom_tree(size=0.8, key_glyph="rect") +
         geom_tiplab(aes(label = paste0("italic('", label, "')")), parse = TRUE, size = 1.5) +
         hexpand(hexp) +

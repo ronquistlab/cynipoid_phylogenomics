@@ -7,6 +7,9 @@ library(treeio)
 library(ggplot2)
 library(ggtree)
 
+# Set path to GeneInfoAnalysis
+path <- "../iqtree/"
+
 draw_tree <- function(tree, hexp, cyn_mono=TRUE, leg=TRUE, treescale_height=8.0)
 {
     require(ggtree)
@@ -211,7 +214,7 @@ draw_tree2 <- function(tree, hexp, cyn_mono=TRUE, leg=TRUE, treescale_height=8.0
     #   }
     # Do the same as for IC score but with the table provided by IQTREE
     
-    gcf<-read.table("GeneInfoAnalysis/GCF_iqtree/concordCynipoid.cf.stat",skip=17,header=T,fill=T)
+    gcf<-read.table(paste0(path,"GeneInfoAnalysis/GCF_iqtree/concordCynipoid.cf.stat"),skip=17,header=T,fill=T)
     Grey_Palette<-c("white",gray.colors(5))
     COLOR=NA
     BREAKS<-quantile(gcf[,2],na.rm=T,probs=1:5/6)
@@ -334,7 +337,7 @@ draw_tree3 <- function(tree, hexp, cyn_mono=TRUE, leg=TRUE, treescale_height=8.0
     #   }
     # Do the same as for IC score but with the table provided by IQTREE
     
-    scf<-read.table("GeneInfoAnalysis/SCF_iqtree/concord.cf.stat",skip=13,header=T,fill=T)
+    scf<-read.table(paste0(path,"GeneInfoAnalysis/SCF_iqtree/concord.cf.stat"),skip=13,header=T,fill=T)
     Grey_Palette<-c("white",gray.colors(5))
     COLOR=NA
     BREAKS<-quantile(scf[,2],na.rm=T,probs=1:5/6)
@@ -379,12 +382,12 @@ draw_tree3 <- function(tree, hexp, cyn_mono=TRUE, leg=TRUE, treescale_height=8.0
     geom_nodepoint(shape = 21,colour="black", fill =COLOR , size = 2, stroke=!is.na(COLOR)/2) +
     hexpand(hexp)
 }
-t1 <- read.tree("GeneInfoAnalysis/TC_IC_RAxML/RAxML_Corrected_Probabilistic_IC_Score_BranchLabelsCorrected.T5")
+t1 <- read.tree(paste0(path,"GeneInfoAnalysis/TC_IC_RAxML/RAxML_Corrected_Probabilistic_IC_Score_BranchLabelsCorrected.T5"))
 
 p1 <- draw_tree(t1, 0.22, TRUE, TRUE, 8.0)
-t2<-read.tree("GeneInfoAnalysis/GCF_iqtree/concordCynipoid.cf.branch")
+t2<-read.tree(paste0(path,"GeneInfoAnalysis/GCF_iqtree/concordCynipoid.cf.branch"))
 p2 <- draw_tree2(t2, 0.22, FALSE, FALSE, 8.0)
-t3<-read.tree("GeneInfoAnalysis/GCF_iqtree/concordCynipoid.cf.branch")
+t3<-read.tree(paste0(path,"GeneInfoAnalysis/GCF_iqtree/concordCynipoid.cf.branch"))
 p3 <- draw_tree3(t3, 0.22, FALSE, FALSE, 8.0)
 
 labels <- c("A Internode Certainty", "B Gene Concordance Factor", "C Site Concordance Factor")
